@@ -1,0 +1,37 @@
+# 0.0.1
+
+-   Добавить модуль variables
+
+    -   is_array
+    -   is_bool
+    -   is_class
+    -   is_number
+    -   is_float
+    -   is_double
+    -   is_int
+    -   is_integer
+    -   is_long
+    -   is_null
+    -   is_numeric
+    -   is_object
+    -   is_string
+    -   is_scalar
+    -   is_symbol
+    -   is_undefined
+    -   is_callable
+    -   arrval
+    -   boolval
+    -   floatval
+    -   doubleval
+    -   empty
+    -   get_debug_type
+    -   gettype
+    -   intval
+    -   isset
+    -   strval
+    -   objval
+    -   print_r
+    -   var_dump
+    -   var_export
+    -   serialize
+    -   unserialize
