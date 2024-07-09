@@ -1,5 +1,12 @@
 import { expect, test } from '@jest/globals';
-import { is_array, is_bool, is_class, is_float, is_number } from './../src/variables.mjs';
+import {
+    is_array,
+    is_bool,
+    is_class,
+    is_double,
+    is_float,
+    is_number,
+} from './../src/variables.mjs';
 
 test('variables', () => {
     expect(is_array).not.toBeUndefined();
@@ -7,4 +14,5 @@ test('variables', () => {
     expect(is_class).not.toBeUndefined();
     expect(is_number).not.toBeUndefined();
     expect(is_float).not.toBeUndefined();
+    expect(is_double).not.toBeUndefined();
 });
