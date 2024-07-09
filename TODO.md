@@ -3,7 +3,7 @@
 -   Добавить модуль variables
 
     -   ~~is_array~~
-    -   is_bool
+    -   ~~is_bool~~
     -   is_class
     -   is_number
     -   is_float

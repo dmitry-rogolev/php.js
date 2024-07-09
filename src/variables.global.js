@@ -1,4 +1,4 @@
-import variables from './variables.mjs';
+import * as variables from './variables.mjs';
 
 if (window) {
     for (const function_name in variables) {
