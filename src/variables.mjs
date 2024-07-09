@@ -16,3 +16,4 @@ export { default as is_symbol } from './variables/is_symbol.mjs';
 export { default as is_undefined } from './variables/is_undefined.mjs';
 export { default as is_callable } from './variables/is_callable.mjs';
 export { default as arrval } from './variables/arrval.mjs';
+export { default as boolval } from './variables/boolval.mjs';

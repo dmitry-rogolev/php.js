@@ -2,6 +2,7 @@
 
 [Документация на php.net](https://www.php.net/manual/ru/ref.var.php)
 
+-   [boolval](./func/boolval.md) &mdash; Возвращает логическое значение переменной
 -   [is_array](./func/is_array.md) &mdash; Определяет, представляет ли собой переменная массив
 -   [is_bool](./func/is_bool.md) &mdash; Проверяет, представляет ли собой переменная логическое
     значение

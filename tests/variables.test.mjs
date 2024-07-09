@@ -1,6 +1,7 @@
 import { expect, test } from '@jest/globals';
 import {
     arrval,
+    boolval,
     is_array,
     is_bool,
     is_callable,
@@ -39,4 +40,5 @@ test('variables', () => {
     expect(is_undefined).not.toBeUndefined();
     expect(is_callable).not.toBeUndefined();
     expect(arrval).not.toBeUndefined();
+    expect(boolval).not.toBeUndefined();
 });

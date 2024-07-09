@@ -20,7 +20,7 @@
     -   ~~is_undefined~~
     -   ~~is_callable~~
     -   ~~arrval~~
-    -   boolval
+    -   ~~boolval~~
     -   floatval
     -   doubleval
     -   empty
