@@ -25,3 +25,4 @@ export { default as gettype } from './variables/gettype.mjs';
 export { default as intval } from './variables/intval.mjs';
 export { default as isset } from './variables/isset.mjs';
 export { default as strval } from './variables/strval.mjs';
+export { default as print_r } from './variables/print_r.mjs';

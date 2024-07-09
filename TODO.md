@@ -30,7 +30,7 @@
     -   ~~isset~~
     -   ~~strval~~
     -   objval
-    -   print_r
+    -   ~~print_r~~
     -   var_dump
     -   var_export
     -   serialize
