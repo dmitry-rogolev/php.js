@@ -20,3 +20,4 @@ export { default as boolval } from './variables/boolval.mjs';
 export { default as floatval } from './variables/floatval.mjs';
 export { default as doubleval } from './variables/doubleval.mjs';
 export { default as empty } from './variables/empty.mjs';
+export { default as get_debug_type } from './variables/get_debug_type.mjs';

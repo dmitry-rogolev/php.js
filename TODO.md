@@ -24,7 +24,7 @@
     -   ~~floatval~~
     -   ~~doubleval~~
     -   ~~empty~~
-    -   get_debug_type
+    -   ~~get_debug_type~~
     -   gettype
     -   intval
     -   isset

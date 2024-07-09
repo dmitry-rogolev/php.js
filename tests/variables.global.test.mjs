@@ -24,4 +24,5 @@ test('variables.global', () => {
     expect(floatval).not.toBeUndefined();
     expect(doubleval).not.toBeUndefined();
     expect(empty).not.toBeUndefined();
+    expect(get_debug_type).not.toBeUndefined();
 });

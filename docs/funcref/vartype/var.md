@@ -9,6 +9,8 @@
 -   [empty](./var/func/empty.md) &mdash; Проверяет, пуста ли переменная
 -   [floatval](./var/func/floatval.md) &mdash; Возвращает значение переменной в виде числа с
     плавающей точкой
+-   [get_debug_type](./var/func/get_debug_type.md) &mdash; Возвращает имя типа переменной в виде,
+    подходящем для отладки
 -   [is_array](./var/func/is_array.md) &mdash; Определяет, представляет ли собой переменная массив
 -   [is_bool](./var/func/is_bool.md) &mdash; Проверяет, представляет ли собой переменная логическое
     значение
