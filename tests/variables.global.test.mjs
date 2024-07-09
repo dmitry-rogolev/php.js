@@ -21,4 +21,5 @@ test('variables.global', () => {
     expect(is_callable).not.toBeUndefined();
     expect(arrval).not.toBeUndefined();
     expect(boolval).not.toBeUndefined();
+    expect(floatval).not.toBeUndefined();
 });

@@ -21,7 +21,7 @@
     -   ~~is_callable~~
     -   ~~arrval~~
     -   ~~boolval~~
-    -   floatval
+    -   ~~floatval~~
     -   doubleval
     -   empty
     -   get_debug_type
