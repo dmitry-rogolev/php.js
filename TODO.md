@@ -29,6 +29,7 @@
     -   ~~intval~~
     -   ~~isset~~
     -   ~~strval~~
+    -   ~~settype~~
     -   objval
     -   ~~print_r~~
     -   ~~var_dump~~

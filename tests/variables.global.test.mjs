@@ -32,4 +32,5 @@ test('variables.global', () => {
     expect(print_r).not.toBeUndefined();
     expect(var_dump).not.toBeUndefined();
     expect(serialize).not.toBeUndefined();
+    expect(settype).not.toBeUndefined();
 });

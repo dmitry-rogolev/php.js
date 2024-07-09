@@ -36,6 +36,7 @@
 -   [print_r](./var/func/print_r.md) &mdash; Выводит удобочитаемую информацию о переменной
 -   [serialize](./var/func/serialize.md) &mdash; Генерирует пригодное для хранения представление
     переменной
+-   [settype](./var/func/settype.md) &mdash; Задаёт тип переменной
 -   [strval](./var/func/strval.md) &mdash; Возвращает строковое значение переменной
 -   [var_dump](./var/func/var_dump.md) &mdash; Выводит информацию о переменной
 

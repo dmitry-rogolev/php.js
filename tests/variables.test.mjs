@@ -27,6 +27,7 @@ import {
     is_undefined,
     print_r,
     serialize,
+    settype,
     strval,
     var_dump,
 } from './../src/variables.mjs';
@@ -63,4 +64,5 @@ test('variables', () => {
     expect(print_r).not.toBeUndefined();
     expect(var_dump).not.toBeUndefined();
     expect(serialize).not.toBeUndefined();
+    expect(settype).not.toBeUndefined();
 });
