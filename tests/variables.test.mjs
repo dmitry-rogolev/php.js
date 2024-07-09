@@ -25,6 +25,7 @@ import {
     is_string,
     is_symbol,
     is_undefined,
+    strval,
 } from './../src/variables.mjs';
 import isset from '../src/variables/isset.mjs';
 
@@ -55,4 +56,5 @@ test('variables', () => {
     expect(gettype).not.toBeUndefined();
     expect(intval).not.toBeUndefined();
     expect(isset).not.toBeUndefined();
+    expect(strval).not.toBeUndefined();
 });

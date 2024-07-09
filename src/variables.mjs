@@ -24,3 +24,4 @@ export { default as get_debug_type } from './variables/get_debug_type.mjs';
 export { default as gettype } from './variables/gettype.mjs';
 export { default as intval } from './variables/intval.mjs';
 export { default as isset } from './variables/isset.mjs';
+export { default as strval } from './variables/strval.mjs';

@@ -28,7 +28,7 @@
     -   ~~gettype~~
     -   ~~intval~~
     -   ~~isset~~
-    -   strval
+    -   ~~strval~~
     -   objval
     -   print_r
     -   var_dump
