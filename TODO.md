@@ -12,7 +12,7 @@
     -   ~~is_integer~~
     -   ~~is_long~~
     -   ~~is_null~~
-    -   is_numeric
+    -   ~~is_numeric~~
     -   is_object
     -   is_string
     -   is_scalar

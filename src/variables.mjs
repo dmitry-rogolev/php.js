@@ -8,3 +8,4 @@ export { default as is_int } from './variables/is_int.mjs';
 export { default as is_integer } from './variables/is_integer.mjs';
 export { default as is_long } from './variables/is_long.mjs';
 export { default as is_null } from './variables/is_null.mjs';
+export { default as is_numeric } from './variables/is_numeric.mjs';

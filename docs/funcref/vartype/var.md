@@ -14,6 +14,8 @@
 -   [is_integer](./var/func/is_integer.md) &mdash; Псевдоним `is_int`
 -   [is_long](./var/func/is_long.md) &mdash; Псевдоним `is_int`
 -   [is_null](./var/func/is_null.md) &mdash; Проверяет, равно ли значение переменной null
+-   [is_numeric](./var/func/is_numeric.md) &mdash; Проверяет, содержит ли переменная число или
+    числовую строку
 
 ### [Дополнительные функции для работы с переменными](./var/other.md)
 

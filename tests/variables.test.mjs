@@ -10,6 +10,7 @@ import {
     is_long,
     is_null,
     is_number,
+    is_numeric,
 } from './../src/variables.mjs';
 
 test('variables', () => {
@@ -23,4 +24,5 @@ test('variables', () => {
     expect(is_integer).not.toBeUndefined();
     expect(is_long).not.toBeUndefined();
     expect(is_null).not.toBeUndefined();
+    expect(is_numeric).not.toBeUndefined();
 });
