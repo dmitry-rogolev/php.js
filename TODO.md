@@ -17,7 +17,7 @@
     -   ~~is_string~~
     -   ~~is_scalar~~
     -   ~~is_symbol~~
-    -   is_undefined
+    -   ~~is_undefined~~
     -   is_callable
     -   arrval
     -   boolval
