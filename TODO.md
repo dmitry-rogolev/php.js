@@ -14,7 +14,7 @@
     -   ~~is_null~~
     -   ~~is_numeric~~
     -   ~~is_object~~
-    -   is_string
+    -   ~~is_string~~
     -   is_scalar
     -   is_symbol
     -   is_undefined

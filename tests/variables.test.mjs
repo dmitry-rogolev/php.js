@@ -12,6 +12,7 @@ import {
     is_number,
     is_numeric,
     is_object,
+    is_string,
 } from './../src/variables.mjs';
 
 test('variables', () => {
@@ -27,4 +28,5 @@ test('variables', () => {
     expect(is_null).not.toBeUndefined();
     expect(is_numeric).not.toBeUndefined();
     expect(is_object).not.toBeUndefined();
+    expect(is_string).not.toBeUndefined();
 });
