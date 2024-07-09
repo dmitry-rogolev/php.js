@@ -15,5 +15,6 @@
 -   [is_numeric](./func/is_numeric.md) &mdash; Проверяет, содержит ли переменная число или числовую
     строку
 -   [is_object](./func/is_object.md) &mdash; Проверяет, представляет ли собой переменная объект
+-   [is_scalar](./func/is_scalar.md) &mdash; Проверяет, представляет ли собой переменная скаляр
 -   [is_string](./var/func/is_string.md) &mdash; Проверяет, представляет ли собой тип переменной
     строку

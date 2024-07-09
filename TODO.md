@@ -15,7 +15,7 @@
     -   ~~is_numeric~~
     -   ~~is_object~~
     -   ~~is_string~~
-    -   is_scalar
+    -   ~~is_scalar~~
     -   is_symbol
     -   is_undefined
     -   is_callable
