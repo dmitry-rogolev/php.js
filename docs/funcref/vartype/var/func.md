@@ -5,6 +5,8 @@
 -   [is_array](./func/is_array.md) &mdash; Определяет, представляет ли собой переменная массив
 -   [is_bool](./func/is_bool.md) &mdash; Проверяет, представляет ли собой переменная логическое
     значение
+-   [is_callable](./func/is_callable.md) &mdash; Проверяет, что значение может быть вызвано как
+    функция
 -   [is_double](./func/is_double.md) &mdash; Псевдоним `is_float`
 -   [is_float](./func/is_float.md) &mdash; Проверяет, представляет ли собой переменная число с
     плавающей точкой

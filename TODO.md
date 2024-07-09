@@ -18,7 +18,7 @@
     -   ~~is_scalar~~
     -   ~~is_symbol~~
     -   ~~is_undefined~~
-    -   is_callable
+    -   ~~is_callable~~
     -   arrval
     -   boolval
     -   floatval

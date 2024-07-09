@@ -2,6 +2,7 @@ import { expect, test } from '@jest/globals';
 import {
     is_array,
     is_bool,
+    is_callable,
     is_class,
     is_double,
     is_float,
@@ -35,4 +36,5 @@ test('variables', () => {
     expect(is_scalar).not.toBeUndefined();
     expect(is_symbol).not.toBeUndefined();
     expect(is_undefined).not.toBeUndefined();
+    expect(is_callable).not.toBeUndefined();
 });
