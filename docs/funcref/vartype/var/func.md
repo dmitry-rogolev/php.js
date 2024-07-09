@@ -14,3 +14,4 @@
 -   [is_null](./func/is_null.md) &mdash; Проверяет, равно ли значение переменной null
 -   [is_numeric](./func/is_numeric.md) &mdash; Проверяет, содержит ли переменная число или числовую
     строку
+-   [is_object](./func/is_object.md) &mdash; Проверяет, представляет ли собой переменная объект
