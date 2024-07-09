@@ -25,7 +25,7 @@
     -   ~~doubleval~~
     -   ~~empty~~
     -   ~~get_debug_type~~
-    -   gettype
+    -   ~~gettype~~
     -   intval
     -   isset
     -   strval

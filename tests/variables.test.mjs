@@ -6,6 +6,7 @@ import {
     empty,
     floatval,
     get_debug_type,
+    gettype,
     is_array,
     is_bool,
     is_callable,
@@ -49,4 +50,5 @@ test('variables', () => {
     expect(doubleval).not.toBeUndefined();
     expect(empty).not.toBeUndefined();
     expect(get_debug_type).not.toBeUndefined();
+    expect(gettype).not.toBeUndefined();
 });

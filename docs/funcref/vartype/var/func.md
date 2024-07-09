@@ -9,6 +9,7 @@
     точкой
 -   [get_debug_type](./func/get_debug_type.md) &mdash; Возвращает имя типа переменной в виде,
     подходящем для отладки
+-   [gettype](./func/gettype.md) &mdash; Возвращает тип переменной
 -   [is_array](./func/is_array.md) &mdash; Определяет, представляет ли собой переменная массив
 -   [is_bool](./func/is_bool.md) &mdash; Проверяет, представляет ли собой переменная логическое
     значение
