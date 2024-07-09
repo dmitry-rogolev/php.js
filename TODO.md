@@ -27,7 +27,7 @@
     -   ~~get_debug_type~~
     -   ~~gettype~~
     -   ~~intval~~
-    -   isset
+    -   ~~isset~~
     -   strval
     -   objval
     -   print_r

@@ -26,6 +26,7 @@ import {
     is_symbol,
     is_undefined,
 } from './../src/variables.mjs';
+import isset from '../src/variables/isset.mjs';
 
 test('variables', () => {
     expect(is_array).not.toBeUndefined();
@@ -53,4 +54,5 @@ test('variables', () => {
     expect(get_debug_type).not.toBeUndefined();
     expect(gettype).not.toBeUndefined();
     expect(intval).not.toBeUndefined();
+    expect(isset).not.toBeUndefined();
 });
