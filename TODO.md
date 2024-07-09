@@ -4,7 +4,7 @@
 
     -   ~~is_array~~
     -   ~~is_bool~~
-    -   is_class
+    -   ~~is_class~~
     -   is_number
     -   is_float
     -   is_double
