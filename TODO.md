@@ -19,7 +19,7 @@
     -   ~~is_symbol~~
     -   ~~is_undefined~~
     -   ~~is_callable~~
-    -   arrval
+    -   ~~arrval~~
     -   boolval
     -   floatval
     -   doubleval

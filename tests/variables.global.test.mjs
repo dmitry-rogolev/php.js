@@ -19,4 +19,5 @@ test('variables.global', () => {
     expect(is_symbol).not.toBeUndefined();
     expect(is_undefined).not.toBeUndefined();
     expect(is_callable).not.toBeUndefined();
+    expect(arrval).not.toBeUndefined();
 });

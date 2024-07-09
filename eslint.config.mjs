@@ -863,7 +863,7 @@ const eslintConfig = {
          *
          * @link https://eslint.org/docs/latest/rules/max-classes-per-file
          */
-        'max-classes-per-file': 'error',
+        'max-classes-per-file': 'off',
 
         /**
          * Установите максимальную глубину вложения блоков.
@@ -1611,7 +1611,7 @@ const eslintConfig = {
          *
          * @link https://eslint.org/docs/latest/rules/sort-imports
          */
-        'sort-imports': 'error',
+        'sort-imports': 'off',
 
         /**
          * Требовать сортировку ключей объекта.
