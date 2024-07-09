@@ -38,7 +38,7 @@ export default function strval(value) {
         return 'Array';
     }
 
-    if (is_object(value) && value.toString().startsWith('function')) {
+    if (is_object(value)) {
         return `[object ${value?.constructor?.name ?? 'Object'}]`;
     }
 

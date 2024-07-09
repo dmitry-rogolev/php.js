@@ -27,6 +27,7 @@ import {
     is_undefined,
     print_r,
     strval,
+    var_dump,
 } from './../src/variables.mjs';
 import isset from '../src/variables/isset.mjs';
 
@@ -59,4 +60,5 @@ test('variables', () => {
     expect(isset).not.toBeUndefined();
     expect(strval).not.toBeUndefined();
     expect(print_r).not.toBeUndefined();
+    expect(var_dump).not.toBeUndefined();
 });

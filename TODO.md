@@ -31,7 +31,7 @@
     -   ~~strval~~
     -   objval
     -   ~~print_r~~
-    -   var_dump
+    -   ~~var_dump~~
     -   var_export
     -   serialize
     -   unserialize

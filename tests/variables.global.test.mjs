@@ -30,4 +30,5 @@ test('variables.global', () => {
     expect(isset).not.toBeUndefined();
     expect(strval).not.toBeUndefined();
     expect(print_r).not.toBeUndefined();
+    expect(var_dump).not.toBeUndefined();
 });

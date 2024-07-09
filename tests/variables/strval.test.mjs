@@ -38,7 +38,7 @@ test('strval', () => {
             return StrValTest.name;
         }
     }
-    expect(strval(new StrValTest())).toBe('StrValTest');
+    expect(strval(new StrValTest())).toBe('[object StrValTest]');
 
     // php Fatal error: Uncaught Error: Object of class Closure could not be converted to string
     expect(() => strval(() => {})).toThrow(TypeError);

@@ -32,3 +32,4 @@
     от `null`
 -   [print_r](./func/print_r.md) &mdash; Выводит удобочитаемую информацию о переменной
 -   [strval](./func/strval.md) &mdash; Возвращает строковое значение переменной
+-   [var_dump](./func/var_dump.md) &mdash; Выводит информацию о переменной
