@@ -11,4 +11,5 @@ test('variables.global', () => {
     expect(is_int).not.toBeUndefined();
     expect(is_integer).not.toBeUndefined();
     expect(is_long).not.toBeUndefined();
+    expect(is_null).not.toBeUndefined();
 });

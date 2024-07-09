@@ -11,7 +11,7 @@
     -   ~~is_int~~
     -   ~~is_integer~~
     -   ~~is_long~~
-    -   is_null
+    -   ~~is_null~~
     -   is_numeric
     -   is_object
     -   is_string

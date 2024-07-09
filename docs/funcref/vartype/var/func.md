@@ -11,3 +11,4 @@
 -   [is_int](./func/is_int.md) &mdash; Проверяет, представляет ли собой переменная целое число
 -   [is_integer](./func/is_integer.md) &mdash; Псевдоним `is_int`
 -   [is_long](./func/is_long.md) &mdash; Псевдоним `is_int`
+-   [is_null](./func/is_null.md) &mdash; Проверяет, равно ли значение переменной null
