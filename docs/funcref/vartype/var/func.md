@@ -8,3 +8,4 @@
 -   [is_double](./func/is_double.md) &mdash; Псевдоним `is_float`
 -   [is_float](./func/is_float.md) &mdash; Проверяет, представляет ли собой переменная число с
     плавающей точкой
+-   [is_int](./func/is_int.md) &mdash; Проверяет, представляет ли собой переменная целое число

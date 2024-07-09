@@ -8,4 +8,5 @@ test('variables.global', () => {
     expect(is_number).not.toBeUndefined();
     expect(is_float).not.toBeUndefined();
     expect(is_double).not.toBeUndefined();
+    expect(is_int).not.toBeUndefined();
 });

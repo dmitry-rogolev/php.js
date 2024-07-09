@@ -5,6 +5,7 @@ import {
     is_class,
     is_double,
     is_float,
+    is_int,
     is_number,
 } from './../src/variables.mjs';
 
@@ -15,4 +16,5 @@ test('variables', () => {
     expect(is_number).not.toBeUndefined();
     expect(is_float).not.toBeUndefined();
     expect(is_double).not.toBeUndefined();
+    expect(is_int).not.toBeUndefined();
 });

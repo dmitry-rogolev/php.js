@@ -8,7 +8,7 @@
     -   ~~is_number~~
     -   ~~is_float~~
     -   ~~is_double~~
-    -   is_int
+    -   ~~is_int~~
     -   is_integer
     -   is_long
     -   is_null
