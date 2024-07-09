@@ -12,6 +12,7 @@
     плавающей точкой
 -   [is_int](./var/func/is_int.md) &mdash; Проверяет, представляет ли собой переменная целое число
 -   [is_integer](./var/func/is_integer.md) &mdash; Псевдоним `is_int`
+-   [is_long](./var/func/is_long.md) &mdash; Псевдоним `is_int`
 
 ### [Дополнительные функции для работы с переменными](./var/other.md)
 

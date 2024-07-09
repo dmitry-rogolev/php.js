@@ -10,3 +10,4 @@
     плавающей точкой
 -   [is_int](./func/is_int.md) &mdash; Проверяет, представляет ли собой переменная целое число
 -   [is_integer](./func/is_integer.md) &mdash; Псевдоним `is_int`
+-   [is_long](./func/is_long.md) &mdash; Псевдоним `is_int`

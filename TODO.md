@@ -10,7 +10,7 @@
     -   ~~is_double~~
     -   ~~is_int~~
     -   ~~is_integer~~
-    -   is_long
+    -   ~~is_long~~
     -   is_null
     -   is_numeric
     -   is_object
