@@ -30,9 +30,23 @@
     -   ~~isset~~
     -   ~~strval~~
     -   ~~settype~~
-    -   objval
     -   ~~print_r~~
     -   ~~var_dump~~
-    -   var_export
     -   ~~serialize~~
+    -   objval
     -   unserialize
+    -   var_export
+    -   is_contract
+    -   is_countable
+    -   is_iterable
+
+-   Добавить модуль contracts
+
+    -   Interface
+    -   Countable
+    -   Traversable
+
+-   Добавить модуль classes
+
+    -   stdClass
+    -   ExtensibleFunction
