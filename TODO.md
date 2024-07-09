@@ -6,7 +6,7 @@
     -   ~~is_bool~~
     -   ~~is_class~~
     -   ~~is_number~~
-    -   is_float
+    -   ~~is_float~~
     -   is_double
     -   is_int
     -   is_integer

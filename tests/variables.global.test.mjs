@@ -6,4 +6,5 @@ test('variables.global', () => {
     expect(is_bool).not.toBeUndefined();
     expect(is_class).not.toBeUndefined();
     expect(is_number).not.toBeUndefined();
+    expect(is_float).not.toBeUndefined();
 });
