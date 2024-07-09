@@ -14,6 +14,7 @@ import {
     is_object,
     is_scalar,
     is_string,
+    is_symbol,
 } from './../src/variables.mjs';
 
 test('variables', () => {
@@ -31,4 +32,5 @@ test('variables', () => {
     expect(is_object).not.toBeUndefined();
     expect(is_string).not.toBeUndefined();
     expect(is_scalar).not.toBeUndefined();
+    expect(is_symbol).not.toBeUndefined();
 });

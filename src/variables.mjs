@@ -12,3 +12,4 @@ export { default as is_numeric } from './variables/is_numeric.mjs';
 export { default as is_object } from './variables/is_object.mjs';
 export { default as is_string } from './variables/is_string.mjs';
 export { default as is_scalar } from './variables/is_scalar.mjs';
+export { default as is_symbol } from './variables/is_symbol.mjs';

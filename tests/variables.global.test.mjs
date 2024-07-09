@@ -16,4 +16,5 @@ test('variables.global', () => {
     expect(is_object).not.toBeUndefined();
     expect(is_string).not.toBeUndefined();
     expect(is_scalar).not.toBeUndefined();
+    expect(is_symbol).not.toBeUndefined();
 });
