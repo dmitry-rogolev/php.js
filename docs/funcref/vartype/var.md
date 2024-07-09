@@ -12,6 +12,7 @@
 -   [get_debug_type](./var/func/get_debug_type.md) &mdash; Возвращает имя типа переменной в виде,
     подходящем для отладки
 -   [gettype](./var/func/gettype.md) &mdash; Возвращает тип переменной
+-   [intval](./var/func/intval.md) &mdash; Возвращает целочисленное значение переменной
 -   [is_array](./var/func/is_array.md) &mdash; Определяет, представляет ли собой переменная массив
 -   [is_bool](./var/func/is_bool.md) &mdash; Проверяет, представляет ли собой переменная логическое
     значение

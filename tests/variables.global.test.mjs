@@ -26,4 +26,5 @@ test('variables.global', () => {
     expect(empty).not.toBeUndefined();
     expect(get_debug_type).not.toBeUndefined();
     expect(gettype).not.toBeUndefined();
+    expect(intval).not.toBeUndefined();
 });

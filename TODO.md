@@ -26,7 +26,7 @@
     -   ~~empty~~
     -   ~~get_debug_type~~
     -   ~~gettype~~
-    -   intval
+    -   ~~intval~~
     -   isset
     -   strval
     -   objval
