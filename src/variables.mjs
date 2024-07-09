@@ -18,3 +18,4 @@ export { default as is_callable } from './variables/is_callable.mjs';
 export { default as arrval } from './variables/arrval.mjs';
 export { default as boolval } from './variables/boolval.mjs';
 export { default as floatval } from './variables/floatval.mjs';
+export { default as doubleval } from './variables/doubleval.mjs';

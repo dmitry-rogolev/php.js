@@ -22,7 +22,7 @@
     -   ~~arrval~~
     -   ~~boolval~~
     -   ~~floatval~~
-    -   doubleval
+    -   ~~doubleval~~
     -   empty
     -   get_debug_type
     -   gettype
