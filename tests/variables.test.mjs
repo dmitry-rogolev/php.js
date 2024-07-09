@@ -26,6 +26,7 @@ import {
     is_symbol,
     is_undefined,
     print_r,
+    serialize,
     strval,
     var_dump,
 } from './../src/variables.mjs';
@@ -61,4 +62,5 @@ test('variables', () => {
     expect(strval).not.toBeUndefined();
     expect(print_r).not.toBeUndefined();
     expect(var_dump).not.toBeUndefined();
+    expect(serialize).not.toBeUndefined();
 });

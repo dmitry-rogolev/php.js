@@ -33,5 +33,5 @@
     -   ~~print_r~~
     -   ~~var_dump~~
     -   var_export
-    -   serialize
+    -   ~~serialize~~
     -   unserialize

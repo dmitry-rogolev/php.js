@@ -34,6 +34,8 @@
 -   [isset](./var/func/isset.md) &mdash; Определяет, была ли установлена переменная значением,
     отличным от `null`
 -   [print_r](./var/func/print_r.md) &mdash; Выводит удобочитаемую информацию о переменной
+-   [serialize](./var/func/serialize.md) &mdash; Генерирует пригодное для хранения представление
+    переменной
 -   [strval](./var/func/strval.md) &mdash; Возвращает строковое значение переменной
 -   [var_dump](./var/func/var_dump.md) &mdash; Выводит информацию о переменной
 
