@@ -6,6 +6,7 @@
 
 -   [boolval](./var/func/boolval.md) &mdash; Возвращает логическое значение переменной
 -   [doubleval](./var/func/doubleval.md) &mdash; Псевдоним `floatval`
+-   [empty](./var/func/empty.md) &mdash; Проверяет, пуста ли переменная
 -   [floatval](./var/func/floatval.md) &mdash; Возвращает значение переменной в виде числа с
     плавающей точкой
 -   [is_array](./var/func/is_array.md) &mdash; Определяет, представляет ли собой переменная массив

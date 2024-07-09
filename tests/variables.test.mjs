@@ -3,6 +3,7 @@ import {
     arrval,
     boolval,
     doubleval,
+    empty,
     floatval,
     is_array,
     is_bool,
@@ -45,4 +46,5 @@ test('variables', () => {
     expect(boolval).not.toBeUndefined();
     expect(floatval).not.toBeUndefined();
     expect(doubleval).not.toBeUndefined();
+    expect(empty).not.toBeUndefined();
 });
