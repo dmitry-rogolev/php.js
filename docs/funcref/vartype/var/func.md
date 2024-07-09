@@ -9,3 +9,4 @@
 -   [is_float](./func/is_float.md) &mdash; Проверяет, представляет ли собой переменная число с
     плавающей точкой
 -   [is_int](./func/is_int.md) &mdash; Проверяет, представляет ли собой переменная целое число
+-   [is_integer](./func/is_integer.md) &mdash; Псевдоним `is_int`

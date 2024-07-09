@@ -9,7 +9,7 @@
     -   ~~is_float~~
     -   ~~is_double~~
     -   ~~is_int~~
-    -   is_integer
+    -   ~~is_integer~~
     -   is_long
     -   is_null
     -   is_numeric
