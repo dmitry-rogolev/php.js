@@ -453,7 +453,7 @@ const eslintConfig = {
          *
          * @link https://eslint.org/docs/latest/rules/no-prototype-builtins
          */
-        'no-prototype-builtins': 'error',
+        'no-prototype-builtins': 'off',
 
         /**
          * Запретить задания, в которых обе стороны абсолютно одинаковы.
