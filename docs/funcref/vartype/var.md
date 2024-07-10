@@ -44,6 +44,8 @@
 
 -   [arrval](./var/other/arrval.md) &mdash; Приводит значение переменной к массиву
 -   [is_class](./var/other/is_class.md) &mdash; Проверяет, является ли значение переменной классом
+-   [is_contract](./var/other/is_contract.md) &mdash; Проверяет, является ли переданное значение
+    переменной контрактом
 -   [is_number](./var/other/is_number.md) &mdash; Проверяет, является ли переданное значение числом
 -   [is_symbol](./var/other/is_symbol.md) &mdash; Проверяет, является ли переменная типом `symbol`
 -   [is_undefined](./var/other/is_undefined.md) &mdash; Проверяет, имеет ли переменная значение

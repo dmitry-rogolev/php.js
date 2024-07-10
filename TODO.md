@@ -36,7 +36,7 @@
     -   objval
     -   unserialize
     -   var_export
-    -   is_contract
+    -   ~~is_contract~~
     -   is_countable
     -   is_iterable
 

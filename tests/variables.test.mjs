@@ -12,6 +12,7 @@ import {
     is_bool,
     is_callable,
     is_class,
+    is_contract,
     is_double,
     is_float,
     is_int,
@@ -65,4 +66,5 @@ test('variables', () => {
     expect(var_dump).not.toBeUndefined();
     expect(serialize).not.toBeUndefined();
     expect(settype).not.toBeUndefined();
+    expect(is_contract).not.toBeUndefined();
 });

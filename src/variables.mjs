@@ -29,3 +29,4 @@ export { default as print_r } from './variables/print_r.mjs';
 export { default as var_dump } from './variables/var_dump.mjs';
 export { default as serialize } from './variables/serialize.mjs';
 export { default as settype } from './variables/settype.mjs';
+export { default as is_contract } from './variables/is_contract.mjs';

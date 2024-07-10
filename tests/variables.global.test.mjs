@@ -33,4 +33,5 @@ test('variables.global', () => {
     expect(var_dump).not.toBeUndefined();
     expect(serialize).not.toBeUndefined();
     expect(settype).not.toBeUndefined();
+    expect(is_contract).not.toBeUndefined();
 });
