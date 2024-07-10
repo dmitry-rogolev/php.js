@@ -21,6 +21,7 @@
     плавающей точкой
 -   [is_int](./func/is_int.md) &mdash; Проверяет, представляет ли собой переменная целое число
 -   [is_integer](./func/is_integer.md) &mdash; Псевдоним `is_int`
+-   [is_iterable](./func/is_iterable.md) &mdash; Проверяет, итерируемо ли содержимое переменной
 -   [is_long](./func/is_long.md) &mdash; Псевдоним `is_int`
 -   [is_null](./func/is_null.md) &mdash; Проверяет, равно ли значение переменной null
 -   [is_numeric](./func/is_numeric.md) &mdash; Проверяет, содержит ли переменная число или числовую

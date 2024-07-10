@@ -34,4 +34,5 @@ test('variables.global', () => {
     expect(serialize).not.toBeUndefined();
     expect(settype).not.toBeUndefined();
     expect(is_contract).not.toBeUndefined();
+    expect(is_iterable).not.toBeUndefined();
 });

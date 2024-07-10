@@ -30,3 +30,4 @@ export { default as var_dump } from './variables/var_dump.mjs';
 export { default as serialize } from './variables/serialize.mjs';
 export { default as settype } from './variables/settype.mjs';
 export { default as is_contract } from './variables/is_contract.mjs';
+export { default as is_iterable } from './variables/is_iterable.mjs';

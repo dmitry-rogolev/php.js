@@ -17,6 +17,7 @@ import {
     is_float,
     is_int,
     is_integer,
+    is_iterable,
     is_long,
     is_null,
     is_number,
@@ -67,4 +68,5 @@ test('variables', () => {
     expect(serialize).not.toBeUndefined();
     expect(settype).not.toBeUndefined();
     expect(is_contract).not.toBeUndefined();
+    expect(is_iterable).not.toBeUndefined();
 });

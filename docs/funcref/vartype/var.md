@@ -23,6 +23,7 @@
     плавающей точкой
 -   [is_int](./var/func/is_int.md) &mdash; Проверяет, представляет ли собой переменная целое число
 -   [is_integer](./var/func/is_integer.md) &mdash; Псевдоним `is_int`
+-   [is_iterable](./var/func/is_iterable.md) &mdash; Проверяет, итерируемо ли содержимое переменной
 -   [is_long](./var/func/is_long.md) &mdash; Псевдоним `is_int`
 -   [is_null](./var/func/is_null.md) &mdash; Проверяет, равно ли значение переменной null
 -   [is_numeric](./var/func/is_numeric.md) &mdash; Проверяет, содержит ли переменная число или
