@@ -3,4 +3,5 @@ import './../src/contracts.global.js';
 
 test('contracts.global', () => {
     expect(Interface).not.toBeUndefined();
+    expect(Traversable).not.toBeUndefined();
 });

@@ -1,3 +1,6 @@
+/**
+ * Базовый класс для всех внутренних интерфейсов библиотеки php.js
+ */
 class Interface {
     static [Symbol.hasInstance](obj) {
         if (this.prototype.isPrototypeOf(obj)) {

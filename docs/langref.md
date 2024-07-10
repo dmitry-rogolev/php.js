@@ -4,6 +4,10 @@
 
 -   [Встроенные интерфейсы и классы](./langref/interfaces.md)
 
-    Дополнительные интерфейсы:
+    Основные:
+
+    -   [Traversable](./langref/interfaces/base/Traversable.md) &mdash; Интерфейс Traversable
+
+    Дополнительные:
 
     -   [Interface](./langref/interfaces/other/Interface.md) &mdash; Интерфейс Interface

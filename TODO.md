@@ -44,7 +44,7 @@
 
     -   ~~Interface~~
     -   Countable
-    -   Traversable
+    -   ~~Traversable~~
 
 -   Добавить модуль classes
 

@@ -2,6 +2,10 @@
 
 [Документация на php.net](https://www.php.net/manual/ru/reserved.interfaces.php)
 
-### Дополнительные интерфейсы
+### Основные
 
--   [Interface](./interfaces/other/Interface.md)
+-   [Traversable](./interfaces/base/Traversable.md) &mdash; Интерфейс Traversable
+
+### Дополнительные
+
+-   [Interface](./interfaces/other/Interface.md) &mdash; Интерфейс Interface
