@@ -14,4 +14,5 @@
 
 -   [Справочник функций](./docs/funcref.md)
 
+    -   [Другие базовые модули](./docs/funcref/other.md)
     -   [Модули для работы с переменными и типами](./docs/funcref/vartype.md)

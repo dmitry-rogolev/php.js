@@ -43,7 +43,7 @@
 -   Добавить модуль contracts
 
     -   ~~Interface~~
-    -   Countable
+    -   ~~Countable~~
     -   ~~Traversable~~
 
 -   Добавить модуль classes
