@@ -5,6 +5,7 @@
 ### Основные
 
 -   [Traversable](./interfaces/base/Traversable.md) &mdash; Интерфейс Traversable
+-   [ArrayAccess](./interfaces/base/ArrayAccess.md) &mdash; Интерфейс ArrayAccess
 
 ### Дополнительные
 

@@ -7,6 +7,7 @@
     Основные:
 
     -   [Traversable](./langref/interfaces/base/Traversable.md) &mdash; Интерфейс Traversable
+    -   [ArrayAccess](./langref/interfaces/base/ArrayAccess.md) &mdash; Интерфейс ArrayAccess
 
     Дополнительные:
 

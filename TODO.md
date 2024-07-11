@@ -45,6 +45,7 @@
     -   ~~Interface~~
     -   ~~Countable~~
     -   ~~Traversable~~
+    -   ~~ArrayAccess~~
 
 -   Добавить модуль classes
 
