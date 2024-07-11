@@ -49,4 +49,4 @@
 -   Добавить модуль classes
 
     -   stdClass
-    -   ExtensibleFunction
+    -   ~~ExtensibleFunction~~

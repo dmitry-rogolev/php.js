@@ -8,4 +8,5 @@
 
 ### Дополнительные
 
+-   [ExtensibleFunction](./interfaces/other/ExtensibleFunction.md) &mdash; Класс ExtensibleFunction
 -   [Interface](./interfaces/other/Interface.md) &mdash; Интерфейс Interface

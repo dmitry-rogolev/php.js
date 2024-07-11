@@ -10,4 +10,6 @@
 
     Дополнительные:
 
+    -   [ExtensibleFunction](./langref/interfaces/other/ExtensibleFunction.md) &mdash; Класс
+        ExtensibleFunction
     -   [Interface](./langref/interfaces/other/Interface.md) &mdash; Интерфейс Interface
