@@ -50,3 +50,13 @@
 
     -   stdClass
     -   ~~ExtensibleFunction~~
+
+-   Добавить модуль functions
+
+    -   get_magic_proxy
+    -   get_property_descriptor
+    -   implementable
+    -   traitable
+    -   uses
+    -   verify_implementation_of_contracts
+    -   verify_implementation_of_contract
