@@ -35,4 +35,5 @@ test('variables.global', () => {
     expect(settype).not.toBeUndefined();
     expect(is_contract).not.toBeUndefined();
     expect(is_iterable).not.toBeUndefined();
+    expect(is_countable).not.toBeUndefined();
 });

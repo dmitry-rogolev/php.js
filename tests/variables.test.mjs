@@ -13,6 +13,7 @@ import {
     is_callable,
     is_class,
     is_contract,
+    is_countable,
     is_double,
     is_float,
     is_int,
@@ -69,4 +70,5 @@ test('variables', () => {
     expect(settype).not.toBeUndefined();
     expect(is_contract).not.toBeUndefined();
     expect(is_iterable).not.toBeUndefined();
+    expect(is_countable).not.toBeUndefined();
 });

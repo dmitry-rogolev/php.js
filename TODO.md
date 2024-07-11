@@ -37,7 +37,7 @@
     -   unserialize
     -   var_export
     -   ~~is_contract~~
-    -   is_countable
+    -   ~~is_countable~~
     -   ~~is_iterable~~
 
 -   Добавить модуль contracts

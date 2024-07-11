@@ -2,7 +2,7 @@
 
 [Документация на php.net](https://www.php.net/manual/ru/book.var.php)
 
-### [Функции для работы с переменными](./var/func.md)
+### Функции для работы с переменными
 
 -   [boolval](./var/func/boolval.md) &mdash; Возвращает логическое значение переменной
 -   [doubleval](./var/func/doubleval.md) &mdash; Псевдоним `floatval`
@@ -18,6 +18,8 @@
     значение
 -   [is_callable](./var/func/is_callable.md) &mdash; Проверяет, что значение может быть вызвано как
     функция
+-   [is_countable](./var/func/is_countable.md) &mdash; Проверяет, представляет ли собой содержимое
+    переменной счётное значение
 -   [is_double](./var/func/is_double.md) &mdash; Псевдоним `is_float`
 -   [is_float](./var/func/is_float.md) &mdash; Проверяет, представляет ли собой переменная число с
     плавающей точкой
@@ -41,7 +43,7 @@
 -   [strval](./var/func/strval.md) &mdash; Возвращает строковое значение переменной
 -   [var_dump](./var/func/var_dump.md) &mdash; Выводит информацию о переменной
 
-### [Дополнительные функции для работы с переменными](./var/other.md)
+### Дополнительные функции для работы с переменными
 
 -   [arrval](./var/other/arrval.md) &mdash; Приводит значение переменной к массиву
 -   [is_class](./var/other/is_class.md) &mdash; Проверяет, является ли значение переменной классом
