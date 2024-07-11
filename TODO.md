@@ -54,7 +54,7 @@
 
 -   Добавить модуль functions
 
-    -   get_magic_proxy
+    -   ~~get_magic_proxy~~
     -   get_property_descriptor
     -   implementable
     -   traitable
