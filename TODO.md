@@ -59,5 +59,5 @@
     -   ~~implementable~~
     -   traitable
     -   uses
-    -   verify_implementation_of_contracts
+    -   ~~verify_implementation_of_contracts~~
     -   ~~verify_implementation_of_contract~~

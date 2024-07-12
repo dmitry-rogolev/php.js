@@ -10,3 +10,5 @@
     реализации интерфейсов
 -   [verify_implementation_of_contract](./other/verify_implementation_of_contract.md) &mdash;
     Проверяет реализацию контракта в переданном классе
+-   [verify_implementation_of_contracts](./other/verify_implementation_of_contracts.md) &mdash;
+    Проверяет реализацию контрактов в переданном классе

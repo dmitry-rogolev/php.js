@@ -4,6 +4,7 @@ import {
     get_property_descriptor,
     implementable,
     verify_implementation_of_contract,
+    verify_implementation_of_contracts,
 } from '../src/functions.mjs';
 
 test('contracts', () => {
@@ -11,4 +12,5 @@ test('contracts', () => {
     expect(get_property_descriptor).not.toBeUndefined();
     expect(implementable).not.toBeUndefined();
     expect(verify_implementation_of_contract).not.toBeUndefined();
+    expect(verify_implementation_of_contracts).not.toBeUndefined();
 });
