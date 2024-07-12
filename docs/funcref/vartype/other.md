@@ -6,3 +6,5 @@
     работы с магическими методами
 -   [get_property_descriptor](./other/get_property_descriptor.md) &mdash; Получает дескриптор
     свойства, находящегося в цепочке прототипов класса
+-   [implementable](./other/implementable.md) &mdash; Добавляет переданному классу возможность
+    реализации интерфейсов
