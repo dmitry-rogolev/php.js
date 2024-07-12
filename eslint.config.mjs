@@ -1130,7 +1130,7 @@ const eslintConfig = {
          *
          * @link https://eslint.org/docs/latest/rules/no-loop-func
          */
-        'no-loop-func': 'error',
+        'no-loop-func': 'off',
 
         /**
          * Запретить магические числа.

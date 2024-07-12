@@ -8,3 +8,5 @@
     свойства, находящегося в цепочке прототипов класса
 -   [implementable](./other/implementable.md) &mdash; Добавляет переданному классу возможность
     реализации интерфейсов
+-   [verify_implementation_of_contract](./other/verify_implementation_of_contract.md) &mdash;
+    Проверяет реализацию контракта в переданном классе
