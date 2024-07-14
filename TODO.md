@@ -35,7 +35,7 @@
     -   ~~serialize~~
     -   ~~objval~~
     -   ~~unserialize~~
-    -   var_export
+    -   ~~var_export~~
     -   ~~is_contract~~
     -   ~~is_countable~~
     -   ~~is_iterable~~
