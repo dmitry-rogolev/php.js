@@ -35,6 +35,7 @@ import {
     var_dump,
 } from './../src/variables.mjs';
 import isset from '../src/variables/isset.mjs';
+import { uses } from '../src/functions.mjs';
 
 test('variables', () => {
     expect(is_array).not.toBeUndefined();
@@ -71,4 +72,5 @@ test('variables', () => {
     expect(is_contract).not.toBeUndefined();
     expect(is_iterable).not.toBeUndefined();
     expect(is_countable).not.toBeUndefined();
+    expect(uses).not.toBeUndefined();
 });

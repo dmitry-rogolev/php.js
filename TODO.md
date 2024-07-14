@@ -58,6 +58,6 @@
     -   ~~get_property_descriptor~~
     -   ~~implementable~~
     -   traitable
-    -   uses
+    -   ~~uses~~
     -   ~~verify_implementation_of_contracts~~
     -   ~~verify_implementation_of_contract~~
