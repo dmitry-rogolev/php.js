@@ -8,6 +8,7 @@
     свойства, находящегося в цепочке прототипов класса
 -   [implementable](./other/implementable.md) &mdash; Добавляет переданному классу возможность
     реализации интерфейсов
+-   [traitable](./other/traitable.md) &mdash; Добавляет классу возможность использования трейтов
 -   [uses](./other/uses.md) &mdash; Проверяет, используется ли переданный трейт в переданном классе
 -   [verify_implementation_of_contract](./other/verify_implementation_of_contract.md) &mdash;
     Проверяет реализацию контракта в переданном классе

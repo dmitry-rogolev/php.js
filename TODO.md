@@ -57,7 +57,7 @@
     -   ~~get_magic_proxy~~
     -   ~~get_property_descriptor~~
     -   ~~implementable~~
-    -   traitable
+    -   ~~traitable~~
     -   ~~uses~~
     -   ~~verify_implementation_of_contracts~~
     -   ~~verify_implementation_of_contract~~

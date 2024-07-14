@@ -7,4 +7,6 @@ test('contracts', () => {
     expect(implementable).not.toBeUndefined();
     expect(verify_implementation_of_contract).not.toBeUndefined();
     expect(verify_implementation_of_contracts).not.toBeUndefined();
+    expect(uses).not.toBeUndefined();
+    expect(traitable).not.toBeUndefined();
 });
