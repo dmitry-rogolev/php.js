@@ -34,7 +34,7 @@
     -   ~~var_dump~~
     -   ~~serialize~~
     -   ~~objval~~
-    -   unserialize
+    -   ~~unserialize~~
     -   var_export
     -   ~~is_contract~~
     -   ~~is_countable~~

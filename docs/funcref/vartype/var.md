@@ -41,6 +41,7 @@
     переменной
 -   [settype](./var/func/settype.md) &mdash; Задаёт тип переменной
 -   [strval](./var/func/strval.md) &mdash; Возвращает строковое значение переменной
+-   [unserialize](./var/func/unserialize.md) &mdash; Создаёт значение из хранимого представления
 -   [var_dump](./var/func/var_dump.md) &mdash; Выводит информацию о переменной
 
 ### Дополнительные функции для работы с переменными

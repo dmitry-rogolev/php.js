@@ -35,6 +35,7 @@ import {
     strval,
     var_dump,
     isset,
+    unserialize,
 } from './../src/variables.mjs';
 
 test('variables', () => {
@@ -73,4 +74,5 @@ test('variables', () => {
     expect(is_iterable).not.toBeUndefined();
     expect(is_countable).not.toBeUndefined();
     expect(objval).not.toBeUndefined();
+    expect(unserialize).not.toBeUndefined();
 });
