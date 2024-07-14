@@ -39,7 +39,10 @@ export default function strval(value) {
     }
 
     if (is_object(value)) {
-        return `[object ${value?.constructor?.name ?? 'Object'}]`;
+        return is_callable(value.toString) &&
+            (value.toString() === '[object Object]' || value.toString().startsWith('function'))
+            ? `[object ${value?.constructor?.name ?? 'Object'}]`
+            : value.toString();
     }
 
     return String(value);

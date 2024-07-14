@@ -33,7 +33,7 @@
     -   ~~print_r~~
     -   ~~var_dump~~
     -   ~~serialize~~
-    -   objval
+    -   ~~objval~~
     -   unserialize
     -   var_export
     -   ~~is_contract~~

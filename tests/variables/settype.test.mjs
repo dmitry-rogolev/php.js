@@ -1,7 +1,6 @@
 import { test, expect } from '@jest/globals';
 import settype from '../../src/variables/settype.mjs';
-
-class stdClass {}
+import { stdClass } from '../../src/classes.mjs';
 
 /**
  * https://onlinephp.io?s=rdVBa8IwGMbxe6Hf4UWEKNjQFk868SCKA9m8jyGZxinEtDSJQ8a--9p1Drw9-O7WNP_y482heZiWhzKO4qh7ViZompCvgh7HkdPeX0rda98PSLwVhdHKin69qbeHgkRTjkjU67OqNrtwKn_rv2S9XG_mzyuS16cxTP2nkwJIyhIShEh4xjAHjGHOOykJnZVkTiKhUSRvFiEApNPhGc5XR_sOSW3K9FKISplKBikZU9kr4zQk_ZRMrfmLQFgT8qyXbED5K2C1Ic-CHJ5h9Qc5v5sZ5RygXVOWuQ9264-FpV6fPr8A9fYD3rzBGEBsMpbz-LQAmLri3U0Yk9zlfAM%2C&v=8.3.4

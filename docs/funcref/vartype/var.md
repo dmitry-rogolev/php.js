@@ -53,3 +53,4 @@
 -   [is_symbol](./var/other/is_symbol.md) &mdash; Проверяет, является ли переменная типом `symbol`
 -   [is_undefined](./var/other/is_undefined.md) &mdash; Проверяет, имеет ли переменная значение
     `undefined`
+-   [objval](./var/other/objval.md) &mdash; Приводит значение переменной к объекту
