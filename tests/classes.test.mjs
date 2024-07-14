@@ -1,6 +1,7 @@
 import { expect, test } from '@jest/globals';
-import { ExtensibleFunction } from '../src/classes.mjs';
+import { ExtensibleFunction, stdClass } from '../src/classes.mjs';
 
 test('classes', () => {
     expect(ExtensibleFunction).not.toBeUndefined();
+    expect(stdClass).not.toBeUndefined();
 });

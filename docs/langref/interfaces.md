@@ -6,6 +6,7 @@
 
 -   [Traversable](./interfaces/base/Traversable.md) &mdash; Интерфейс Traversable
 -   [ArrayAccess](./interfaces/base/ArrayAccess.md) &mdash; Интерфейс ArrayAccess
+-   [stdClass](./interfaces/base/stdClass.md) &mdash; Класс stdClass
 
 ### Дополнительные
 

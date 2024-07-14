@@ -8,6 +8,7 @@
 
     -   [Traversable](./langref/interfaces/base/Traversable.md) &mdash; Интерфейс Traversable
     -   [ArrayAccess](./langref/interfaces/base/ArrayAccess.md) &mdash; Интерфейс ArrayAccess
+    -   [stdClass](./langref/interfaces/base/stdClass.md) &mdash; Класс stdClass
 
     Дополнительные:
 
