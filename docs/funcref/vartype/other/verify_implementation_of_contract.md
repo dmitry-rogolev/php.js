@@ -1,22 +1,23 @@
 # verify_implementation_of_contract
 
+[Главная](../../../../README.md) / [Справочник функций](../../../funcref.md) /
+[Модули для работы с переменными и типами](../../vartype.md) / [Внутренние функции](../other.md) /
+verify_implementation_of_contract
+
+---
+
 > Это дополнительная функция, отсутствующая в `PHP`.
 
-`verify_implementation_of_contract` — Проверяет реализацию контракта в
-переданном классе
+`verify_implementation_of_contract` — Проверяет реализацию контракта в переданном классе
 
 ### Описание
 
 ```ts
-function verify_implementation_of_contract(
-    class_object: Object,
-    contract: Interface,
-): void;
+function verify_implementation_of_contract(class_object: Object, contract: Interface): void;
 ```
 
-Перебирает все прототипы класса и проверяет реализацию всех методов переданного
-интерфейса. В случае отсутствия хотя бы одного метода, выбрасывает исключение
-`Error`.
+Перебирает все прототипы класса и проверяет реализацию всех методов переданного интерфейса. В случае
+отсутствия хотя бы одного метода, выбрасывает исключение `Error`.
 
 ### Список параметров
 

@@ -2,6 +2,13 @@
 
 [Документация на php.net](https://www.php.net/manual/ru/class.arrayaccess.php)
 
+---
+
+[Главная](../../../../README.md) / [Справочник языка](../../../langref.md) /
+[Встроенные интерфейсы и классы](../../interfaces.md) / Интерфейс ArrayAccess
+
+---
+
 ## Введение
 
 Интерфейс разрешает обращаться к объектам как к массивам.
@@ -54,9 +61,7 @@ class Test {
     _data = {};
 
     constructor() {
-        verify_implementation_of_contracts(
-            Object.getPrototypeOf(this).constructor,
-        );
+        verify_implementation_of_contracts(Object.getPrototypeOf(this).constructor);
 
         return get_magic_proxy(this);
     }

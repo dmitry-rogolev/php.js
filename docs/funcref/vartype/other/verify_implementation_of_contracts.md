@@ -1,9 +1,14 @@
 # verify_implementation_of_contracts
 
+[Главная](../../../../README.md) / [Справочник функций](../../../funcref.md) /
+[Модули для работы с переменными и типами](../../vartype.md) / [Внутренние функции](../other.md) /
+verify_implementation_of_contracts
+
+---
+
 > Это дополнительная функция, отсутствующая в `PHP`.
 
-`verify_implementation_of_contracts` — Проверяет реализацию контрактов в
-переданном классе
+`verify_implementation_of_contracts` — Проверяет реализацию контрактов в переданном классе
 
 ### Описание
 
@@ -11,9 +16,8 @@
 function verify_implementation_of_contracts(class_object: Object): void;
 ```
 
-Проверяет реализацию контрактов в переданном классе, перечисленных в статичном
-свойстве `__implements`. В случае отсутствия хотя бы одного метода, выбрасывает
-исключение `Error`.
+Проверяет реализацию контрактов в переданном классе, перечисленных в статичном свойстве
+`__implements`. В случае отсутствия хотя бы одного метода, выбрасывает исключение `Error`.
 
 ### Список параметров
 
@@ -71,9 +75,7 @@ try {
 
 try {
     verify_implementation_of_contracts(NotImplemented);
-    console.log(
-        'Проверка реализации контрактов в классе "NotImplemented" пройдена.',
-    );
+    console.log('Проверка реализации контрактов в классе "NotImplemented" пройдена.');
 } catch (e) {
     console.error(e);
 }

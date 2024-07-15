@@ -2,6 +2,12 @@
 
 [Документация на php.net](https://www.php.net/manual/ru/reserved.interfaces.php)
 
+---
+
+[Главная](../../README.md) / [Справочник языка](../langref.md) / Встроенные интерфейсы и классы
+
+---
+
 ### Основные
 
 -   [Traversable](./interfaces/base/Traversable.md) &mdash; Интерфейс Traversable

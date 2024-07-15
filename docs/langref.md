@@ -2,6 +2,12 @@
 
 [Документация на php.net](https://www.php.net/manual/ru/langref.php)
 
+---
+
+[Главная](../README.md) / Справочник языка
+
+---
+
 -   [Встроенные интерфейсы и классы](./langref/interfaces.md)
 
     Основные:

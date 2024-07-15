@@ -2,6 +2,12 @@
 
 [Документация на php.net](https://www.php.net/manual/ru/funcref.php)
 
+---
+
+[Главная](../README.md) / Справочник функций
+
+---
+
 -   [Другие базовые модули](./funcref/other.md)
 
     -   [SPL](./funcref/other/spl.md) — Стандартная библиотека PHP (SPL)

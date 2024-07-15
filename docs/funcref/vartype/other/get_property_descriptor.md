@@ -1,9 +1,14 @@
 # get_property_descriptor
 
+[Главная](../../../../README.md) / [Справочник функций](../../../funcref.md) /
+[Модули для работы с переменными и типами](../../vartype.md) / [Внутренние функции](../other.md) /
+get_property_descriptor
+
+---
+
 Это дополнительная функция, отсутствующая в `PHP`.
 
-`get_property_descriptor` — Получает дескриптор свойства, находящегося в цепочке
-прототипов класса
+`get_property_descriptor` — Получает дескриптор свойства, находящегося в цепочке прототипов класса
 
 ### Описание
 
@@ -33,8 +38,7 @@ function get_property_descriptor(
 
 ### Возвращаемые значения
 
-Возвращает объект дескриптора свойства, либо `undefined` в случае его
-отсутствия.
+Возвращает объект дескриптора свойства, либо `undefined` в случае его отсутствия.
 
 ### Примеры
 
@@ -43,64 +47,28 @@ function get_property_descriptor(
 ```js
 console.log('Передача класса');
 console.log();
-console.log(
-    'dynamicBProperty:',
-    get_property_descriptor(B, 'dynamicBProperty'),
-);
-console.log(
-    'dynamicAProperty:',
-    get_property_descriptor(B, 'dynamicAProperty'),
-);
+console.log('dynamicBProperty:', get_property_descriptor(B, 'dynamicBProperty'));
+console.log('dynamicAProperty:', get_property_descriptor(B, 'dynamicAProperty'));
 console.log('dynamicBMethod:', get_property_descriptor(B, 'dynamicBMethod'));
 console.log('dynamicAMethod:', get_property_descriptor(B, 'dynamicAMethod'));
-console.log(
-    'staticBProperty:',
-    get_property_descriptor(B, 'staticBProperty', true),
-);
-console.log(
-    'staticAProperty:',
-    get_property_descriptor(B, 'staticAProperty', true),
-);
-console.log(
-    'staticBMethod:',
-    get_property_descriptor(B, 'staticBMethod', true),
-);
-console.log(
-    'staticAMethod:',
-    get_property_descriptor(B, 'staticAMethod', true),
-);
+console.log('staticBProperty:', get_property_descriptor(B, 'staticBProperty', true));
+console.log('staticAProperty:', get_property_descriptor(B, 'staticAProperty', true));
+console.log('staticBMethod:', get_property_descriptor(B, 'staticBMethod', true));
+console.log('staticAMethod:', get_property_descriptor(B, 'staticAMethod', true));
 console.log();
 
 const obj = new B();
 
 console.log('Передача экземпляра класса');
 console.log();
-console.log(
-    'dynamicBProperty:',
-    get_property_descriptor(obj, 'dynamicBProperty'),
-);
-console.log(
-    'dynamicAProperty:',
-    get_property_descriptor(obj, 'dynamicAProperty'),
-);
+console.log('dynamicBProperty:', get_property_descriptor(obj, 'dynamicBProperty'));
+console.log('dynamicAProperty:', get_property_descriptor(obj, 'dynamicAProperty'));
 console.log('dynamicBMethod:', get_property_descriptor(obj, 'dynamicBMethod'));
 console.log('dynamicAMethod:', get_property_descriptor(obj, 'dynamicAMethod'));
-console.log(
-    'staticBProperty:',
-    get_property_descriptor(obj, 'staticBProperty', true),
-);
-console.log(
-    'staticAProperty:',
-    get_property_descriptor(obj, 'staticAProperty', true),
-);
-console.log(
-    'staticBMethod:',
-    get_property_descriptor(obj, 'staticBMethod', true),
-);
-console.log(
-    'staticAMethod:',
-    get_property_descriptor(obj, 'staticAMethod', true),
-);
+console.log('staticBProperty:', get_property_descriptor(obj, 'staticBProperty', true));
+console.log('staticAProperty:', get_property_descriptor(obj, 'staticAProperty', true));
+console.log('staticBMethod:', get_property_descriptor(obj, 'staticBMethod', true));
+console.log('staticAMethod:', get_property_descriptor(obj, 'staticAMethod', true));
 ```
 
 Результат выполнения приведённого примера:
