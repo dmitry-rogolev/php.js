@@ -1,15 +1,17 @@
 # v0.0.2
 
--   Добавить модуль exceptions
+-   ~~Добавить модуль exceptions~~
 
     -   ~~PHPJSError~~
     -   ~~ValuePHPJSError~~
     -   ~~TypePHPJSError~~
 
--   Добавить в модуль contracts следующие интерфейсы:
+-   ~~Добавить в модуль contracts следующие интерфейсы:~~
 
     -   ~~Stringable~~
     -   ~~Throwable~~
+
+-   Заменить все выбрасываемые ошибки на внутренние.
 
 -   Добавить модуль array/constants
 
