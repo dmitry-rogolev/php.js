@@ -5,4 +5,6 @@ test('contracts.global', () => {
     expect(Interface).not.toBeUndefined();
     expect(Traversable).not.toBeUndefined();
     expect(ArrayAccess).not.toBeUndefined();
+    expect(Stringable).not.toBeUndefined();
+    expect(Throwable).not.toBeUndefined();
 });

@@ -16,5 +16,8 @@
     },
     "scripts": {
         "test": "jest"
+    },
+    "dependencies": {
+        "stacktrace-js": "^2.0.2"
     }
 }

@@ -1,5 +1,14 @@
 # v0.0.2
 
+-   Добавлен модуль `exceptions` со следующими классами:
+
+    -   [PHPJSError](./docs/langref/exceptions/PHPJSError.md) &mdash; Исключение PHPJSError
+
+-   В модуль `contracts` добавлены следующие интерфейсы:
+
+    -   [Throwable](./docs/langref/interfaces/base/Throwable.md) &mdash; Интерфейс Throwable
+    -   [Stringable](./docs/langref/interfaces/base/Stringable.md) &mdash; Интерфейс Stringable
+
 # v0.0.1
 
 -   Добавлен модуль `variables` со следующими функциями:

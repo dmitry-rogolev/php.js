@@ -11,6 +11,7 @@
 -   [Справочник библиотеки](./docs/langref.md)
 
     -   [Встроенные интерфейсы и классы](./docs/langref/interfaces.md)
+    -   [Предопределённые исключения](./docs/langref/exceptions.md)
 
 -   [Справочник функций](./docs/funcref.md)
 
