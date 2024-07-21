@@ -3,7 +3,7 @@
 -   Добавить модуль exceptions
 
     -   ~~PHPJSError~~
-    -   ValuePHPJSError
+    -   ~~ValuePHPJSError~~
     -   ~~TypePHPJSError~~
 
 -   Добавить в модуль contracts следующие интерфейсы:

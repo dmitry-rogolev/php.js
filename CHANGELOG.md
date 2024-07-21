@@ -5,6 +5,8 @@
     -   [PHPJSError](./docs/langref/exceptions/PHPJSError.md) &mdash; Исключение PHPJSError
     -   [TypePHPJSError](./docs/langref/exceptions/TypePHPJSError.md) &mdash; Исключение
         TypePHPJSError
+    -   [ValuePHPJSError](./docs/langref/exceptions/ValuePHPJSError.md) &mdash; Исключение
+        ValuePHPJSError
 
 -   В модуль `contracts` добавлены следующие интерфейсы:
 

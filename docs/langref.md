@@ -28,3 +28,5 @@
 
     -   [PHPJSError](./langref/exceptions/PHPJSError.md) &mdash; Исключение PHPJSError
     -   [TypePHPJSError](./langref/exceptions/TypePHPJSError.md) &mdash; Исключение TypePHPJSError
+    -   [ValuePHPJSError](./langref/exceptions/ValuePHPJSError.md) &mdash; Исключение
+        ValuePHPJSError
