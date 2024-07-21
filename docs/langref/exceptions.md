@@ -9,3 +9,4 @@
 ---
 
 -   [PHPJSError](./exceptions/PHPJSError.md)
+-   [TypePHPJSError](./exceptions/TypePHPJSError.md)

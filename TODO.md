@@ -4,7 +4,7 @@
 
     -   ~~PHPJSError~~
     -   ValuePHPJSError
-    -   TypePHPJSError
+    -   ~~TypePHPJSError~~
 
 -   Добавить в модуль contracts следующие интерфейсы:
 

@@ -27,3 +27,4 @@
 -   [Предопределённые исключения](./langref/exceptions.md)
 
     -   [PHPJSError](./langref/exceptions/PHPJSError.md) &mdash; Исключение PHPJSError
+    -   [TypePHPJSError](./langref/exceptions/TypePHPJSError.md) &mdash; Исключение TypePHPJSError
