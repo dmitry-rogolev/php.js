@@ -1,5 +1,6 @@
 import { test, expect } from '@jest/globals';
 import serialize from '../../src/variables/serialize.mjs';
+import { TypePHPJSError } from '../../src/exceptions.mjs';
 
 class stdClass {}
 
@@ -83,7 +84,7 @@ test('serialize', () => {
     expect(serialize(new SleepTest())).toBe('O:9:"SleepTest":1:{s:1:"a";s:4:"test";}');
 
     // php Fatal error: Uncaught Exception: Serialization of 'Closure' is not allowed
-    expect(() => serialize(() => {})).toThrow(TypeError);
+    expect(() => serialize(() => {})).toThrow(TypePHPJSError);
 
     // php string(2) "N;"
     expect(serialize(null)).toBe('N;');
@@ -97,6 +98,6 @@ test('serialize', () => {
     // js
     expect(serialize(undefined)).toBe('u;');
     expect(serialize(NaN)).toBe('NaN;');
-    expect(() => serialize(stdClass)).toThrow(TypeError);
-    expect(() => serialize(Symbol())).toThrow(TypeError);
+    expect(() => serialize(stdClass)).toThrow(TypePHPJSError);
+    expect(() => serialize(Symbol())).toThrow(TypePHPJSError);
 });

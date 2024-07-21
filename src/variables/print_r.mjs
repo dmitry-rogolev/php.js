@@ -1,3 +1,4 @@
+import { TypePHPJSError } from '../exceptions.mjs';
 import is_array from './is_array.mjs';
 import is_bool from './is_bool.mjs';
 import is_callable from './is_callable.mjs';
@@ -30,7 +31,7 @@ import strval from './strval.mjs';
  */
 export default function print_r(value, return_result = false) {
     if (!is_bool(return_result)) {
-        throw new TypeError('The "return_result" parameter must be of the "boolean" type.');
+        throw new TypePHPJSError('The "return_result" parameter must be of the "boolean" type.');
     }
 
     let result;

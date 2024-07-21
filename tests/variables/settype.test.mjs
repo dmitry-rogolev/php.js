@@ -1,6 +1,7 @@
 import { test, expect } from '@jest/globals';
 import settype from '../../src/variables/settype.mjs';
 import { stdClass } from '../../src/classes.mjs';
+import { TypePHPJSError } from '../../src/exceptions.mjs';
 
 /**
  * https://onlinephp.io?s=rdVBa8IwGMbxe6Hf4UWEKNjQFk868SCKA9m8jyGZxinEtDSJQ8a--9p1Drw9-O7WNP_y482heZiWhzKO4qh7ViZompCvgh7HkdPeX0rda98PSLwVhdHKin69qbeHgkRTjkjU67OqNrtwKn_rv2S9XG_mzyuS16cxTP2nkwJIyhIShEh4xjAHjGHOOykJnZVkTiKhUSRvFiEApNPhGc5XR_sOSW3K9FKISplKBikZU9kr4zQk_ZRMrfmLQFgT8qyXbED5K2C1Ic-CHJ5h9Qc5v5sZ5RygXVOWuQ9264-FpV6fPr8A9fYD3rzBGEBsMpbz-LQAmLri3U0Yk9zlfAM%2C&v=8.3.4
@@ -271,7 +272,7 @@ test('settype string', () => {
     expect(settype(new StrValTest(), 'string')).toBe('StrValTest');
 
     // php Fatal error: Uncaught Error: Object of class Closure could not be converted to string
-    expect(() => settype(() => {}, 'string')).toThrow(TypeError);
+    expect(() => settype(() => {}, 'string')).toThrow(TypePHPJSError);
 
     // php null: string(0) ""
     expect(settype(null, 'string')).toBe('');
@@ -285,8 +286,8 @@ test('settype string', () => {
     // js
     expect(settype(undefined, 'string')).toBe('');
     expect(settype(NaN, 'string')).toBe('NaN');
-    expect(() => settype(stdClass, 'string')).toThrow(TypeError);
-    expect(() => settype(Symbol(), 'string')).toThrow(TypeError);
+    expect(() => settype(stdClass, 'string')).toThrow(TypePHPJSError);
+    expect(() => settype(Symbol(), 'string')).toThrow(TypePHPJSError);
 });
 
 /**

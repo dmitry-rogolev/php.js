@@ -13,6 +13,8 @@
     -   [Throwable](./docs/langref/interfaces/base/Throwable.md) &mdash; Интерфейс Throwable
     -   [Stringable](./docs/langref/interfaces/base/Stringable.md) &mdash; Интерфейс Stringable
 
+-   Выбрасываемые ошибки в модуле `variables` заменены на внутренние ошибки `php.js`.
+
 # v0.0.1
 
 -   Добавлен модуль `variables` со следующими функциями:

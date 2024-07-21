@@ -1,3 +1,4 @@
+import { TypePHPJSError } from '../exceptions.mjs';
 import gettype from './gettype.mjs';
 import intval from './intval.mjs';
 import is_array from './is_array.mjs';
@@ -51,7 +52,7 @@ export default function serialize(value) {
                 props = value.__serialize();
 
                 if (!is_array(props) || props instanceof Array) {
-                    throw new TypeError(
+                    throw new TypePHPJSError(
                         'The "__serialize" method should return an associative array of key/value pairs that represent the serialized form of the object.',
                     );
                 }
@@ -59,7 +60,7 @@ export default function serialize(value) {
                 const keys = value.__sleep();
 
                 if (!is_array(keys) || !(keys instanceof Array)) {
-                    throw new TypeError(
+                    throw new TypePHPJSError(
                         'The "sleep" method should return an array with the names of all object variables that should be serialized.',
                     );
                 }
@@ -90,13 +91,13 @@ export default function serialize(value) {
             return `O:${className.length}:"${className}":${length}:{${carry}}`;
         },
         function: () => {
-            throw new TypeError('Serialization of function is not allowed');
+            throw new TypePHPJSError('Serialization of function is not allowed');
         },
         class: () => {
-            throw new TypeError('Serialization of class is not allowed');
+            throw new TypePHPJSError('Serialization of class is not allowed');
         },
         symbol: () => {
-            throw new TypeError('Serialization of symbol is not allowed');
+            throw new TypePHPJSError('Serialization of symbol is not allowed');
         },
         NULL: () => 'N;',
         undefined: () => 'u;',

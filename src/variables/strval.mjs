@@ -1,3 +1,4 @@
+import { TypePHPJSError } from '../exceptions.mjs';
 import is_array from './is_array.mjs';
 import is_bool from './is_bool.mjs';
 import is_callable from './is_callable.mjs';
@@ -15,15 +16,15 @@ import is_undefined from './is_undefined.mjs';
  */
 export default function strval(value) {
     if (is_callable(value)) {
-        throw new TypeError('Function could not be converted to string.');
+        throw new TypePHPJSError('Function could not be converted to string.');
     }
 
     if (is_class(value)) {
-        throw new TypeError('Class could not be converted to string.');
+        throw new TypePHPJSError('Class could not be converted to string.');
     }
 
     if (is_symbol(value)) {
-        throw new TypeError('Symbol could not be converted to string.');
+        throw new TypePHPJSError('Symbol could not be converted to string.');
     }
 
     if (is_null(value) || is_undefined(value)) {

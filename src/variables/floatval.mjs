@@ -23,5 +23,5 @@ export default function floatval(value) {
 
     const result = parseFloat(value);
 
-    return !Number.isNaN(result) ? result : 0;
+    return Number.isNaN(result) ? 0 : result;
 }

@@ -1,3 +1,4 @@
+import { TypePHPJSError } from '../exceptions.mjs';
 import is_array from './is_array.mjs';
 import is_bool from './is_bool.mjs';
 import is_callable from './is_callable.mjs';
@@ -37,7 +38,7 @@ function dump(value, level = 1) {
         const couples = is_callable(value.__debugInfo) ? value.__debugInfo() : { ...value };
 
         if (!is_array(couples) || couples instanceof Array) {
-            throw new TypeError(
+            throw new TypePHPJSError(
                 'The "debugInfo" method should return an associative array of object properties.',
             );
         }

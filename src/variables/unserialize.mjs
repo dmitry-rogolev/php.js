@@ -1,4 +1,5 @@
 import stdClass from '../classes/stdClass.mjs';
+import { TypePHPJSError } from '../exceptions.mjs';
 import floatval from './floatval.mjs';
 import intval from './intval.mjs';
 import is_array from './is_array.mjs';
@@ -213,11 +214,11 @@ function unserialize_object(value, options) {
  */
 export default function unserialize(value, options = { allowed_classes: true, max_depth: 4096 }) {
     if (!is_string(value)) {
-        throw new TypeError('The "value" parameter must be of the "string" type.');
+        throw new TypePHPJSError('The "value" parameter must be of the "string" type.');
     }
 
     if (!is_array(options) || options instanceof Array) {
-        throw new TypeError('The "options" parameter must be an associative array.');
+        throw new TypePHPJSError('The "options" parameter must be an associative array.');
     }
 
     if (/^b:[01];$/.test(value)) {

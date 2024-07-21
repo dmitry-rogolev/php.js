@@ -1,5 +1,6 @@
 import { test, expect } from '@jest/globals';
 import strval from '../../src/variables/strval.mjs';
+import { TypePHPJSError } from '../../src/exceptions.mjs';
 
 class stdClass {}
 
@@ -41,7 +42,7 @@ test('strval', () => {
     expect(strval(new StrValTest())).toBe('StrValTest');
 
     // php Fatal error: Uncaught Error: Object of class Closure could not be converted to string
-    expect(() => strval(() => {})).toThrow(TypeError);
+    expect(() => strval(() => {})).toThrow(TypePHPJSError);
 
     // php string(0) ""
     expect(strval(null)).toBe('');
@@ -55,6 +56,6 @@ test('strval', () => {
     // js
     expect(strval(undefined)).toBe('');
     expect(strval(NaN)).toBe('NaN');
-    expect(() => strval(stdClass)).toThrow(TypeError);
-    expect(() => strval(Symbol())).toThrow(TypeError);
+    expect(() => strval(stdClass)).toThrow(TypePHPJSError);
+    expect(() => strval(Symbol())).toThrow(TypePHPJSError);
 });
