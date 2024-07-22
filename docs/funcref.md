@@ -14,5 +14,6 @@
 
 -   [Модули для работы с переменными и типами](./funcref/vartype.md)
 
+    -   [Массивы](./funcref/vartype/array.md)
     -   [Внутренние функции](./funcref/vartype/other.md)
     -   [Обработка переменных](./funcref/vartype/var.md)

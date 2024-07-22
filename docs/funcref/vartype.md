@@ -9,6 +9,8 @@
 
 ---
 
+-   [Массивы](./vartype/array.md)
+
 -   [Внутренние функции](./vartype/other.md)
 
     -   [get_magic_proxy](./vartype/other/get_magic_proxy.md) &mdash; Добавляет экземпляру класса
