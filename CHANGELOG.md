@@ -1,6 +1,6 @@
 # v0.0.2
 
--   Добавлен модуль `exceptions` со следующими классами:
+-   Добавлен модуль [exceptions](./docs/langref/exceptions.md) со следующими классами:
 
     -   [PHPJSError](./docs/langref/exceptions/PHPJSError.md) &mdash; Исключение PHPJSError
     -   [TypePHPJSError](./docs/langref/exceptions/TypePHPJSError.md) &mdash; Исключение
@@ -8,14 +8,21 @@
     -   [ValuePHPJSError](./docs/langref/exceptions/ValuePHPJSError.md) &mdash; Исключение
         ValuePHPJSError
 
--   В модуль `contracts` добавлены следующие интерфейсы:
+-   В модуль [contracts](./docs/langref/interfaces.md) добавлены следующие интерфейсы:
 
     -   [Throwable](./docs/langref/interfaces/base/Throwable.md) &mdash; Интерфейс Throwable
     -   [Stringable](./docs/langref/interfaces/base/Stringable.md) &mdash; Интерфейс Stringable
 
--   Выбрасываемые ошибки в модуле `variables` заменены на внутренние ошибки `php.js`.
+-   Выбрасываемые ошибки в модуле [variables](./docs/funcref/vartype/var.md) заменены на внутренние
+    ошибки `php.js`.
 
--   Добавлен модуль `array/constants`, содержащий в себе перечень констант для модуля `array`.
+-   Добавлен модуль [array/constants](./docs/funcref/vartype/array/constants.md), содержащий в себе
+    перечень констант для модуля `array`.
+
+-   Добавлен модуль [array](./docs/funcref/vartype/array.md), содержащий следующие функции:
+
+    -   [array_is_list](./docs/funcref/vartype/array/func/array_is_list.md) &mdash; Проверяет,
+        является ли данный `array` списком
 
 # v0.0.1
 

@@ -10,3 +10,7 @@
 ---
 
 -   [Предопределённые константы](./array/constants.md)
+-   [Функции для работы с массивами](./array/func.md)
+
+    -   [array_is_list](./array/func/array_is_list.md) &mdash; Проверяет, является ли данный `array`
+        списком

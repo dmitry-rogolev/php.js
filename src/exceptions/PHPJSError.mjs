@@ -1,6 +1,5 @@
 import { Throwable } from '../contracts.mjs';
 import { is_int, is_null, is_string } from '../variables.mjs';
-import '../../node_modules/stacktrace-js/dist/stacktrace.js';
 import { stdClass } from '../classes.mjs';
 import StackTrace from 'stacktrace-js';
 

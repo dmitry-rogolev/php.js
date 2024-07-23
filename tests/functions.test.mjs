@@ -9,7 +9,7 @@ import {
     verify_implementation_of_contracts,
 } from '../src/functions.mjs';
 
-test('contracts', () => {
+test('functions', () => {
     expect(get_magic_proxy).not.toBeUndefined();
     expect(get_property_descriptor).not.toBeUndefined();
     expect(implementable).not.toBeUndefined();

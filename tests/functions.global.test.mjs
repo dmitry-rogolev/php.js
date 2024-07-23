@@ -1,7 +1,7 @@
 import { expect, test } from '@jest/globals';
 import '../src/functions.global.js';
 
-test('contracts', () => {
+test('functions.global', () => {
     expect(get_magic_proxy).not.toBeUndefined();
     expect(get_property_descriptor).not.toBeUndefined();
     expect(implementable).not.toBeUndefined();

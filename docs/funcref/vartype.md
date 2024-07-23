@@ -11,6 +11,9 @@
 
 -   [Массивы](./vartype/array.md)
 
+    -   [Предопределённые константы](./vartype/array/constants.md)
+    -   [Функции для работы с массивами](./vartype/array/func.md)
+
 -   [Внутренние функции](./vartype/other.md)
 
     -   [get_magic_proxy](./vartype/other/get_magic_proxy.md) &mdash; Добавляет экземпляру класса
