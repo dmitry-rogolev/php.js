@@ -14,6 +14,7 @@
 
     -   [array_change_key_case](./array/func/array_change_key_case.md) &mdash; Меняет регистр всех
         ключей в массиве
+    -   [array_chunk](./array/func/array_chunk.md) &mdash; Разбивает массив на части
     -   [array_combine](./array/func/array_combine.md) &mdash; Создаёт новый массив, используя один
         массив в качестве ключей, а другой для его значений
     -   [array_is_list](./array/func/array_is_list.md) &mdash; Проверяет, является ли данный `array`

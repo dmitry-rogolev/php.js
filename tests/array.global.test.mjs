@@ -7,4 +7,5 @@ test('array.global', () => {
     expect(array_keys).not.toBeUndefined();
     expect(array_values).not.toBeUndefined();
     expect(array_combine).not.toBeUndefined();
+    expect(array_chunk).not.toBeUndefined();
 });
