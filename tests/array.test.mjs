@@ -2,6 +2,7 @@ import { expect, test } from '@jest/globals';
 import {
     array_change_key_case,
     array_chunk,
+    array_column,
     array_combine,
     array_is_list,
     array_keys,
@@ -15,4 +16,5 @@ test('array', () => {
     expect(array_values).not.toBeUndefined();
     expect(array_combine).not.toBeUndefined();
     expect(array_chunk).not.toBeUndefined();
+    expect(array_column).not.toBeUndefined();
 });

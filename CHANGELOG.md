@@ -25,6 +25,8 @@
         Меняет регистр всех ключей в массиве
     -   [array_chunk](./docs/funcref/vartype/array/func/array_chunk.md) &mdash; Разбивает массив на
         части
+    -   [array_column](./docs/funcref/vartype/array/func/array_column.md) &mdash; Возвращает массив
+        из значений одного столбца входного массива
     -   [array_combine](./docs/funcref/vartype/array/func/array_combine.md) &mdash; Создаёт новый
         массив, используя один массив в качестве ключей, а другой для его значений
     -   [array_is_list](./docs/funcref/vartype/array/func/array_is_list.md) &mdash; Проверяет,
