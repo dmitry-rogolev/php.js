@@ -6,4 +6,5 @@ test('array.global', () => {
     expect(array_change_key_case).not.toBeUndefined();
     expect(array_keys).not.toBeUndefined();
     expect(array_values).not.toBeUndefined();
+    expect(array_combine).not.toBeUndefined();
 });
