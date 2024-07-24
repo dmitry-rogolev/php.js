@@ -27,6 +27,8 @@
         является ли данный `array` списком
     -   [array_keys](./docs/funcref/vartype/array/func/array_keys.md) &mdash; Возвращает все или
         некоторое подмножество ключей массива
+    -   [array_values](./docs/funcref/vartype/array/func/array_values.md) &mdash; Возвращает все
+        значения массива
 
 # v0.0.1
 

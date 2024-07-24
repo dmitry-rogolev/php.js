@@ -18,3 +18,4 @@
         списком
     -   [array_keys](./array/func/array_keys.md) &mdash; Возвращает все или некоторое подмножество
         ключей массива
+    -   [array_values](./array/func/array_values.md) &mdash; Возвращает все значения массива

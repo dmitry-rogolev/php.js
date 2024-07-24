@@ -15,3 +15,4 @@
 -   [array_is_list](./func/array_is_list.md) &mdash; Проверяет, является ли данный `array` списком
 -   [array_keys](./func/array_keys.md) &mdash; Возвращает все или некоторое подмножество ключей
     массива
+-   [array_values](./func/array_values.md) &mdash; Возвращает все значения массива
