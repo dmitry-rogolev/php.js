@@ -21,6 +21,8 @@
 
 -   Добавлен модуль [array](./docs/funcref/vartype/array.md), содержащий следующие функции:
 
+    -   [array_change_key_case](./docs/funcref/vartype/array/func/array_change_key_case.md) &mdash;
+        Меняет регистр всех ключей в массиве
     -   [array_is_list](./docs/funcref/vartype/array/func/array_is_list.md) &mdash; Проверяет,
         является ли данный `array` списком
 

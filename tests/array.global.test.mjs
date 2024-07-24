@@ -3,4 +3,5 @@ import './../src/array.global.js';
 
 test('array.global', () => {
     expect(array_is_list).not.toBeUndefined();
+    expect(array_change_key_case).not.toBeUndefined();
 });

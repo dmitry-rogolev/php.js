@@ -10,4 +10,6 @@
 
 ---
 
+-   [array_change_key_case](./func/array_change_key_case.md) &mdash; Меняет регистр всех ключей в
+    массиве
 -   [array_is_list](./func/array_is_list.md) &mdash; Проверяет, является ли данный `array` списком
