@@ -25,6 +25,8 @@
         Меняет регистр всех ключей в массиве
     -   [array_is_list](./docs/funcref/vartype/array/func/array_is_list.md) &mdash; Проверяет,
         является ли данный `array` списком
+    -   [array_keys](./docs/funcref/vartype/array/func/array_keys.md) &mdash; Возвращает все или
+        некоторое подмножество ключей массива
 
 # v0.0.1
 
