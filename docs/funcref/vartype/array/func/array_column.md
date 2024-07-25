@@ -7,7 +7,7 @@
 ### Описание
 
 ```ts
-array_column(array: Array|Object, column_key:number|string|null = null, index_key:number|string|null = null): Array|Object
+array_column(array: Array|Object, column_key:number|string|null, index_key:number|string|null = null): Array|Object
 ```
 
 Функция `array_column()` возвращает значения одного столбца массива (`array`), обозначенного ключом

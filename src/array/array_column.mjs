@@ -26,7 +26,7 @@ import array_values from './array_values.mjs';
  * @returns {Array|Object} Возвращает массив из значений одного столбца или свойства объекта входного массива.
  * @throws {TypePHPJSError}
  */
-export default function array_column(array, column_key = null, index_key = null) {
+export default function array_column(array, column_key, index_key = null) {
     if (!is_array(array)) {
         throw new TypePHPJSError('The "array" parameter must be an array.');
     }
@@ -37,10 +37,6 @@ export default function array_column(array, column_key = null, index_key = null)
 
     if (!is_null(index_key) && !is_string(index_key) && !is_int(index_key)) {
         throw new TypePHPJSError('The "index_key" parameter must be an integer or string key.');
-    }
-
-    if (is_null(column_key) && is_null(index_key)) {
-        return array;
     }
 
     // Если не передано имя для получения ключей, возвращаем список значений.
