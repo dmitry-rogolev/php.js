@@ -19,6 +19,7 @@
     качестве ключей, а другой для его значений
 -   [array_count_values](./func/array_count_values.md) &mdash; Подсчитывает количество вхождений
     каждого отдельного значения в массиве
+-   [array_fill](./func/array_fill.md) &mdash; Заполняет массив значениями
 -   [array_is_list](./func/array_is_list.md) &mdash; Проверяет, является ли данный `array` списком
 -   [array_keys](./func/array_keys.md) &mdash; Возвращает все или некоторое подмножество ключей
     массива

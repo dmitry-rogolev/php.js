@@ -6,3 +6,4 @@ export { default as array_combine } from './array/array_combine.mjs';
 export { default as array_chunk } from './array/array_chunk.mjs';
 export { default as array_column } from './array/array_column.mjs';
 export { default as array_count_values } from './array/array_count_values.mjs';
+export { default as array_fill } from './array/array_fill.mjs';
