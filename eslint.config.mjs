@@ -1369,7 +1369,7 @@ const eslintConfig = {
          *
          * @link https://eslint.org/docs/latest/rules/no-unused-expressions
          */
-        'no-unused-expressions': 'error',
+        'no-unused-expressions': 'off',
 
         /**
          * Запретить неиспользуемые ярлыки.

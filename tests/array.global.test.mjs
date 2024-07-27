@@ -9,4 +9,5 @@ test('array.global', () => {
     expect(array_combine).not.toBeUndefined();
     expect(array_chunk).not.toBeUndefined();
     expect(array_column).not.toBeUndefined();
+    expect(array_count_values).not.toBeUndefined();
 });
