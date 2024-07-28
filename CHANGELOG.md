@@ -33,6 +33,8 @@
         Подсчитывает количество вхождений каждого отдельного значения в массиве
     -   [array_fill](./docs/funcref/vartype/array/func/array_fill.md) &mdash; Заполняет массив
         значениями
+    -   [array_fill_keys](./docs/funcref/vartype/aarray/func/array_fill_keys.md) &mdash; Создаёт
+        массив и заполняет его значениями с определёнными ключами
     -   [array_is_list](./docs/funcref/vartype/array/func/array_is_list.md) &mdash; Проверяет,
         является ли данный `array` списком
     -   [array_keys](./docs/funcref/vartype/array/func/array_keys.md) &mdash; Возвращает все или

@@ -6,6 +6,7 @@ import {
     array_combine,
     array_count_values,
     array_fill,
+    array_fill_keys,
     array_is_list,
     array_keys,
     array_reduce,
@@ -25,4 +26,5 @@ test('array', () => {
     expect(array_fill).not.toBeUndefined();
     expect(array_reduce).not.toBeUndefined();
     expect(count).not.toBeUndefined();
+    expect(array_fill_keys).not.toBeUndefined();
 });
