@@ -37,6 +37,8 @@
         является ли данный `array` списком
     -   [array_keys](./docs/funcref/vartype/array/func/array_keys.md) &mdash; Возвращает все или
         некоторое подмножество ключей массива
+    -   [array_reduce](./docs/funcref/vartype/array/func/array_reduce.md) &mdash; Итеративно
+        уменьшает массив к единственному значению, используя callback-функцию
     -   [array_values](./docs/funcref/vartype/array/func/array_values.md) &mdash; Возвращает все
         значения массива
 

@@ -8,6 +8,7 @@ import {
     array_fill,
     array_is_list,
     array_keys,
+    array_reduce,
     array_values,
 } from '../src/array.mjs';
 
@@ -21,4 +22,5 @@ test('array', () => {
     expect(array_column).not.toBeUndefined();
     expect(array_count_values).not.toBeUndefined();
     expect(array_fill).not.toBeUndefined();
+    expect(array_reduce).not.toBeUndefined();
 });

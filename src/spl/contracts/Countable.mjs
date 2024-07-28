@@ -1,9 +1,7 @@
 import { Interface } from '../../contracts.mjs';
 
 /**
- * Классы, реализующие интерфейс Countable, могут быть использованы с функцией count().
- *
- * @link https://www.php.net/manual/ru/class.countable.php
+ * Классы, реализующие интерфейс `Countable`, могут быть использованы с функцией `count()`.
  */
 class Countable extends Interface {
     /**
