@@ -12,4 +12,5 @@ test('array.global', () => {
     expect(array_count_values).not.toBeUndefined();
     expect(array_fill).not.toBeUndefined();
     expect(array_reduce).not.toBeUndefined();
+    expect(count).not.toBeUndefined();
 });

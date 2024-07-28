@@ -41,6 +41,8 @@
         уменьшает массив к единственному значению, используя callback-функцию
     -   [array_values](./docs/funcref/vartype/array/func/array_values.md) &mdash; Возвращает все
         значения массива
+    -   [count](./docs/funcref/vartype/array/func/count.md) &mdash; Подсчитывает количество
+        элементов в массиве или в объекте `Countable`
 
 # v0.0.1
 

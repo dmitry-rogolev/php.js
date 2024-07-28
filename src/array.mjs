@@ -8,3 +8,4 @@ export { default as array_column } from './array/array_column.mjs';
 export { default as array_count_values } from './array/array_count_values.mjs';
 export { default as array_fill } from './array/array_fill.mjs';
 export { default as array_reduce } from './array/array_reduce.mjs';
+export { default as count } from './array/count.mjs';

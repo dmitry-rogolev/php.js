@@ -622,7 +622,7 @@ const eslintConfig = {
          *
          * @link https://eslint.org/docs/latest/rules/no-useless-assignment
          */
-        'no-useless-assignment': 'error',
+        'no-useless-assignment': 'off',
 
         /**
          * Запретить бесполезные обратные ссылки в регулярных выражениях.
@@ -1221,7 +1221,7 @@ const eslintConfig = {
          *
          * @link https://eslint.org/docs/latest/rules/no-param-reassign
          */
-        'no-param-reassign': 'error',
+        'no-param-reassign': 'off',
 
         /**
          * Запретить унарные операторы ++ и --.

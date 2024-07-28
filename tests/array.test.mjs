@@ -10,6 +10,7 @@ import {
     array_keys,
     array_reduce,
     array_values,
+    count,
 } from '../src/array.mjs';
 
 test('array', () => {
@@ -23,4 +24,5 @@ test('array', () => {
     expect(array_count_values).not.toBeUndefined();
     expect(array_fill).not.toBeUndefined();
     expect(array_reduce).not.toBeUndefined();
+    expect(count).not.toBeUndefined();
 });
