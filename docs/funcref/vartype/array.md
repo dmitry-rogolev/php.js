@@ -26,6 +26,8 @@
         значениями с определёнными ключами
     -   [array_filter](./array/func/array_filter.md) &mdash; Фильтрует элементы массива через
         callback-функцию
+    -   [array_flip](./array/func/array_flip.md) &mdash; Меняет местами ключи с их значениями в
+        массиве
     -   [array_is_list](./array/func/array_is_list.md) &mdash; Проверяет, является ли данный `array`
         списком
     -   [array_keys](./array/func/array_keys.md) &mdash; Возвращает все или некоторое подмножество

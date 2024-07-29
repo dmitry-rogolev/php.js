@@ -11,3 +11,4 @@ export { default as array_reduce } from './array/array_reduce.mjs';
 export { default as count } from './array/count.mjs';
 export { default as array_fill_keys } from './array/array_fill_keys.mjs';
 export { default as array_filter } from './array/array_filter.mjs';
+export { default as array_flip } from './array/array_flip.mjs';

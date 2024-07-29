@@ -37,6 +37,8 @@
         массив и заполняет его значениями с определёнными ключами
     -   [array_filter](./docs/funcref/vartype/array/func/array_filter.md) &mdash; Фильтрует элементы
         массива через callback-функцию
+    -   [array_flip](./docs/funcref/vartype/array/func/array_flip.md) &mdash; Меняет местами ключи с
+        их значениями в массиве
     -   [array_is_list](./docs/funcref/vartype/array/func/array_is_list.md) &mdash; Проверяет,
         является ли данный `array` списком
     -   [array_keys](./docs/funcref/vartype/array/func/array_keys.md) &mdash; Возвращает все или
