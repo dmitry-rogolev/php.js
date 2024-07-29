@@ -30,6 +30,8 @@
         массиве
     -   [array_is_list](./array/func/array_is_list.md) &mdash; Проверяет, является ли данный `array`
         списком
+    -   [array_key_exists](./array/func/array_key_exists.md) &mdash; Проверяет, существует ли в
+        массиве заданный ключ или индекс
     -   [array_keys](./array/func/array_keys.md) &mdash; Возвращает все или некоторое подмножество
         ключей массива
     -   [array_reduce](./array/func/array_reduce.md) &mdash; Итеративно уменьшает массив к
