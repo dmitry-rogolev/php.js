@@ -43,6 +43,8 @@
         является ли данный `array` списком
     -   [array_key_exists](./docs/funcref/vartype/array/func/array_key_exists.md) &mdash; Проверяет,
         существует ли в массиве заданный ключ или индекс
+    -   [array_key_first](./docs/funcref/vartype/array/func/array_key_first.md) &mdash; Получает
+        первый ключ массива
     -   [array_keys](./docs/funcref/vartype/array/func/array_keys.md) &mdash; Возвращает все или
         некоторое подмножество ключей массива
     -   [array_reduce](./docs/funcref/vartype/array/func/array_reduce.md) &mdash; Итеративно

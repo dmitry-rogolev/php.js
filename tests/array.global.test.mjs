@@ -17,4 +17,5 @@ test('array.global', () => {
     expect(array_filter).not.toBeUndefined();
     expect(array_flip).not.toBeUndefined();
     expect(array_key_exists).not.toBeUndefined();
+    expect(array_key_first).not.toBeUndefined();
 });

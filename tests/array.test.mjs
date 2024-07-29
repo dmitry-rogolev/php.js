@@ -11,6 +11,7 @@ import {
     array_flip,
     array_is_list,
     array_key_exists,
+    array_key_first,
     array_keys,
     array_reduce,
     array_values,
@@ -33,4 +34,5 @@ test('array', () => {
     expect(array_filter).not.toBeUndefined();
     expect(array_flip).not.toBeUndefined();
     expect(array_key_exists).not.toBeUndefined();
+    expect(array_key_first).not.toBeUndefined();
 });
