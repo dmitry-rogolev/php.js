@@ -28,6 +28,7 @@
 -   [array_key_exists](./func/array_key_exists.md) &mdash; Проверяет, существует ли в массиве
     заданный ключ или индекс
 -   [array_key_first](./func/array_key_first.md) &mdash; Получает первый ключ массива
+-   [array_key_last](./func/array_key_last.md) &mdash; Получает последний ключ массива
 -   [array_keys](./func/array_keys.md) &mdash; Возвращает все или некоторое подмножество ключей
     массива
 -   [array_reduce](./func/array_reduce.md) &mdash; Итеративно уменьшает массив к единственному

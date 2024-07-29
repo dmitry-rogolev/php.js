@@ -45,6 +45,8 @@
         существует ли в массиве заданный ключ или индекс
     -   [array_key_first](./docs/funcref/vartype/array/func/array_key_first.md) &mdash; Получает
         первый ключ массива
+    -   [array_key_last](./docs/funcref/vartype/array/func/array_key_last.md) &mdash; Получает
+        последний ключ массива
     -   [array_keys](./docs/funcref/vartype/array/func/array_keys.md) &mdash; Возвращает все или
         некоторое подмножество ключей массива
     -   [array_reduce](./docs/funcref/vartype/array/func/array_reduce.md) &mdash; Итеративно

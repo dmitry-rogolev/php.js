@@ -14,3 +14,4 @@ export { default as array_filter } from './array/array_filter.mjs';
 export { default as array_flip } from './array/array_flip.mjs';
 export { default as array_key_exists } from './array/array_key_exists.mjs';
 export { default as array_key_first } from './array/array_key_first.mjs';
+export { default as array_key_last } from './array/array_key_last.mjs';
