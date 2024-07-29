@@ -24,6 +24,8 @@
     -   [array_fill](./array/func/array_fill.md) &mdash; Заполняет массив значениями
     -   [array_fill_keys](./array/func/array_fill_keys.md) &mdash; Создаёт массив и заполняет его
         значениями с определёнными ключами
+    -   [array_filter](./array/func/array_filter.md) &mdash; Фильтрует элементы массива через
+        callback-функцию
     -   [array_is_list](./array/func/array_is_list.md) &mdash; Проверяет, является ли данный `array`
         списком
     -   [array_keys](./array/func/array_keys.md) &mdash; Возвращает все или некоторое подмножество

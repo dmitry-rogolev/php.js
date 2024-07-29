@@ -7,6 +7,7 @@ import {
     array_count_values,
     array_fill,
     array_fill_keys,
+    array_filter,
     array_is_list,
     array_keys,
     array_reduce,
@@ -27,4 +28,5 @@ test('array', () => {
     expect(array_reduce).not.toBeUndefined();
     expect(count).not.toBeUndefined();
     expect(array_fill_keys).not.toBeUndefined();
+    expect(array_filter).not.toBeUndefined();
 });
