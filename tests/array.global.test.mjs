@@ -19,4 +19,5 @@ test('array.global', () => {
     expect(array_key_exists).not.toBeUndefined();
     expect(array_key_first).not.toBeUndefined();
     expect(array_key_last).not.toBeUndefined();
+    expect(array_map).not.toBeUndefined();
 });

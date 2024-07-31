@@ -36,6 +36,8 @@
     -   [array_key_last](./array/func/array_key_last.md) &mdash; Получает последний ключ массива
     -   [array_keys](./array/func/array_keys.md) &mdash; Возвращает все или некоторое подмножество
         ключей массива
+    -   [array_map](./array/func/array_map.md) &mdash; Применяет callback-функцию ко всем элементам
+        указанных массивов
     -   [array_reduce](./array/func/array_reduce.md) &mdash; Итеративно уменьшает массив к
         единственному значению, используя callback-функцию
     -   [array_values](./array/func/array_values.md) &mdash; Возвращает все значения массива

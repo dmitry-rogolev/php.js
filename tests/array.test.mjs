@@ -14,6 +14,7 @@ import {
     array_key_first,
     array_key_last,
     array_keys,
+    array_map,
     array_reduce,
     array_values,
     count,
@@ -37,4 +38,5 @@ test('array', () => {
     expect(array_key_exists).not.toBeUndefined();
     expect(array_key_first).not.toBeUndefined();
     expect(array_key_last).not.toBeUndefined();
+    expect(array_map).not.toBeUndefined();
 });
