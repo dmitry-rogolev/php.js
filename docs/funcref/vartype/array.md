@@ -38,6 +38,7 @@
         ключей массива
     -   [array_map](./array/func/array_map.md) &mdash; Применяет callback-функцию ко всем элементам
         указанных массивов
+    -   [array_merge](./array/func/array_merge.md) &mdash; Сливает один или несколько массивов
     -   [array_reduce](./array/func/array_reduce.md) &mdash; Итеративно уменьшает массив к
         единственному значению, используя callback-функцию
     -   [array_values](./array/func/array_values.md) &mdash; Возвращает все значения массива

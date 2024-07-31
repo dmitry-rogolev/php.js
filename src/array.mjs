@@ -16,3 +16,4 @@ export { default as array_key_exists } from './array/array_key_exists.mjs';
 export { default as array_key_first } from './array/array_key_first.mjs';
 export { default as array_key_last } from './array/array_key_last.mjs';
 export { default as array_map } from './array/array_map.mjs';
+export { default as array_merge } from './array/array_merge.mjs';
