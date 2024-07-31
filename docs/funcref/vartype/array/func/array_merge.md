@@ -1,6 +1,6 @@
 # array_merge
 
-[Документация на php.net](https://www.php.net/manual/ru/function.array-values.php)
+[Документация на php.net](https://www.php.net/manual/ru/function.array-merge.php)
 
 ---
 

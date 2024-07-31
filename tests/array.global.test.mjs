@@ -21,4 +21,5 @@ test('array.global', () => {
     expect(array_key_last).not.toBeUndefined();
     expect(array_map).not.toBeUndefined();
     expect(array_merge).not.toBeUndefined();
+    expect(array_merge_recursive).not.toBeUndefined();
 });

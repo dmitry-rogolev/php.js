@@ -16,6 +16,7 @@ import {
     array_keys,
     array_map,
     array_merge,
+    array_merge_recursive,
     array_reduce,
     array_values,
     count,
@@ -41,4 +42,5 @@ test('array', () => {
     expect(array_key_last).not.toBeUndefined();
     expect(array_map).not.toBeUndefined();
     expect(array_merge).not.toBeUndefined();
+    expect(array_merge_recursive).not.toBeUndefined();
 });

@@ -53,6 +53,8 @@
         callback-функцию ко всем элементам указанных массивов
     -   [array_merge](./docs/funcref/vartype/array/func/array_merge.md) &mdash; Сливает один или
         несколько массивов
+    -   [array_merge_recursive](./docs/funcref/vartype/array/func/array_merge_recursive.md) &mdash;
+        Рекурсивно сливает один или несколько массивов
     -   [array_reduce](./docs/funcref/vartype/array/func/array_reduce.md) &mdash; Итеративно
         уменьшает массив к единственному значению, используя callback-функцию
     -   [array_values](./docs/funcref/vartype/array/func/array_values.md) &mdash; Возвращает все
