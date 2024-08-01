@@ -18,6 +18,7 @@ import {
     array_merge,
     array_merge_recursive,
     array_pad,
+    array_pop,
     array_reduce,
     array_values,
     count,
@@ -45,4 +46,5 @@ test('array', () => {
     expect(array_merge).not.toBeUndefined();
     expect(array_merge_recursive).not.toBeUndefined();
     expect(array_pad).not.toBeUndefined();
+    expect(array_pop).not.toBeUndefined();
 });

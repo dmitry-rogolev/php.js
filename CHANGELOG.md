@@ -57,6 +57,8 @@
         Рекурсивно сливает один или несколько массивов
     -   [array_pad](./docs/funcref/vartype/array/func/array_pad.md) &mdash; Дополняет массив
         значением до заданной длины
+    -   [array_pop](./docs/funcref/vartype/array/func/array_pop.md) &mdash; Извлекает последний
+        элемент массива
     -   [array_reduce](./docs/funcref/vartype/array/func/array_reduce.md) &mdash; Итеративно
         уменьшает массив к единственному значению, используя callback-функцию
     -   [array_values](./docs/funcref/vartype/array/func/array_values.md) &mdash; Возвращает все

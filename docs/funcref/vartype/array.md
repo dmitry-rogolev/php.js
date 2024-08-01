@@ -42,6 +42,7 @@
     -   [array_merge_recursive](./array/func/array_merge_recursive.md) &mdash; Рекурсивно сливает
         один или несколько массивов
     -   [array_pad](./array/func/array_pad.md) &mdash; Дополняет массив значением до заданной длины
+    -   [array_pop](./array/func/array_pop.md) &mdash; Извлекает последний элемент массива
     -   [array_reduce](./array/func/array_reduce.md) &mdash; Итеративно уменьшает массив к
         единственному значению, используя callback-функцию
     -   [array_values](./array/func/array_values.md) &mdash; Возвращает все значения массива
