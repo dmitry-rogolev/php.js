@@ -1,4 +1,4 @@
-# array_index_max
+# array_index_min
 
 > Это дополнительная функция, отсутствующая в PHP.
 
@@ -6,19 +6,19 @@
 
 [Главная](../../../../../README.md) / [Справочник функций](../../../../funcref.md) /
 [Модули для работы с переменными и типами](../../../vartype.md) / [Массивы](../../array.md) /
-[Дополнительные функции для работы с массивами](../other.md) / array_index_max
+[Дополнительные функции для работы с массивами](../other.md) / array_index_min
 
 ---
 
-`array_index_max` — Возвращает наибольший индекс массива.
+`array_index_min` — Возвращает наименьший индекс массива.
 
 ### Описание
 
 ```ts
-array_index_max(array: Array|Object): number|null;
+array_index_min(array: Array|Object): number|null;
 ```
 
-Возвращает наибольший индекс массива.
+Возвращает наименьший индекс массива.
 
 ### Список параметров
 
@@ -28,18 +28,18 @@ array_index_max(array: Array|Object): number|null;
 
 ### Возвращаемые значения
 
-Возвращает наибольший числовой индекс массива или `null` при его отсутствии.
+Возвращает наименьший индекс массива или `null` при его отсутствии.
 
 ### Примеры
 
-**Пример #1 Пример использования array_index_max()**
+**Пример #1 Пример использования array_index_min()**
 
 ```js
 const array = { foo: 'bar', 0: 5, '-3': 'bax', 4: 2, be: 'happy' };
-const max_index = array_index_max(array);
+const max_index = array_index_min(array);
 print_r(max_index);
 ```
 
 Результат выполнения приведённого примера:
 
-    4
+    -3

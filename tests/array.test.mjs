@@ -10,6 +10,7 @@ import {
     array_filter,
     array_flip,
     array_index_max,
+    array_index_min,
     array_is_list,
     array_key_exists,
     array_key_first,
@@ -51,4 +52,5 @@ test('array', () => {
     expect(array_pop).not.toBeUndefined();
     expect(array_product).not.toBeUndefined();
     expect(array_index_max).not.toBeUndefined();
+    expect(array_index_min).not.toBeUndefined();
 });

@@ -69,6 +69,8 @@
         элементов в массиве или в объекте `Countable`
     -   [array_index_max](./docs/funcref/vartype/array/other/array_index_max.md) &mdash; Возвращает
         наибольший числовой индекс массива.
+    -   [array_index_min](./docs/funcref/vartype/array/other/array_index_min.md) &mdash; Возвращает
+        наименьший числовой индекс массива.
 
 # v0.0.1
 

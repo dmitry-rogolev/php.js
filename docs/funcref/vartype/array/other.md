@@ -10,3 +10,5 @@
 
 -   [array_index_max](./other/array_index_max.md) &mdash; Возвращает наибольший числовой индекс
     массива.
+-   [array_index_min](./other/array_index_min.md) &mdash; Возвращает наименьший числовой индекс
+    массива.
