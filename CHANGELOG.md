@@ -67,6 +67,8 @@
         значения массива
     -   [count](./docs/funcref/vartype/array/func/count.md) &mdash; Подсчитывает количество
         элементов в массиве или в объекте `Countable`
+    -   [array_index_max](./docs/funcref/vartype/array/other/array_index_max.md) &mdash; Возвращает
+        наибольший числовой индекс массива.
 
 # v0.0.1
 

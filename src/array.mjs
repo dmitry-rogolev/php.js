@@ -21,3 +21,4 @@ export { default as array_merge_recursive } from './array/array_merge_recursive.
 export { default as array_pad } from './array/array_pad.mjs';
 export { default as array_pop } from './array/array_pop.mjs';
 export { default as array_product } from './array/array_product.mjs';
+export { default as array_index_max } from './array/array_index_max.mjs';

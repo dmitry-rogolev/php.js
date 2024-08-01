@@ -50,3 +50,8 @@
     -   [array_values](./array/func/array_values.md) &mdash; Возвращает все значения массива
     -   [count](./array/func/count.md) &mdash; Подсчитывает количество элементов в массиве или в
         объекте `Countable`
+
+-   [Дополнительные функции для работы с массивами](./array/other.md)
+
+    -   [array_index_max](./array/other/array_index_max.md) &mdash; Возвращает наибольший числовой
+        индекс массива.
