@@ -22,6 +22,7 @@ import {
     array_pad,
     array_pop,
     array_product,
+    array_push,
     array_reduce,
     array_values,
     count,
@@ -53,4 +54,5 @@ test('array', () => {
     expect(array_product).not.toBeUndefined();
     expect(array_index_max).not.toBeUndefined();
     expect(array_index_min).not.toBeUndefined();
+    expect(array_push).not.toBeUndefined();
 });

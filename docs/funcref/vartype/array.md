@@ -45,6 +45,8 @@
     -   [array_pop](./array/func/array_pop.md) &mdash; Извлекает последний элемент массива
     -   [array_product](./array/func/array_product.md) &mdash; Вычисляет произведение значений
         массива
+    -   [array_push](./array/func/array_push.md) &mdash; Добавляет один или несколько элементов в
+        конец массива
     -   [array_reduce](./array/func/array_reduce.md) &mdash; Итеративно уменьшает массив к
         единственному значению, используя callback-функцию
     -   [array_values](./array/func/array_values.md) &mdash; Возвращает все значения массива
