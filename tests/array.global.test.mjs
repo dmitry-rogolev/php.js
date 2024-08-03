@@ -33,4 +33,5 @@ test('array.global', () => {
     expect(array_replace_recursive).not.toBeUndefined();
     expect(array_reverse).not.toBeUndefined();
     expect(array_search).not.toBeUndefined();
+    expect(array_shift).not.toBeUndefined();
 });

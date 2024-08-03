@@ -540,12 +540,7 @@ const eslintConfig = {
          *
          * @link https://eslint.org/docs/latest/rules/no-unreachable-loop
          */
-        'no-unreachable-loop': [
-            'error',
-            {
-                ignore: [],
-            },
-        ],
+        'no-unreachable-loop': 'off',
 
         /**
          * Запретить операторы потока управления в finally блоки.

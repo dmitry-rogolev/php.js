@@ -75,6 +75,8 @@
         массив с элементами в обратном порядке
     -   [array_search](./docs/funcref/vartype/array/func/array_search.md) &mdash; Ищет значение в
         массиве и в случае успешного поиска возвращает ключ первого найденного элемента
+    -   [array_shift](./docs/funcref/vartype/array/func/array_shift.md) &mdash; Извлекает первый
+        элемент массива
     -   [array_values](./docs/funcref/vartype/array/func/array_values.md) &mdash; Возвращает все
         значения массива
     -   [count](./docs/funcref/vartype/array/func/count.md) &mdash; Подсчитывает количество
