@@ -57,6 +57,8 @@
         заменяет элементы первого массива элементами переданных массивов
     -   [array_reverse](./array/func/array_reverse.md) &mdash; Возвращает массив с элементами в
         обратном порядке
+    -   [array_search](./array/func/array_search.md) &mdash; Ищет значение в массиве и в случае
+        успешного поиска возвращает ключ первого найденного элемента
     -   [array_values](./array/func/array_values.md) &mdash; Возвращает все значения массива
     -   [count](./array/func/count.md) &mdash; Подсчитывает количество элементов в массиве или в
         объекте `Countable`

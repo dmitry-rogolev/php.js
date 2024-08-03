@@ -28,3 +28,4 @@ export { default as array_rand } from './array/array_rand.mjs';
 export { default as array_replace } from './array/array_replace.mjs';
 export { default as array_replace_recursive } from './array/array_replace_recursive.mjs';
 export { default as array_reverse } from './array/array_reverse.mjs';
+export { default as array_search } from './array/array_search.mjs';

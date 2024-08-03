@@ -28,6 +28,7 @@ import {
     array_replace,
     array_replace_recursive,
     array_reverse,
+    array_search,
     array_values,
     count,
 } from '../src/array.mjs';
@@ -63,4 +64,5 @@ test('array', () => {
     expect(array_replace).not.toBeUndefined();
     expect(array_replace_recursive).not.toBeUndefined();
     expect(array_reverse).not.toBeUndefined();
+    expect(array_search).not.toBeUndefined();
 });
