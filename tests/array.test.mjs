@@ -25,6 +25,7 @@ import {
     array_push,
     array_rand,
     array_reduce,
+    array_replace,
     array_values,
     count,
 } from '../src/array.mjs';
@@ -57,4 +58,5 @@ test('array', () => {
     expect(array_index_min).not.toBeUndefined();
     expect(array_push).not.toBeUndefined();
     expect(array_rand).not.toBeUndefined();
+    expect(array_replace).not.toBeUndefined();
 });
