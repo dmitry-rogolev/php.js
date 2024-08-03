@@ -30,4 +30,5 @@ test('array.global', () => {
     expect(array_push).not.toBeUndefined();
     expect(array_rand).not.toBeUndefined();
     expect(array_replace).not.toBeUndefined();
+    expect(array_replace_recursive).not.toBeUndefined();
 });

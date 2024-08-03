@@ -47,6 +47,8 @@
     значению, используя callback-функцию
 -   [array_replace](./func/array_replace.md) &mdash; Заменяет элементы массива элементами других
     переданных массивов
+-   [array_replace_recursive](./func/array_replace_recursive.md) &mdash; Рекурсивно заменяет
+    элементы первого массива элементами переданных массивов
 -   [array_values](./func/array_values.md) &mdash; Возвращает все значения массива
 -   [count](./func/count.md) &mdash; Подсчитывает количество элементов в массиве или в объекте
     `Countable`
