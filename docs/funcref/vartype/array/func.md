@@ -49,6 +49,8 @@
     переданных массивов
 -   [array_replace_recursive](./func/array_replace_recursive.md) &mdash; Рекурсивно заменяет
     элементы первого массива элементами переданных массивов
+-   [array_reverse](./func/array_reverse.md) &mdash; Возвращает массив с элементами в обратном
+    порядке
 -   [array_values](./func/array_values.md) &mdash; Возвращает все значения массива
 -   [count](./func/count.md) &mdash; Подсчитывает количество элементов в массиве или в объекте
     `Countable`

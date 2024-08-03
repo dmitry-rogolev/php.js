@@ -71,6 +71,8 @@
         элементы массива элементами других переданных массивов
     -   [array_replace_recursive](./docs/funcref/vartype/array/func/array_replace_recursive.md)
         &mdash; Рекурсивно заменяет элементы первого массива элементами переданных массивов
+    -   [array_reverse](./docs/funcref/vartype/array/func/array_reverse.md) &mdash; Возвращает
+        массив с элементами в обратном порядке
     -   [array_values](./docs/funcref/vartype/array/func/array_values.md) &mdash; Возвращает все
         значения массива
     -   [count](./docs/funcref/vartype/array/func/count.md) &mdash; Подсчитывает количество
