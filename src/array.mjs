@@ -24,3 +24,4 @@ export { default as array_product } from './array/array_product.mjs';
 export { default as array_index_max } from './array/array_index_max.mjs';
 export { default as array_index_min } from './array/array_index_min.mjs';
 export { default as array_push } from './array/array_push.mjs';
+export { default as array_rand } from './array/array_rand.mjs';

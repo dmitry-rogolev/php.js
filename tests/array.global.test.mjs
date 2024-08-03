@@ -28,4 +28,5 @@ test('array.global', () => {
     expect(array_index_max).not.toBeUndefined();
     expect(array_index_min).not.toBeUndefined();
     expect(array_push).not.toBeUndefined();
+    expect(array_rand).not.toBeUndefined();
 });

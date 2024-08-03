@@ -63,6 +63,8 @@
         произведение значений массива
     -   [array_push](./docs/funcref/vartype/array/func/array_push.md) &mdash; Добавляет один или
         несколько элементов в конец массива
+    -   [array_rand](./docs/funcref/vartype/array/func/array_rand.md) &mdash; Выбирает один или
+        несколько случайных ключей из массива
     -   [array_reduce](./docs/funcref/vartype/array/func/array_reduce.md) &mdash; Итеративно
         уменьшает массив к единственному значению, используя callback-функцию
     -   [array_values](./docs/funcref/vartype/array/func/array_values.md) &mdash; Возвращает все
