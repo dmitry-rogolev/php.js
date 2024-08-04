@@ -85,6 +85,8 @@
         наибольший числовой индекс массива.
     -   [array_index_min](./docs/funcref/vartype/array/other/array_index_min.md) &mdash; Возвращает
         наименьший числовой индекс массива.
+    -   [array_reindex](./docs/funcref/vartype/array/other/array_reindex.md) &mdash; Переиндексирует
+        переданный массив.
 
 # v0.0.1
 

@@ -70,3 +70,4 @@
         индекс массива.
     -   [array_index_min](./array/other/array_index_min.md) &mdash; Возвращает наименьший числовой
         индекс массива.
+    -   [array_reindex](./array/other/array_reindex.md) &mdash; Переиндексирует переданный массив.

@@ -12,3 +12,4 @@
     массива.
 -   [array_index_min](./other/array_index_min.md) &mdash; Возвращает наименьший числовой индекс
     массива.
+-   [array_reindex](./other/array_reindex.md) &mdash; Переиндексирует переданный массив.

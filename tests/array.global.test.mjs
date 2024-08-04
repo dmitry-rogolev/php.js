@@ -34,4 +34,5 @@ test('array.global', () => {
     expect(array_reverse).not.toBeUndefined();
     expect(array_search).not.toBeUndefined();
     expect(array_shift).not.toBeUndefined();
+    expect(array_reindex).not.toBeUndefined();
 });
