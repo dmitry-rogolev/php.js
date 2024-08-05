@@ -77,6 +77,8 @@
         массиве и в случае успешного поиска возвращает ключ первого найденного элемента
     -   [array_shift](./docs/funcref/vartype/array/func/array_shift.md) &mdash; Извлекает первый
         элемент массива
+    -   [array_slice](./docs/funcref/vartype/array/func/array_slice.md) &mdash; Выбирает срез
+        массива
     -   [array_values](./docs/funcref/vartype/array/func/array_values.md) &mdash; Возвращает все
         значения массива
     -   [count](./docs/funcref/vartype/array/func/count.md) &mdash; Подсчитывает количество

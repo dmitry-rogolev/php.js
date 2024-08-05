@@ -35,4 +35,5 @@ test('array.global', () => {
     expect(array_search).not.toBeUndefined();
     expect(array_shift).not.toBeUndefined();
     expect(array_reindex).not.toBeUndefined();
+    expect(array_slice).not.toBeUndefined();
 });

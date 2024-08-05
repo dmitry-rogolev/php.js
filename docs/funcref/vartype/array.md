@@ -60,6 +60,7 @@
     -   [array_search](./array/func/array_search.md) &mdash; Ищет значение в массиве и в случае
         успешного поиска возвращает ключ первого найденного элемента
     -   [array_shift](./array/func/array_shift.md) &mdash; Извлекает первый элемент массива
+    -   [array_slice](./array/func/array_slice.md) &mdash; Выбирает срез массива
     -   [array_values](./array/func/array_values.md) &mdash; Возвращает все значения массива
     -   [count](./array/func/count.md) &mdash; Подсчитывает количество элементов в массиве или в
         объекте `Countable`

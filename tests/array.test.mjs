@@ -31,6 +31,7 @@ import {
     array_reverse,
     array_search,
     array_shift,
+    array_slice,
     array_values,
     count,
 } from '../src/array.mjs';
@@ -69,4 +70,5 @@ test('array', () => {
     expect(array_search).not.toBeUndefined();
     expect(array_shift).not.toBeUndefined();
     expect(array_reindex).not.toBeUndefined();
+    expect(array_slice).not.toBeUndefined();
 });
