@@ -76,6 +76,7 @@
     -   [count](./array/func/count.md) &mdash; Подсчитывает количество элементов в массиве или в
         объекте `Countable`
     -   [in_array](./array/func/in_array.md) &mdash; Проверяет, присутствует ли в массиве значение
+    -   [key_exists](./array/func/key_exists.md) &mdash; Псевдоним `array_key_exists`
 
 -   [Дополнительные функции для работы с массивами](./array/other.md)
 

@@ -39,3 +39,4 @@ export { default as array_unshift } from './array/array_unshift.mjs';
 export { default as array_walk } from './array/array_walk.mjs';
 export { default as array_walk_recursive } from './array/array_walk_recursive.mjs';
 export { default as in_array } from './array/in_array.mjs';
+export { default as key_exists } from './array/key_exists.mjs';

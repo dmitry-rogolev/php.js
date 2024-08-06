@@ -97,6 +97,8 @@
         элементов в массиве или в объекте `Countable`
     -   [in_array](./docs/funcref/vartype/array/func/in_array.md) &mdash; Проверяет, присутствует ли
         в массиве значение
+    -   [key_exists](./docs/funcref/vartype/array/func/key_exists.md) &mdash; Псевдоним
+        `array_key_exists`
     -   [array_index_max](./docs/funcref/vartype/array/other/array_index_max.md) &mdash; Возвращает
         наибольший числовой индекс массива.
     -   [array_index_min](./docs/funcref/vartype/array/other/array_index_min.md) &mdash; Возвращает
