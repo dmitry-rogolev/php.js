@@ -89,6 +89,8 @@
         или несколько элементов в начало массива
     -   [array_values](./docs/funcref/vartype/array/func/array_values.md) &mdash; Возвращает все
         значения массива
+    -   [array_walk](./docs/funcref/vartype/array/func/array_walk.md) &mdash; Применяет
+        пользовательскую функцию к каждому элементу массива
     -   [count](./docs/funcref/vartype/array/func/count.md) &mdash; Подсчитывает количество
         элементов в массиве или в объекте `Countable`
     -   [array_index_max](./docs/funcref/vartype/array/other/array_index_max.md) &mdash; Возвращает

@@ -37,6 +37,7 @@ import {
     array_unique,
     array_unshift,
     array_values,
+    array_walk,
     count,
 } from '../src/array.mjs';
 
@@ -79,4 +80,5 @@ test('array', () => {
     expect(array_sum).not.toBeUndefined();
     expect(array_unique).not.toBeUndefined();
     expect(array_unshift).not.toBeUndefined();
+    expect(array_walk).not.toBeUndefined();
 });

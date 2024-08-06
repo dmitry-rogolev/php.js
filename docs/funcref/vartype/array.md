@@ -69,6 +69,8 @@
     -   [array_unshift](./array/func/array_unshift.md) &mdash; Добавляет один или несколько
         элементов в начало массива
     -   [array_values](./array/func/array_values.md) &mdash; Возвращает все значения массива
+    -   [array_walk](./array/func/array_walk.md) &mdash; Применяет пользовательскую функцию к
+        каждому элементу массива
     -   [count](./array/func/count.md) &mdash; Подсчитывает количество элементов в массиве или в
         объекте `Countable`
 
