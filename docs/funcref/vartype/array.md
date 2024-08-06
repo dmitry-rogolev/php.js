@@ -71,6 +71,8 @@
     -   [array_values](./array/func/array_values.md) &mdash; Возвращает все значения массива
     -   [array_walk](./array/func/array_walk.md) &mdash; Применяет пользовательскую функцию к
         каждому элементу массива
+    -   [array_walk_recursive](./array/func/array_walk_recursive.md) &mdash; Рекурсивно применяет
+        пользовательскую функцию к каждому элементу массива
     -   [count](./array/func/count.md) &mdash; Подсчитывает количество элементов в массиве или в
         объекте `Countable`
 

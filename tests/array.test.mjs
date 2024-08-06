@@ -38,6 +38,7 @@ import {
     array_unshift,
     array_values,
     array_walk,
+    array_walk_recursive,
     count,
 } from '../src/array.mjs';
 
@@ -81,4 +82,5 @@ test('array', () => {
     expect(array_unique).not.toBeUndefined();
     expect(array_unshift).not.toBeUndefined();
     expect(array_walk).not.toBeUndefined();
+    expect(array_walk_recursive).not.toBeUndefined();
 });
