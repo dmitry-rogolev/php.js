@@ -79,6 +79,8 @@
         элемент массива
     -   [array_slice](./docs/funcref/vartype/array/func/array_slice.md) &mdash; Выбирает срез
         массива
+    -   [array_splice](./docs/funcref/vartype/array/func/array_splice.md) &mdash; Удаляет часть
+        массива и заменяет её чем-нибудь ещё
     -   [array_values](./docs/funcref/vartype/array/func/array_values.md) &mdash; Возвращает все
         значения массива
     -   [count](./docs/funcref/vartype/array/func/count.md) &mdash; Подсчитывает количество

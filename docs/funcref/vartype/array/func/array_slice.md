@@ -15,7 +15,7 @@
 ### Описание
 
 ```ts
-array_slice(array: Array|Object, offset: Number, length: Number|null = null, preserve_keys: boolean = false);
+array_slice(array: Array|Object, offset: Number, length: Number|null = null, preserve_keys: boolean = false): Array|Object;
 ```
 
 `array_slice()` возвращает последовательность элементов массива `array`, определённую параметрами
