@@ -42,4 +42,5 @@ test('array.global', () => {
     expect(array_unshift).not.toBeUndefined();
     expect(array_walk).not.toBeUndefined();
     expect(array_walk_recursive).not.toBeUndefined();
+    expect(in_array).not.toBeUndefined();
 });
