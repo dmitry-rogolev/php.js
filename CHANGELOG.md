@@ -83,6 +83,8 @@
         массива и заменяет её чем-нибудь ещё
     -   [array_sum](./docs/funcref/vartype/array/func/array_sum.md) &mdash; Вычисляет сумму значений
         массива
+    -   [array_unique](./docs/funcref/vartype/array/func/array_unique.md) &mdash; Убирает
+        повторяющиеся значения из массива
     -   [array_values](./docs/funcref/vartype/array/func/array_values.md) &mdash; Возвращает все
         значения массива
     -   [count](./docs/funcref/vartype/array/func/count.md) &mdash; Подсчитывает количество

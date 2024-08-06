@@ -58,6 +58,7 @@
 -   [array_splice](./func/array_splice.md) &mdash; Удаляет часть массива и заменяет её чем-нибудь
     ещё
 -   [array_sum](./func/array_sum.md) &mdash; Вычисляет сумму значений массива
+-   [array_unique](./func/array_unique.md) &mdash; Убирает повторяющиеся значения из массива
 -   [array_values](./func/array_values.md) &mdash; Возвращает все значения массива
 -   [count](./func/count.md) &mdash; Подсчитывает количество элементов в массиве или в объекте
     `Countable`
