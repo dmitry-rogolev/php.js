@@ -45,4 +45,5 @@ test('array.global', () => {
     expect(in_array).not.toBeUndefined();
     expect(key_exists).not.toBeUndefined();
     expect(range).not.toBeUndefined();
+    expect(shuffle).not.toBeUndefined();
 });

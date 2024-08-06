@@ -78,6 +78,7 @@
     -   [in_array](./array/func/in_array.md) &mdash; Проверяет, присутствует ли в массиве значение
     -   [key_exists](./array/func/key_exists.md) &mdash; Псевдоним `array_key_exists`
     -   [range](./array/func/range.md) &mdash; Создаёт массив, который содержит диапазон элементов
+    -   [shuffle](./array/func/shuffle.md) &mdash; Перемешивает массив
 
 -   [Дополнительные функции для работы с массивами](./array/other.md)
 
