@@ -99,6 +99,8 @@
         в массиве значение
     -   [key_exists](./docs/funcref/vartype/array/func/key_exists.md) &mdash; Псевдоним
         `array_key_exists`
+    -   [range](./docs/funcref/vartype/array/func/range.md) &mdash; Создаёт массив, который содержит
+        диапазон элементов
     -   [array_index_max](./docs/funcref/vartype/array/other/array_index_max.md) &mdash; Возвращает
         наибольший числовой индекс массива.
     -   [array_index_min](./docs/funcref/vartype/array/other/array_index_min.md) &mdash; Возвращает

@@ -42,6 +42,7 @@ import {
     count,
     in_array,
     key_exists,
+    range,
 } from '../src/array.mjs';
 
 test('array', () => {
@@ -87,4 +88,5 @@ test('array', () => {
     expect(array_walk_recursive).not.toBeUndefined();
     expect(in_array).not.toBeUndefined();
     expect(key_exists).not.toBeUndefined();
+    expect(range).not.toBeUndefined();
 });

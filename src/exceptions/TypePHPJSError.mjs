@@ -7,6 +7,8 @@ import PHPJSError from './PHPJSError.mjs';
  * - Тип аргумента, который передали в функцию, не соответствует типу, который для этого аргумента объявили в функции.
  * - Тип значения, которое вернула функция, не соответствует типу возврата, который объявили в функции.
  */
-class TypePHPJSError extends PHPJSError {}
+class TypePHPJSError extends PHPJSError {
+    name = 'TypePHPJSError';
+}
 
 export default TypePHPJSError;
