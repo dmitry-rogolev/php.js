@@ -35,6 +35,7 @@ import {
     array_splice,
     array_sum,
     array_unique,
+    array_unshift,
     array_values,
     count,
 } from '../src/array.mjs';
@@ -77,4 +78,5 @@ test('array', () => {
     expect(array_splice).not.toBeUndefined();
     expect(array_sum).not.toBeUndefined();
     expect(array_unique).not.toBeUndefined();
+    expect(array_unshift).not.toBeUndefined();
 });

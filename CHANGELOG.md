@@ -85,6 +85,8 @@
         массива
     -   [array_unique](./docs/funcref/vartype/array/func/array_unique.md) &mdash; Убирает
         повторяющиеся значения из массива
+    -   [array_unshift](./docs/funcref/vartype/array/func/array_unshift.md) &mdash; Добавляет один
+        или несколько элементов в начало массива
     -   [array_values](./docs/funcref/vartype/array/func/array_values.md) &mdash; Возвращает все
         значения массива
     -   [count](./docs/funcref/vartype/array/func/count.md) &mdash; Подсчитывает количество

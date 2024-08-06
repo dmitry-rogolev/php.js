@@ -35,3 +35,4 @@ export { default as array_slice } from './array/array_slice.mjs';
 export { default as array_splice } from './array/array_splice.mjs';
 export { default as array_sum } from './array/array_sum.mjs';
 export { default as array_unique } from './array/array_unique.mjs';
+export { default as array_unshift } from './array/array_unshift.mjs';

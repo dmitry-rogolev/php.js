@@ -39,4 +39,5 @@ test('array.global', () => {
     expect(array_splice).not.toBeUndefined();
     expect(array_sum).not.toBeUndefined();
     expect(array_unique).not.toBeUndefined();
+    expect(array_unshift).not.toBeUndefined();
 });
