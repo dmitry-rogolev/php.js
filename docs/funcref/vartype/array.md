@@ -79,6 +79,7 @@
     -   [key_exists](./array/func/key_exists.md) &mdash; Псевдоним `array_key_exists`
     -   [range](./array/func/range.md) &mdash; Создаёт массив, который содержит диапазон элементов
     -   [shuffle](./array/func/shuffle.md) &mdash; Перемешивает массив
+    -   [sizeof](./array/func/sizeof.md) &mdash; Псевдоним `count`
 
 -   [Дополнительные функции для работы с массивами](./array/other.md)
 

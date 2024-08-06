@@ -44,6 +44,7 @@ import {
     key_exists,
     range,
     shuffle,
+    sizeof,
 } from '../src/array.mjs';
 
 test('array', () => {
@@ -91,4 +92,5 @@ test('array', () => {
     expect(key_exists).not.toBeUndefined();
     expect(range).not.toBeUndefined();
     expect(shuffle).not.toBeUndefined();
+    expect(sizeof).not.toBeUndefined();
 });

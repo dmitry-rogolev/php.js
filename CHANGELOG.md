@@ -102,6 +102,7 @@
     -   [range](./docs/funcref/vartype/array/func/range.md) &mdash; Создаёт массив, который содержит
         диапазон элементов
     -   [shuffle](./docs/funcref/vartype/array/func/shuffle.md) &mdash; Перемешивает массив
+    -   [sizeof](./docs/funcref/vartype/array/func/sizeof.md) &mdash; Псевдоним `count`
     -   [array_index_max](./docs/funcref/vartype/array/other/array_index_max.md) &mdash; Возвращает
         наибольший числовой индекс массива.
     -   [array_index_min](./docs/funcref/vartype/array/other/array_index_min.md) &mdash; Возвращает

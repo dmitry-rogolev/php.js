@@ -42,3 +42,4 @@ export { default as in_array } from './array/in_array.mjs';
 export { default as key_exists } from './array/key_exists.mjs';
 export { default as range } from './array/range.mjs';
 export { default as shuffle } from './array/shuffle.mjs';
+export { default as sizeof } from './array/sizeof.mjs';
