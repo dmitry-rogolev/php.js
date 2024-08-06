@@ -33,3 +33,4 @@ export { default as array_shift } from './array/array_shift.mjs';
 export { default as array_reindex } from './array/array_reindex.mjs';
 export { default as array_slice } from './array/array_slice.mjs';
 export { default as array_splice } from './array/array_splice.mjs';
+export { default as array_sum } from './array/array_sum.mjs';

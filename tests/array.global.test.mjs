@@ -37,4 +37,5 @@ test('array.global', () => {
     expect(array_reindex).not.toBeUndefined();
     expect(array_slice).not.toBeUndefined();
     expect(array_splice).not.toBeUndefined();
+    expect(array_sum).not.toBeUndefined();
 });
