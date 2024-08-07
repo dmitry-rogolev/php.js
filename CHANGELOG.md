@@ -35,6 +35,8 @@
         массивов
     -   [array_diff_assoc](./docs/funcref/vartype/array/func/array_diff_assoc.md) &mdash; Вычисляет
         расхождение массивов с дополнительной проверкой индекса
+    -   [array_diff_key](./docs/funcref/vartype/array/func/array_diff_key.md) &mdash; Вычисляет
+        расхождение массивов, сравнивая ключи
     -   [array_diff_uassoc](./docs/funcref/vartype/array/func/array_diff_uassoc.md) &mdash;
         Вычисляет расхождение массивов с дополнительной проверкой индекса через пользовательскую
         callback-функцию

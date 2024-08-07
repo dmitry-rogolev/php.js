@@ -22,6 +22,8 @@
 -   [array_diff](./func/array_diff.md) &mdash; Вычисляет расхождение массивов
 -   [array_diff_assoc](./func/array_diff_assoc.md) &mdash; Вычисляет расхождение массивов с
     дополнительной проверкой индекса
+-   [array_diff_key](./func/array_diff_key.md) &mdash; Вычисляет расхождение массивов, сравнивая
+    ключи
 -   [array_diff_uassoc](./func/array_diff_uassoc.md) &mdash; Вычисляет расхождение массивов с
     дополнительной проверкой индекса через пользовательскую callback-функцию
 -   [array_diff_ukey](./func/array_diff_ukey.md) &mdash; Вычисляет расхождение массивов, используя

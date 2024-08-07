@@ -50,3 +50,4 @@ export { default as array_diff_uassoc } from './array/array_diff_uassoc.mjs';
 export { default as array_diff } from './array/array_diff.mjs';
 export { default as array_diff_assoc } from './array/array_diff_assoc.mjs';
 export { default as array_diff_ukey } from './array/array_diff_ukey.mjs';
+export { default as array_diff_key } from './array/array_diff_key.mjs';

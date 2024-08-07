@@ -7,6 +7,7 @@ import {
     array_count_values,
     array_diff,
     array_diff_assoc,
+    array_diff_key,
     array_diff_uassoc,
     array_diff_ukey,
     array_fill,
@@ -107,4 +108,5 @@ test('array', () => {
     expect(array_diff).not.toBeUndefined();
     expect(array_diff_assoc).not.toBeUndefined();
     expect(array_diff_ukey).not.toBeUndefined();
+    expect(array_diff_key).not.toBeUndefined();
 });
