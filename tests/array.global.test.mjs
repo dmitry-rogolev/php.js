@@ -57,4 +57,5 @@ test('array.global', () => {
     expect(array_diff_key).not.toBeUndefined();
     expect(array_uintersect_uassoc).not.toBeUndefined();
     expect(array_uintersect_assoc).not.toBeUndefined();
+    expect(array_uintersect).not.toBeUndefined();
 });

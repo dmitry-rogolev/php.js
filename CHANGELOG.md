@@ -102,6 +102,8 @@
     -   [array_udiff_uassoc](./docs/funcref/vartype/array/func/array_udiff_uassoc.md) &mdash;
         Вычисляет расхождение в массивах с дополнительной проверкой индексов, используя для
         сравнения значений и индексов callback-функцию
+    -   [array_uintersect](./docs/funcref/vartype/array/func/array_uintersect.md) &mdash; Вычисляет
+        пересечение массивов, используя для сравнения значений callback-функцию
     -   [array_uintersect_assoc](./docs/funcref/vartype/array/func/array_uintersect_assoc.md)
         &mdash; Вычисляет пересечение массивов с дополнительной проверкой индексов, используя для
         сравнения значений callback-функцию

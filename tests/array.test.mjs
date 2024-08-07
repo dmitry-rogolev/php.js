@@ -42,6 +42,7 @@ import {
     array_udiff,
     array_udiff_assoc,
     array_udiff_uassoc,
+    array_uintersect,
     array_uintersect_assoc,
     array_uintersect_uassoc,
     array_unique,
@@ -113,4 +114,5 @@ test('array', () => {
     expect(array_diff_key).not.toBeUndefined();
     expect(array_uintersect_uassoc).not.toBeUndefined();
     expect(array_uintersect_assoc).not.toBeUndefined();
+    expect(array_uintersect).not.toBeUndefined();
 });
