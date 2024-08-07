@@ -46,3 +46,4 @@ export { default as sizeof } from './array/sizeof.mjs';
 export { default as array_udiff_uassoc } from './array/array_udiff_uassoc.mjs';
 export { default as array_udiff_assoc } from './array/array_udiff_assoc.mjs';
 export { default as array_udiff } from './array/array_udiff.mjs';
+export { default as array_diff_uassoc } from './array/array_diff_uassoc.mjs';

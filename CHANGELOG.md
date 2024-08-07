@@ -31,6 +31,9 @@
         массив, используя один массив в качестве ключей, а другой для его значений
     -   [array_count_values](./docs/funcref/vartype/array/func/array_count_values.md) &mdash;
         Подсчитывает количество вхождений каждого отдельного значения в массиве
+    -   [array_diff_uassoc](./docs/funcref/vartype/array/func/array_diff_uassoc.md) &mdash;
+        Вычисляет расхождение массивов с дополнительной проверкой индекса через пользовательскую
+        callback-функцию
     -   [array_fill](./docs/funcref/vartype/array/func/array_fill.md) &mdash; Заполняет массив
         значениями
     -   [array_fill_keys](./docs/funcref/vartype/aarray/func/array_fill_keys.md) &mdash; Создаёт
