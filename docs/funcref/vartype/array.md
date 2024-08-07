@@ -22,6 +22,8 @@
     -   [array_count_values](./array/func/array_count_values.md) &mdash; Подсчитывает количество
         вхождений каждого отдельного значения в массиве
     -   [array_diff](./array/func/array_diff.md) &mdash; Вычисляет расхождение массивов
+    -   [array_diff_assoc](./array/func/array_diff_assoc.md) &mdash; Вычисляет расхождение массивов
+        с дополнительной проверкой индекса
     -   [array_diff_uassoc](./array/func/array_diff_uassoc.md) &mdash; Вычисляет расхождение
         массивов с дополнительной проверкой индекса через пользовательскую callback-функцию
     -   [array_fill](./array/func/array_fill.md) &mdash; Заполняет массив значениями

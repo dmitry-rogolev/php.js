@@ -1,38 +1,28 @@
-# array_diff_uassoc
+# array_diff_assoc
 
-[Документация на php.net](https://www.php.net/manual/ru/function.array-diff-uassoc.php)
+[Документация на php.net](https://www.php.net/manual/ru/function.array-diff-assoc.php)
 
 ---
 
 [Главная](../../../../../README.md) / [Справочник функций](../../../../funcref.md) /
 [Модули для работы с переменными и типами](../../../vartype.md) / [Массивы](../../array.md) /
-[Функции для работы с массивами](../func.md) / array_diff_uassoc
+[Функции для работы с массивами](../func.md) / array_diff_assoc
 
 ---
 
-`array_diff_uassoc` — Вычисляет расхождение массивов с дополнительной проверкой индекса через
-пользовательскую callback-функцию
+`array_diff_assoc` — Вычисляет расхождение массивов с дополнительной проверкой индекса
 
 ### Описание
 
 ```ts
-array_diff_uassoc(key_compare_func: Function, original_array: Array|Object, ...arrays: Array|Object): Array|Object;
+array_diff_assoc(original_array: Array|Object, ...arrays: Array|Object): Array|Object;
 ```
 
-Сравнивает значения массива array cо значениями массивов arrays и возвращает разницу. В этой
+Сравнивает значения массива `array` со значениями массивов `arrays` и возвращает разницу. В этой
 функции, в отличие от функции [array_diff()](./array_diff.md), ключи массива также участвуют в
 сравнении.
 
-В отличие от функции [array_diff_assoc()](./array_diff_assoc.md), в этой функции ключи сравнивает
-пользовательская callback-функция, а не встроенная.
-
 ### Список параметров
-
--   `key_compare_func`
-
-    Функция сравнения должна возвращать `true`, если переданные ключи равны.
-
-        (a, b) => bool
 
 -   `original_array`
 
@@ -59,10 +49,6 @@ class cr {
         this._priv_member = val;
     }
 
-    static comp_func_key(a, b) {
-        return a === b;
-    }
-
     toString() {
         return String(this._priv_member);
     }
@@ -71,7 +57,7 @@ class cr {
 const a = { 0.1: new cr(9), 0.5: new cr(12), 0: new cr(23), 1: new cr(4), 2: new cr(-15) };
 const b = { 0.2: new cr(9), 0.5: new cr(22), 0: new cr(3), 1: new cr(4), 2: new cr(-15) };
 
-const result = array_diff_uassoc(cr.comp_func_key, a, b);
+const result = array_diff_assoc(a, b);
 print_r(result);
 ```
 

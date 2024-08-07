@@ -33,6 +33,8 @@
         Подсчитывает количество вхождений каждого отдельного значения в массиве
     -   [array_diff](./docs/funcref/vartype/array/func/array_diff.md) &mdash; Вычисляет расхождение
         массивов
+    -   [array_diff_assoc](./docs/funcref/vartype/array/func/array_diff_assoc.md) &mdash; Вычисляет
+        расхождение массивов с дополнительной проверкой индекса
     -   [array_diff_uassoc](./docs/funcref/vartype/array/func/array_diff_uassoc.md) &mdash;
         Вычисляет расхождение массивов с дополнительной проверкой индекса через пользовательскую
         callback-функцию

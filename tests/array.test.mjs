@@ -6,6 +6,7 @@ import {
     array_combine,
     array_count_values,
     array_diff,
+    array_diff_assoc,
     array_diff_uassoc,
     array_fill,
     array_fill_keys,
@@ -103,4 +104,5 @@ test('array', () => {
     expect(array_udiff).not.toBeUndefined();
     expect(array_diff_uassoc).not.toBeUndefined();
     expect(array_diff).not.toBeUndefined();
+    expect(array_diff_assoc).not.toBeUndefined();
 });
