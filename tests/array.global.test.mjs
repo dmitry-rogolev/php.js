@@ -51,4 +51,5 @@ test('array.global', () => {
     expect(array_udiff_assoc).not.toBeUndefined();
     expect(array_udiff).not.toBeUndefined();
     expect(array_diff_uassoc).not.toBeUndefined();
+    expect(array_diff).not.toBeUndefined();
 });
