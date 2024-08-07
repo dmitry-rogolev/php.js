@@ -56,3 +56,4 @@ export { default as array_uintersect_assoc } from './array/array_uintersect_asso
 export { default as array_uintersect } from './array/array_uintersect.mjs';
 export { default as array_intersect } from './array/array_intersect.mjs';
 export { default as array_intersect_uassoc } from './array/array_intersect_uassoc.mjs';
+export { default as array_intersect_assoc } from './array/array_intersect_assoc.mjs';

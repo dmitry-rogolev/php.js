@@ -52,6 +52,8 @@
         их значениями в массиве
     -   [array_intersect](./docs/funcref/vartype/array/func/array_intersect.md) &mdash; Вычисляет
         пересечение массивов
+    -   [array_intersect_assoc](./docs/funcref/vartype/array/func/array_intersect_assoc.md) &mdash;
+        Вычисляет пересечение массивов с дополнительной проверкой индекса
     -   [array_intersect_uassoc](./docs/funcref/vartype/array/func/array_intersect_uassoc.md)
         &mdash; Вычисляет пересечение массивов с дополнительной проверкой индекса, сравнивая индексы
         через callback-функцию

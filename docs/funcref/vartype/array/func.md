@@ -34,6 +34,8 @@
 -   [array_filter](./func/array_filter.md) &mdash; Фильтрует элементы массива через callback-функцию
 -   [array_flip](./func/array_flip.md) &mdash; Меняет местами ключи с их значениями в массиве
 -   [array_intersect](./func/array_intersect.md) &mdash; Вычисляет пересечение массивов
+-   [array_intersect_assoc](./func/array_intersect_assoc.md) &mdash; Вычисляет пересечение массивов
+    с дополнительной проверкой индекса
 -   [array_intersect_uassoc](./func/array_intersect_uassoc.md) &mdash; Вычисляет пересечение
     массивов с дополнительной проверкой индекса, сравнивая индексы через callback-функцию
 -   [array_is_list](./func/array_is_list.md) &mdash; Проверяет, является ли данный `array` списком
