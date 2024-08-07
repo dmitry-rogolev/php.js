@@ -83,6 +83,9 @@
         массива и заменяет её чем-нибудь ещё
     -   [array_sum](./docs/funcref/vartype/array/func/array_sum.md) &mdash; Вычисляет сумму значений
         массива
+    -   [array_udiff_uassoc](./docs/funcref/vartype/array/func/array_udiff_uassoc.md) &mdash;
+        Вычисляет расхождение в массивах с дополнительной проверкой индексов, используя для
+        сравнения значений и индексов callback-функцию
     -   [array_unique](./docs/funcref/vartype/array/func/array_unique.md) &mdash; Убирает
         повторяющиеся значения из массива
     -   [array_unshift](./docs/funcref/vartype/array/func/array_unshift.md) &mdash; Добавляет один

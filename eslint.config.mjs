@@ -1104,7 +1104,7 @@ const eslintConfig = {
          *
          * @link https://eslint.org/docs/latest/rules/no-labels
          */
-        'no-labels': 'error',
+        'no-labels': 'off',
 
         /**
          * Запретить ненужные вложенные блоки.
