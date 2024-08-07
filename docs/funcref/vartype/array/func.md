@@ -38,6 +38,8 @@
     с дополнительной проверкой индекса
 -   [array_intersect_uassoc](./func/array_intersect_uassoc.md) &mdash; Вычисляет пересечение
     массивов с дополнительной проверкой индекса, сравнивая индексы через callback-функцию
+-   [array_intersect_ukey](./func/array_intersect_ukey.md) &mdash; Вычисляет пересечение массивов,
+    используя callback-функцию для сравнения ключей
 -   [array_is_list](./func/array_is_list.md) &mdash; Проверяет, является ли данный `array` списком
 -   [array_key_exists](./func/array_key_exists.md) &mdash; Проверяет, существует ли в массиве
     заданный ключ или индекс

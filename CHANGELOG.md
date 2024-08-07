@@ -57,6 +57,8 @@
     -   [array_intersect_uassoc](./docs/funcref/vartype/array/func/array_intersect_uassoc.md)
         &mdash; Вычисляет пересечение массивов с дополнительной проверкой индекса, сравнивая индексы
         через callback-функцию
+    -   [array_intersect_ukey](./docs/funcref/vartype/array/func/array_intersect_ukey.md) &mdash;
+        Вычисляет пересечение массивов, используя callback-функцию для сравнения ключей
     -   [array_is_list](./docs/funcref/vartype/array/func/array_is_list.md) &mdash; Проверяет,
         является ли данный `array` списком
     -   [array_key_exists](./docs/funcref/vartype/array/func/array_key_exists.md) &mdash; Проверяет,
