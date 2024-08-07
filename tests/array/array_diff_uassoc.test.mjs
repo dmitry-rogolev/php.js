@@ -25,7 +25,7 @@ test('array_diff_uassoc выбрасывает исключение TypePHPJSErr
 });
 
 // https://onlinephp.io?s=jZLdaoQwEIWvK-w7DJKLBLSo7V60Vvch-gAhpnE3VKPEuGUpffdO2Ii2e9GGQDJnhvNNfl4O42ncRbtIdmKaQFr43EWAY7T6LJwC4je8V32jbHlNtbORTg8GOJeDmZydpaPkLDp2zQcHP4g76SmtNx5QgS8NVl8e7TeTE07L1VoO_ch9xN_VhRKRAGlu7XULmIOqqnwarHKzNZCVa0WQfFXtaw6QP6f5SvdLOPDcdNsOOHfDq7PaHClbmHfB7vZYqyNO3xIIa8WFxtl9HkNVg1EfeLv0iSWA2n6r5QWK2UYoHlDI1_gRw2KTT_M9SxgiSbMFFX-Bit-g_3KQZNU0d27B8TfdtnzGLzPI8DrJ0oi0MaJ_PGDMvAtel3Hc0uDFym8%2C&v=8.2.20
-test('array_diff_uassoc вычисляет расхождение в массивах с дополнительной проверкой индексов, используя для сравнения значений и индексов callback-функцию', () => {
+test('array_diff_uassoc вычисляет расхождение массивов с дополнительной проверкой индекса через пользовательскую callback-функцию.', () => {
     const a = { 0.1: new cr(9), 0.5: new cr(12), 0: new cr(23), 1: new cr(4), 2: new cr(-15) };
     const b = { 0.2: new cr(9), 0.5: new cr(22), 0: new cr(3), 1: new cr(4), 2: new cr(-15) };
 

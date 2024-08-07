@@ -8,7 +8,7 @@ test('array_intersect выбрасывает исключение TypePHPJSError
 });
 
 // https://onlinephp.io?s=s7EvyCjg5eLlUkksKkqsNFSwVQAzNJQSlRRs7RSU0otSU_OUdBSUilJTQFRSTmmqkqY1TIMRQkMSmobK1Jyc_HKYVrCWotTi0pwSmJb4zLyS1KLi1OQSDajtOgpQU0GqC4qA8vFFGlBdmtYA&v=8.2.20
-test('array_intersect вычисляет пересечение массивов с дополнительной проверкой индекса, используя для сравнения индексов и значений отдельные callback-функции', () => {
+test('array_intersect вычисляет пересечение массивов.', () => {
     const array1 = { a: 'green', 0: 'red', 1: 'blue' };
     const array2 = { b: 'green', 0: 'yellow', 1: 'red' };
 

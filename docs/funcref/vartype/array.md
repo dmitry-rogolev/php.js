@@ -40,6 +40,8 @@
     -   [array_intersect](./array/func/array_intersect.md) &mdash; Вычисляет пересечение массивов
     -   [array_intersect_assoc](./array/func/array_intersect_assoc.md) &mdash; Вычисляет пересечение
         массивов с дополнительной проверкой индекса
+    -   [array_intersect_key](./array/func/array_intersect_key.md) &mdash; Вычисляет пересечение
+        массивов, сравнивая ключи
     -   [array_intersect_uassoc](./array/func/array_intersect_uassoc.md) &mdash; Вычисляет
         пересечение массивов с дополнительной проверкой индекса, сравнивая индексы через
         callback-функцию
