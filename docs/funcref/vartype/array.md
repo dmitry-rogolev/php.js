@@ -26,6 +26,8 @@
         с дополнительной проверкой индекса
     -   [array_diff_uassoc](./array/func/array_diff_uassoc.md) &mdash; Вычисляет расхождение
         массивов с дополнительной проверкой индекса через пользовательскую callback-функцию
+    -   [array_diff_ukey](./array/func/array_diff_ukey.md) &mdash; Вычисляет расхождение массивов,
+        используя callback-функцию для сравнения ключей
     -   [array_fill](./array/func/array_fill.md) &mdash; Заполняет массив значениями
     -   [array_fill_keys](./array/func/array_fill_keys.md) &mdash; Создаёт массив и заполняет его
         значениями с определёнными ключами
