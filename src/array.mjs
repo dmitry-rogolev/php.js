@@ -54,3 +54,4 @@ export { default as array_diff_key } from './array/array_diff_key.mjs';
 export { default as array_uintersect_uassoc } from './array/array_uintersect_uassoc.mjs';
 export { default as array_uintersect_assoc } from './array/array_uintersect_assoc.mjs';
 export { default as array_uintersect } from './array/array_uintersect.mjs';
+export { default as array_intersect } from './array/array_intersect.mjs';

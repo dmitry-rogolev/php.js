@@ -16,6 +16,7 @@ import {
     array_flip,
     array_index_max,
     array_index_min,
+    array_intersect,
     array_is_list,
     array_key_exists,
     array_key_first,
@@ -115,4 +116,5 @@ test('array', () => {
     expect(array_uintersect_uassoc).not.toBeUndefined();
     expect(array_uintersect_assoc).not.toBeUndefined();
     expect(array_uintersect).not.toBeUndefined();
+    expect(array_intersect).not.toBeUndefined();
 });

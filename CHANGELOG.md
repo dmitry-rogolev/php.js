@@ -50,6 +50,8 @@
         массива через callback-функцию
     -   [array_flip](./docs/funcref/vartype/array/func/array_flip.md) &mdash; Меняет местами ключи с
         их значениями в массиве
+    -   [array_intersect](./docs/funcref/vartype/array/func/array_intersect.md) &mdash; Вычисляет
+        пересечение массивов
     -   [array_is_list](./docs/funcref/vartype/array/func/array_is_list.md) &mdash; Проверяет,
         является ли данный `array` списком
     -   [array_key_exists](./docs/funcref/vartype/array/func/array_key_exists.md) &mdash; Проверяет,

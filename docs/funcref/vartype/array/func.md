@@ -33,6 +33,7 @@
     определёнными ключами
 -   [array_filter](./func/array_filter.md) &mdash; Фильтрует элементы массива через callback-функцию
 -   [array_flip](./func/array_flip.md) &mdash; Меняет местами ключи с их значениями в массиве
+-   [array_intersect](./func/array_intersect.md) &mdash; Вычисляет пересечение массивов
 -   [array_is_list](./func/array_is_list.md) &mdash; Проверяет, является ли данный `array` списком
 -   [array_key_exists](./func/array_key_exists.md) &mdash; Проверяет, существует ли в массиве
     заданный ключ или индекс

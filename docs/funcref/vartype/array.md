@@ -37,6 +37,7 @@
         callback-функцию
     -   [array_flip](./array/func/array_flip.md) &mdash; Меняет местами ключи с их значениями в
         массиве
+    -   [array_intersect](./array/func/array_intersect.md) &mdash; Вычисляет пересечение массивов
     -   [array_is_list](./array/func/array_is_list.md) &mdash; Проверяет, является ли данный `array`
         списком
     -   [array_key_exists](./array/func/array_key_exists.md) &mdash; Проверяет, существует ли в
