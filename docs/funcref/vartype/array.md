@@ -64,6 +64,9 @@
     -   [array_splice](./array/func/array_splice.md) &mdash; Удаляет часть массива и заменяет её
         чем-нибудь ещё
     -   [array_sum](./array/func/array_sum.md) &mdash; Вычисляет сумму значений массива
+    -   [array_udiff_assoc](./array/func/array_udiff_assoc.md) &mdash; Вычисляет расхождение в
+        массивах с дополнительной проверкой индексов, используя для сравнения значений
+        callback-функцию
     -   [array_udiff_uassoc](./array/func/array_udiff_uassoc.md) &mdash; Вычисляет расхождение в
         массивах с дополнительной проверкой индексов, используя для сравнения значений и индексов
         callback-функцию

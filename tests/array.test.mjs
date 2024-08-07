@@ -34,6 +34,7 @@ import {
     array_slice,
     array_splice,
     array_sum,
+    array_udiff_assoc,
     array_udiff_uassoc,
     array_unique,
     array_unshift,
@@ -95,4 +96,5 @@ test('array', () => {
     expect(shuffle).not.toBeUndefined();
     expect(sizeof).not.toBeUndefined();
     expect(array_udiff_uassoc).not.toBeUndefined();
+    expect(array_udiff_assoc).not.toBeUndefined();
 });

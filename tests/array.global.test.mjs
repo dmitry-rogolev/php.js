@@ -48,4 +48,5 @@ test('array.global', () => {
     expect(shuffle).not.toBeUndefined();
     expect(sizeof).not.toBeUndefined();
     expect(array_udiff_uassoc).not.toBeUndefined();
+    expect(array_udiff_assoc).not.toBeUndefined();
 });
