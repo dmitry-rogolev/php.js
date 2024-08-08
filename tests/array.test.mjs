@@ -61,6 +61,7 @@ import {
     range,
     shuffle,
     sizeof,
+    sort,
 } from '../src/array.mjs';
 
 test('array', () => {
@@ -125,4 +126,5 @@ test('array', () => {
     expect(array_intersect_assoc).not.toBeUndefined();
     expect(array_intersect_ukey).not.toBeUndefined();
     expect(array_intersect_key).not.toBeUndefined();
+    expect(sort).not.toBeUndefined();
 });

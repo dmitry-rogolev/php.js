@@ -59,3 +59,4 @@ export { default as array_intersect_uassoc } from './array/array_intersect_uasso
 export { default as array_intersect_assoc } from './array/array_intersect_assoc.mjs';
 export { default as array_intersect_ukey } from './array/array_intersect_ukey.mjs';
 export { default as array_intersect_key } from './array/array_intersect_key.mjs';
+export { default as sort } from './array/sort.mjs';

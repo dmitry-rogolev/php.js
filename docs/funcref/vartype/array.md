@@ -115,6 +115,7 @@
     -   [range](./array/func/range.md) &mdash; Создаёт массив, который содержит диапазон элементов
     -   [shuffle](./array/func/shuffle.md) &mdash; Перемешивает массив
     -   [sizeof](./array/func/sizeof.md) &mdash; Псевдоним `count`
+    -   [sort](./array/func/sort.md) &mdash; Сортирует массив по возрастанию
 
 -   [Дополнительные функции для работы с массивами](./array/other.md)
 
