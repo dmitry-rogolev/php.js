@@ -29,6 +29,7 @@ import {
     array_map,
     array_merge,
     array_merge_recursive,
+    array_multisort,
     array_pad,
     array_pop,
     array_product,
@@ -127,4 +128,5 @@ test('array', () => {
     expect(array_intersect_ukey).not.toBeUndefined();
     expect(array_intersect_key).not.toBeUndefined();
     expect(sort).not.toBeUndefined();
+    expect(array_multisort).not.toBeUndefined();
 });

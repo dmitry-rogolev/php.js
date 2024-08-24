@@ -77,6 +77,8 @@
         несколько массивов
     -   [array_merge_recursive](./docs/funcref/vartype/array/func/array_merge_recursive.md) &mdash;
         Рекурсивно сливает один или несколько массивов
+    -   [array_multisort](./docs/funcref/vartype/array/func/array_multisort.md) &mdash; Сортирует
+        несколько массивов или многомерные массивы
     -   [array_pad](./docs/funcref/vartype/array/func/array_pad.md) &mdash; Дополняет массив
         значением до заданной длины
     -   [array_pop](./docs/funcref/vartype/array/func/array_pop.md) &mdash; Извлекает последний

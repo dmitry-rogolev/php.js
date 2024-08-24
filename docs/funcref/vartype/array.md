@@ -60,6 +60,8 @@
     -   [array_merge](./array/func/array_merge.md) &mdash; Сливает один или несколько массивов
     -   [array_merge_recursive](./array/func/array_merge_recursive.md) &mdash; Рекурсивно сливает
         один или несколько массивов
+    -   [array_multisort](./array/func/array_multisort.md) &mdash; Сортирует несколько массивов или
+        многомерные массивы
     -   [array_pad](./array/func/array_pad.md) &mdash; Дополняет массив значением до заданной длины
     -   [array_pop](./array/func/array_pop.md) &mdash; Извлекает последний элемент массива
     -   [array_product](./array/func/array_product.md) &mdash; Вычисляет произведение значений
