@@ -60,6 +60,7 @@ import {
     in_array,
     key_exists,
     range,
+    rsort,
     shuffle,
     sizeof,
     sort,
@@ -129,4 +130,5 @@ test('array', () => {
     expect(array_intersect_key).not.toBeUndefined();
     expect(sort).not.toBeUndefined();
     expect(array_multisort).not.toBeUndefined();
+    expect(rsort).not.toBeUndefined();
 });

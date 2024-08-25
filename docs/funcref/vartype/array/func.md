@@ -104,6 +104,7 @@
 -   [in_array](./func/in_array.md) &mdash; Проверяет, присутствует ли в массиве значение
 -   [key_exists](./func/key_exists.md) &mdash; Псевдоним `array_key_exists`
 -   [range](./func/range.md) &mdash; Создаёт массив, который содержит диапазон элементов
+-   [rsort](./func/rsort.md) &mdash; Сортирует массив в порядке убывания
 -   [shuffle](./func/shuffle.md) &mdash; Перемешивает массив
 -   [sizeof](./func/sizeof.md) &mdash; Псевдоним `count`
 -   [sort](./func/sort.md) &mdash; Сортирует массив по возрастанию

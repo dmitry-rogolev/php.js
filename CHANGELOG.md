@@ -141,6 +141,8 @@
         `array_key_exists`
     -   [range](./docs/funcref/vartype/array/func/range.md) &mdash; Создаёт массив, который содержит
         диапазон элементов
+    -   [rsort](./docs/funcref/vartype/array/func/rsort.md) &mdash; Сортирует массив в порядке
+        убывания
     -   [shuffle](./docs/funcref/vartype/array/func/shuffle.md) &mdash; Перемешивает массив
     -   [sizeof](./docs/funcref/vartype/array/func/sizeof.md) &mdash; Псевдоним `count`
     -   [sort](./docs/funcref/vartype/array/func/sort.md) &mdash; Сортирует массив по возрастанию
