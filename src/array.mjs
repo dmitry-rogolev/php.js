@@ -62,3 +62,4 @@ export { default as array_intersect_key } from './array/array_intersect_key.mjs'
 export { default as sort } from './array/sort.mjs';
 export { default as array_multisort } from './array/array_multisort.mjs';
 export { default as rsort } from './array/rsort.mjs';
+export { default as usort } from './array/usort.mjs';

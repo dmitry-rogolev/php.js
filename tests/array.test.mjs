@@ -64,6 +64,7 @@ import {
     shuffle,
     sizeof,
     sort,
+    usort,
 } from '../src/array.mjs';
 
 test('array', () => {
@@ -131,4 +132,5 @@ test('array', () => {
     expect(sort).not.toBeUndefined();
     expect(array_multisort).not.toBeUndefined();
     expect(rsort).not.toBeUndefined();
+    expect(usort).not.toBeUndefined();
 });
