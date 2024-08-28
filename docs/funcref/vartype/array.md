@@ -114,6 +114,8 @@
         объекте `Countable`
     -   [in_array](./array/func/in_array.md) &mdash; Проверяет, присутствует ли в массиве значение
     -   [key_exists](./array/func/key_exists.md) &mdash; Псевдоним `array_key_exists`
+    -   [natcasesort](./array/func/natcasesort.md) &mdash; Сортирует массив алгоритмом естественной
+        сортировки (natural order) без учёта регистра символов
     -   [natsort](./array/func/natsort.md) &mdash; Сортирует массив, для чего использует алгоритм
         «естественной сортировки»
     -   [range](./array/func/range.md) &mdash; Создаёт массив, который содержит диапазон элементов
