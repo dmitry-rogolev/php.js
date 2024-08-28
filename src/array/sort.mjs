@@ -26,5 +26,19 @@ import array_multisort from './array_multisort.mjs';
  * @throws {TypePHPJSError|ValuePHPJSError}
  */
 export default function sort(array, flags) {
-    return array_multisort(array, flags);
+    array_multisort(array, flags);
+
+    if (!(array instanceof Array)) {
+        let index = 0;
+
+        for (const key in array) {
+            const value = array[key];
+
+            delete array[key];
+            array[index] = value;
+            index++;
+        }
+    }
+
+    return true;
 }

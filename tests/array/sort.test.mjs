@@ -54,3 +54,18 @@ test('sort с регистронезависимым строковым упор
     expect(sort(array, SORT_STRING | SORT_FLAG_CASE)).toBeTruthy();
     expect(array).toStrictEqual(['Orange1', 'orange2', 'orange20', 'Orange3']);
 });
+
+// https://onlinephp.io?s=s7EvyCjg5eLlUkksKkqsVLBViFZQT8vPV1ewtVMw1lFQT0osArONwOwqMNsEzM4Dsw0VYq1B-ovzi0o0IIZoggUKijLzSuKLkMQA&v=8.2.20
+// Array
+// (
+//     [0] => 1
+//     [1] => 2
+//     [2] => 3
+//     [3] => 4
+// )
+test('usort сбрасывает ключи ассоциативного массива.', () => {
+    const array = { foo: 3, bar: 2, baz: 4, ban: 1 };
+
+    expect(sort(array)).toBeTruthy();
+    expect(array).toStrictEqual({ 0: 1, 1: 2, 2: 3, 3: 4 });
+});

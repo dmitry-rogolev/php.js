@@ -28,5 +28,19 @@ import { SORT_DESC } from './constants.mjs';
  * @throws {TypePHPJSError|ValuePHPJSError}
  */
 export default function rsort(array, flags) {
-    return array_multisort(array, SORT_DESC, flags);
+    array_multisort(array, SORT_DESC, flags);
+
+    if (!(array instanceof Array)) {
+        let index = 0;
+
+        for (const key in array) {
+            const value = array[key];
+
+            delete array[key];
+            array[index] = value;
+            index++;
+        }
+    }
+
+    return true;
 }

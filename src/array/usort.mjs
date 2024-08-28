@@ -30,5 +30,19 @@ export default function usort(array, callback) {
         throw new TypePHPJSError('The "callback" parameter must be a function.');
     }
 
-    return multisort(array, (a, b) => callback(a[1], b[1]));
+    multisort(array, (a, b) => callback(a[1], b[1]));
+
+    if (!(array instanceof Array)) {
+        let index = 0;
+
+        for (const key in array) {
+            const value = array[key];
+
+            delete array[key];
+            array[index] = value;
+            index++;
+        }
+    }
+
+    return true;
 }

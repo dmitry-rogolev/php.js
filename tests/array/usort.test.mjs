@@ -84,3 +84,26 @@ test('usort с методом класса.', () => {
     expect(usort(array, TestObj.cmp_obj)).toBeTruthy();
     expect(array).toStrictEqual([new TestObj('b'), new TestObj('c'), new TestObj('d')]);
 });
+
+// https://onlinephp.io?s=s7EvyCjg5eLlUkksKkqsVLBViFZQT8vPV1ewtVMw1lFQT0osArONwOwqMNsEzM4Dsw0VYq1B-kuL84tKNCCm6Cik5SkA2ToKKkmaIEUqiQo2ICpJE6y2oCgzryS-CKoaJAYA&v=8.2.20
+// Array
+// (
+//     [0] => 1
+//     [1] => 2
+//     [2] => 3
+//     [3] => 4
+// )
+test('usort сбрасывает ключи ассоциативного массива.', () => {
+    const array = { foo: 3, bar: 2, baz: 4, ban: 1 };
+
+    expect(
+        usort(array, (a, b) => {
+            if (a < b) {
+                return -1;
+            }
+
+            return a > b ? 1 : 0;
+        }),
+    ).toBeTruthy();
+    expect(array).toStrictEqual({ 0: 1, 1: 2, 2: 3, 3: 4 });
+});
