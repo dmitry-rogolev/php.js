@@ -108,6 +108,8 @@
 -   [shuffle](./func/shuffle.md) &mdash; Перемешивает массив
 -   [sizeof](./func/sizeof.md) &mdash; Псевдоним `count`
 -   [sort](./func/sort.md) &mdash; Сортирует массив по возрастанию
+-   [uasort](./func/uasort.md) &mdash; Сортирует массив пользовательской функцией сравнения,
+    сохраняя ассоциацию индексов
 -   [uksort](./func/uksort.md) &mdash; Сортирует массив по ключам пользовательской функцией
     сравнения
 -   [usort](./func/usort.md) &mdash; Сортирует массив по значениям используя пользовательскую

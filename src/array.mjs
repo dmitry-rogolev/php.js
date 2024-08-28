@@ -64,3 +64,4 @@ export { default as array_multisort } from './array/array_multisort.mjs';
 export { default as rsort } from './array/rsort.mjs';
 export { default as usort } from './array/usort.mjs';
 export { default as uksort } from './array/uksort.mjs';
+export { default as uasort } from './array/uasort.mjs';
