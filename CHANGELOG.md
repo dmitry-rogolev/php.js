@@ -146,6 +146,8 @@
     -   [shuffle](./docs/funcref/vartype/array/func/shuffle.md) &mdash; Перемешивает массив
     -   [sizeof](./docs/funcref/vartype/array/func/sizeof.md) &mdash; Псевдоним `count`
     -   [sort](./docs/funcref/vartype/array/func/sort.md) &mdash; Сортирует массив по возрастанию
+    -   [uksort](./docs/funcref/vartype/array/func/uksort.md) &mdash; Сортирует массив по ключам
+        пользовательской функцией сравнения
     -   [usort](./docs/funcref/vartype/array/func/usort.md) &mdash; Сортирует массив по значениям
         используя пользовательскую функцию для сравнения элементов
     -   [array_index_max](./docs/funcref/vartype/array/other/array_index_max.md) &mdash; Возвращает
