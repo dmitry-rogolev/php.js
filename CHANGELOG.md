@@ -139,6 +139,8 @@
         в массиве значение
     -   [key_exists](./docs/funcref/vartype/array/func/key_exists.md) &mdash; Псевдоним
         `array_key_exists`
+    -   [natsort](./docs/funcref/vartype/array/func/natsort.md) &mdash; Сортирует массив, для чего
+        использует алгоритм «естественной сортировки»
     -   [range](./docs/funcref/vartype/array/func/range.md) &mdash; Создаёт массив, который содержит
         диапазон элементов
     -   [rsort](./docs/funcref/vartype/array/func/rsort.md) &mdash; Сортирует массив в порядке

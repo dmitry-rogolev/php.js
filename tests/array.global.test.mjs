@@ -69,4 +69,5 @@ test('array.global', () => {
     expect(usort).not.toBeUndefined();
     expect(uksort).not.toBeUndefined();
     expect(uasort).not.toBeUndefined();
+    expect(natsort).not.toBeUndefined();
 });
