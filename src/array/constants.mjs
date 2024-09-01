@@ -60,6 +60,12 @@ export const SORT_NATURAL = 6;
  */
 export const SORT_FLAG_CASE = 8;
 
+export const SORT_USE_KEY = 20;
+
+export const SORT_USE_VALUE = 21;
+
+export const SORT_USE_BOTH = 22;
+
 /**
  * ARRAY_FILTER_USE_KEY используется в array_filter()
  * для передачи каждого ключа в виде первого аргумента в заданную функцию.

@@ -33,5 +33,5 @@ export default function usort(array, callback) {
         throw new TypePHPJSError('The "callback" parameter must be a function.');
     }
 
-    return multisort(array, (a, b) => callback(a[1], b[1]));
+    return multisort(array, callback);
 }

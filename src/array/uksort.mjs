@@ -1,5 +1,6 @@
 import { TypePHPJSError } from '../exceptions.mjs';
 import { is_array, is_callable } from '../variables.mjs';
+import { SORT_USE_KEY } from './constants.mjs';
 import multisort from './multisort.mjs';
 
 /**
@@ -30,5 +31,5 @@ export default function uksort(array, callback) {
         throw new TypePHPJSError('The "callback" parameter must be a function.');
     }
 
-    return multisort(array, (a, b) => callback(a[0], b[0]));
+    return multisort(array, callback, SORT_USE_KEY);
 }

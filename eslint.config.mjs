@@ -1160,7 +1160,7 @@ const eslintConfig = {
          *
          * @link https://eslint.org/docs/latest/rules/no-nested-ternary
          */
-        'no-nested-ternary': 'error',
+        'no-nested-ternary': 'off',
 
         /**
          * Запретить new операторы вне присваиваний или сравнений.
