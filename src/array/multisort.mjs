@@ -1,13 +1,5 @@
 import { TypePHPJSError, ValuePHPJSError } from '../exceptions.mjs';
-import {
-    is_array,
-    is_callable,
-    is_int,
-    is_null,
-    is_numeric,
-    isset,
-    print_r,
-} from '../variables.mjs';
+import { is_array, is_callable, is_int, is_null, is_numeric, isset } from '../variables.mjs';
 import array_fill from './array_fill.mjs';
 import array_reduce from './array_reduce.mjs';
 import array_splice from './array_splice.mjs';
@@ -955,8 +947,6 @@ export default function multisort(array1, array1_sort_order, array1_sort_flags, 
             sortComponents.push(argument.array.sorted.length - 1);
         }
     }
-
-    print_r(args);
 
     // Изменяем порядок элементов в переданных массивах.
     for (const argument of args) {

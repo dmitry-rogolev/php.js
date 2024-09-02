@@ -114,6 +114,7 @@
         объекте `Countable`
     -   [in_array](./array/func/in_array.md) &mdash; Проверяет, присутствует ли в массиве значение
     -   [key_exists](./array/func/key_exists.md) &mdash; Псевдоним `array_key_exists`
+    -   [ksort](./array/func/ksort.md) &mdash; Сортирует массив по ключу в порядке возрастания
     -   [natcasesort](./array/func/natcasesort.md) &mdash; Сортирует массив алгоритмом естественной
         сортировки (natural order) без учёта регистра символов
     -   [natsort](./array/func/natsort.md) &mdash; Сортирует массив, для чего использует алгоритм
