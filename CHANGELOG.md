@@ -139,6 +139,8 @@
         в массиве значение
     -   [key_exists](./docs/funcref/vartype/array/func/key_exists.md) &mdash; Псевдоним
         `array_key_exists`
+    -   [krsort](./docs/funcref/vartype/array/func/krsort.md) &mdash; Сортирует массив по ключу в
+        порядке убывания
     -   [ksort](./docs/funcref/vartype/array/func/ksort.md) &mdash; Сортирует массив по ключу в
         порядке возрастания
     -   [natcasesort](./docs/funcref/vartype/array/func/natcasesort.md) &mdash; Сортирует массив

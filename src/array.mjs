@@ -68,3 +68,4 @@ export { default as uasort } from './array/uasort.mjs';
 export { default as natsort } from './array/natsort.mjs';
 export { default as natcasesort } from './array/natcasesort.mjs';
 export { default as ksort } from './array/ksort.mjs';
+export { default as krsort } from './array/krsort.mjs';

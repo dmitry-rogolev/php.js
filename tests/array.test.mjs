@@ -59,6 +59,7 @@ import {
     count,
     in_array,
     key_exists,
+    krsort,
     ksort,
     natcasesort,
     natsort,
@@ -143,4 +144,5 @@ test('array', () => {
     expect(natsort).not.toBeUndefined();
     expect(natcasesort).not.toBeUndefined();
     expect(ksort).not.toBeUndefined();
+    expect(krsort).not.toBeUndefined();
 });

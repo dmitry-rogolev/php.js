@@ -1,24 +1,24 @@
-# ksort
+# krsort
 
-[Документация на php.net](https://www.php.net/manual/ru/function.ksort.php)
+[Документация на php.net](https://www.php.net/manual/ru/function.krsort.php)
 
 ---
 
 [Главная](../../../../../README.md) / [Справочник функций](../../../../funcref.md) /
 [Модули для работы с переменными и типами](../../../vartype.md) / [Массивы](../../array.md) /
-[Функции для работы с массивами](../func.md) / ksort
+[Функции для работы с массивами](../func.md) / krsort
 
 ---
 
-`ksort` — Сортирует массив по ключу в порядке возрастания
+`krsort` — Сортирует массив по ключу в порядке убывания
 
 ### Описание
 
 ```ts
-ksort(array: Array|Object, flags: number = SORT_REGULAR): true;
+krsort(array: Array|Object, flags: number = SORT_REGULAR): true;
 ```
 
-Функция сортирует массив `array` по ключу в порядке возрастания.
+Функция сортирует массив array по ключу в порядке убывания.
 
 > **Замечание:**
 >
@@ -54,11 +54,11 @@ ksort(array: Array|Object, flags: number = SORT_REGULAR): true;
 
 ### Примеры
 
-**Пример #1 Пример использования ksort()**
+**Пример #1 Пример использования krsort()**
 
 ```js
 const fruits = { d: 'lemon', a: 'orange', b: 'banana', c: 'apple' };
-ksort(fruits);
+krsort(fruits);
 print_r(fruits);
 ```
 
@@ -66,8 +66,8 @@ print_r(fruits);
 
     Array
     (
-        [a] => orange
-        [b] => banana
-        [c] => apple
         [d] => lemon
+        [c] => apple
+        [b] => banana
+        [a] => orange
     )
