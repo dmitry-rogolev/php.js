@@ -73,4 +73,5 @@ test('array.global', () => {
     expect(natcasesort).not.toBeUndefined();
     expect(ksort).not.toBeUndefined();
     expect(krsort).not.toBeUndefined();
+    expect(asort).not.toBeUndefined();
 });

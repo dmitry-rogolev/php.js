@@ -133,6 +133,8 @@
         пользовательскую функцию к каждому элементу массива
     -   [array_walk_recursive](./docs/funcref/vartype/array/func/array_walk_recursive.md) &mdash;
         Рекурсивно применяет пользовательскую функцию к каждому элементу массива
+    -   [asort](./docs/funcref/vartype/array/func/asort.md) &mdash; Сортирует массив в порядке
+        возрастания, сохраняя ассоциацию индексов
     -   [count](./docs/funcref/vartype/array/func/count.md) &mdash; Подсчитывает количество
         элементов в массиве или в объекте `Countable`
     -   [in_array](./docs/funcref/vartype/array/func/in_array.md) &mdash; Проверяет, присутствует ли

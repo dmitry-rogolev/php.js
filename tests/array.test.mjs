@@ -56,6 +56,7 @@ import {
     array_values,
     array_walk,
     array_walk_recursive,
+    asort,
     count,
     in_array,
     key_exists,
@@ -145,4 +146,5 @@ test('array', () => {
     expect(natcasesort).not.toBeUndefined();
     expect(ksort).not.toBeUndefined();
     expect(krsort).not.toBeUndefined();
+    expect(asort).not.toBeUndefined();
 });
