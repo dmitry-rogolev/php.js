@@ -70,3 +70,4 @@ export { default as natcasesort } from './array/natcasesort.mjs';
 export { default as ksort } from './array/ksort.mjs';
 export { default as krsort } from './array/krsort.mjs';
 export { default as asort } from './array/asort.mjs';
+export { default as arsort } from './array/arsort.mjs';

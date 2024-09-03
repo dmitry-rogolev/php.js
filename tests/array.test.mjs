@@ -56,6 +56,7 @@ import {
     array_values,
     array_walk,
     array_walk_recursive,
+    arsort,
     asort,
     count,
     in_array,
@@ -147,4 +148,5 @@ test('array', () => {
     expect(ksort).not.toBeUndefined();
     expect(krsort).not.toBeUndefined();
     expect(asort).not.toBeUndefined();
+    expect(arsort).not.toBeUndefined();
 });
