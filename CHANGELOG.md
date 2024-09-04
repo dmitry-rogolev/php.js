@@ -1,3 +1,5 @@
+# v0.0.3
+
 # v0.0.2
 
 -   Добавлен модуль [exceptions](./docs/langref/exceptions.md) со следующими классами:
