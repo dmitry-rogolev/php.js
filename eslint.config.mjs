@@ -507,12 +507,7 @@ const eslintConfig = {
          *
          * @link https://eslint.org/docs/latest/rules/no-undef
          */
-        'no-undef': [
-            'error',
-            {
-                typeof: true,
-            },
-        ],
+        'no-undef': ['off'],
 
         /**
          * Запретить запутанные многострочные выражения.

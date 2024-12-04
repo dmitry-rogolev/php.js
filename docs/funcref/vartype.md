@@ -14,6 +14,13 @@
     -   [Предопределённые константы](./vartype/array/constants.md)
     -   [Функции для работы с массивами](./vartype/array/func.md)
 
+-   [Классы и объекты](./vartype/class.md) &mdash; Информация о классе и объекте
+
+    **Функции для работы с переменными**
+
+    -   [get_class](./vartype/class/get_class.md) &mdash; Возвращает класс, которому принадлежит
+        объект
+
 -   [Внутренние функции](./vartype/other.md)
 
     -   [get_magic_proxy](./vartype/other/get_magic_proxy.md) &mdash; Добавляет экземпляру класса

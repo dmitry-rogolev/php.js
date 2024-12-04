@@ -1,5 +1,10 @@
 # v0.0.3
 
+-   Добавлен модуль [class](./docs/funcref/vartype/class.md) со следующими функциями:
+
+    -   [get_class](./docs/funcref/vartype/class/get_class.md) &mdash; Возвращает класс, которому
+        принадлежит объект
+
 # v0.0.2
 
 -   Добавлен модуль [exceptions](./docs/langref/exceptions.md) со следующими классами:
