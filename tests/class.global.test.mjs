@@ -3,4 +3,5 @@ import '../src/class.global.js';
 
 test('class.global', () => {
     expect(get_class).not.toBeUndefined();
+    expect(is_a).not.toBeUndefined();
 });
