@@ -4,6 +4,8 @@
 
     -   [get_class](./docs/funcref/vartype/class/get_class.md) &mdash; Возвращает класс, которому
         принадлежит объект
+    -   [get_parent_class](./docs/funcref/vartype/class/get_parent_class.md) &mdash; Получает имя
+        родительского класса для объекта или класса
     -   [is_a](./docs/funcref/vartype/class/is_a.md) &mdash; Проверяет, принадлежит ли объект к типу
         или подтипу
 

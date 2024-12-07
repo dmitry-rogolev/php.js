@@ -20,6 +20,8 @@
 
     -   [get_class](./vartype/class/get_class.md) &mdash; Возвращает класс, которому принадлежит
         объект
+    -   [get_parent_class](./vartype/class/get_parent_class.md) &mdash; Получает имя родительского
+        класса для объекта или класса
     -   [is_a](./vartype/class/is_a.md) &mdash; Проверяет, принадлежит ли объект к типу или подтипу
 
 -   [Внутренние функции](./vartype/other.md)
