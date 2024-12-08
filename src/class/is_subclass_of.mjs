@@ -18,9 +18,7 @@ import is_a from './is_a.mjs';
  */
 export default function is_subclass_of(object_or_class, classobject) {
     if (!is_object(object_or_class) && !is_class(object_or_class)) {
-        throw new TypePHPJSError(
-            'The "object_or_class" parameter must be of the "object_or_class" type.',
-        );
+        throw new TypePHPJSError('The "object_or_class" parameter must be an object or a class.');
     }
 
     if (!is_class(classobject)) {

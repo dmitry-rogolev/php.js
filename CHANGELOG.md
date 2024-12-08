@@ -11,6 +11,8 @@
     -   [is_subclass_of](./docs/funcref/vartype/class/is_subclass_of.md) &mdash; Проверяет,
         принадлежит ли объект к потомкам класса, или реализует ли объект или родители объекта
         интерфейс
+    -   [method_exists](./docs/funcref/vartype/class/method_exists.md) &mdash; Проверяет, существует
+        ли метод в классе
 
 # v0.0.2
 

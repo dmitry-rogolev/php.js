@@ -25,6 +25,8 @@
     -   [is_a](./vartype/class/is_a.md) &mdash; Проверяет, принадлежит ли объект к типу или подтипу
     -   [is_subclass_of](./vartype/class/is_subclass_of.md) &mdash; Проверяет, принадлежит ли объект
         к потомкам класса, или реализует ли объект или родители объекта интерфейс
+    -   [method_exists](./vartype/class/method_exists.md) &mdash; Проверяет, существует ли метод в
+        классе
 
 -   [Внутренние функции](./vartype/other.md)
 
