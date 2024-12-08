@@ -23,6 +23,8 @@
     -   [get_parent_class](./vartype/class/get_parent_class.md) &mdash; Получает имя родительского
         класса для объекта или класса
     -   [is_a](./vartype/class/is_a.md) &mdash; Проверяет, принадлежит ли объект к типу или подтипу
+    -   [is_subclass_of](./vartype/class/is_subclass_of.md) &mdash; Проверяет, принадлежит ли объект
+        к потомкам класса, или реализует ли объект или родители объекта интерфейс
 
 -   [Внутренние функции](./vartype/other.md)
 
