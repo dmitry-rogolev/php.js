@@ -27,6 +27,8 @@
         к потомкам класса, или реализует ли объект или родители объекта интерфейс
     -   [method_exists](./vartype/class/method_exists.md) &mdash; Проверяет, существует ли метод в
         классе
+    -   [property_exists](./vartype/class/property_exists.md) &mdash; Проверяет, есть ли у объекта
+        или класса свойство
 
 -   [Внутренние функции](./vartype/other.md)
 

@@ -7,4 +7,5 @@ test('class.global', () => {
     expect(get_parent_class).not.toBeUndefined();
     expect(is_subclass_of).not.toBeUndefined();
     expect(method_exists).not.toBeUndefined();
+    expect(property_exists).not.toBeUndefined();
 });

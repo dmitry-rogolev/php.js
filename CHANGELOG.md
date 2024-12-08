@@ -13,6 +13,8 @@
         интерфейс
     -   [method_exists](./docs/funcref/vartype/class/method_exists.md) &mdash; Проверяет, существует
         ли метод в классе
+    -   [property_exists](./docs/funcref/vartype/class/property_exists.md) &mdash; Проверяет, есть
+        ли у объекта или класса свойство
 
 # v0.0.2
 

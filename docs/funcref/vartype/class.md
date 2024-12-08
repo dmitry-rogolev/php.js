@@ -12,3 +12,5 @@
 -   [is_subclass_of](./class/is_subclass_of.md) &mdash; Проверяет, принадлежит ли объект к потомкам
     класса, или реализует ли объект или родители объекта интерфейс
 -   [method_exists](./class/method_exists.md) &mdash; Проверяет, существует ли метод в классе
+-   [property_exists](./class/property_exists.md) &mdash; Проверяет, есть ли у объекта или класса
+    свойство
