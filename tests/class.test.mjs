@@ -1,6 +1,7 @@
 import { expect, test } from '@jest/globals';
 import {
     get_class,
+    get_class_vars,
     get_object_vars,
     get_parent_class,
     is_a,
@@ -17,4 +18,5 @@ test('class', () => {
     expect(method_exists).not.toBeUndefined();
     expect(property_exists).not.toBeUndefined();
     expect(get_object_vars).not.toBeUndefined();
+    expect(get_class_vars).not.toBeUndefined();
 });

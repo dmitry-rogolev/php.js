@@ -20,6 +20,7 @@
 
     -   [get_class](./vartype/class/get_class.md) &mdash; Возвращает класс, которому принадлежит
         объект
+    -   [get_class_vars](./vartype/class/get_class_vars.md) &mdash; Получает свойства класса
     -   [get_object_vars](./vartype/class/get_object_vars.md) &mdash; Возвращает свойства указанного
         объекта
     -   [get_parent_class](./vartype/class/get_parent_class.md) &mdash; Получает имя родительского
