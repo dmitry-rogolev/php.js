@@ -1,3 +1,5 @@
+# v0.0.4
+
 # v0.0.3
 
 -   Добавлен модуль [class](./docs/funcref/vartype/class.md) со следующими функциями:
