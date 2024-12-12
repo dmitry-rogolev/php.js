@@ -4,6 +4,8 @@
 
     -   [get_class](./docs/funcref/vartype/class/get_class.md) &mdash; Возвращает класс, которому
         принадлежит объект
+    -   [get_class_methods](./docs/funcref/vartype/class/get_class_methods.md) &mdash; Возвращает
+        массив имён методов класса
     -   [get_class_vars](./docs/funcref/vartype/class/get_class_vars.md) &mdash; Получает свойства
         класса
     -   [get_object_vars](./docs/funcref/vartype/class/get_object_vars.md) &mdash; Возвращает

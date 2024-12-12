@@ -6,6 +6,7 @@
 ### Функции работы с классами и объектами
 
 -   [get_class](./class/get_class.md) &mdash; Возвращает класс, которому принадлежит объект
+-   [get_class_methods](./class/get_class_methods.md) &mdash; Возвращает массив имён методов класса
 -   [get_class_vars](./class/get_class_vars.md) &mdash; Получает свойства класса
 -   [get_object_vars](./class/get_object_vars.md) &mdash; Возвращает свойства указанного объекта
 -   [get_parent_class](./class/get_parent_class.md) &mdash; Получает имя родительского класса для

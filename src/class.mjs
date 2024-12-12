@@ -6,3 +6,4 @@ export { default as method_exists } from './class/method_exists.mjs';
 export { default as property_exists } from './class/property_exists.mjs';
 export { default as get_object_vars } from './class/get_object_vars.mjs';
 export { default as get_class_vars } from './class/get_class_vars.mjs';
+export { default as get_class_methods } from './class/get_class_methods.mjs';
