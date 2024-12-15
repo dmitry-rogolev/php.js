@@ -75,4 +75,5 @@ test('array.global', () => {
     expect(krsort).not.toBeUndefined();
     expect(asort).not.toBeUndefined();
     expect(arsort).not.toBeUndefined();
+    expect(array).not.toBeUndefined();
 });

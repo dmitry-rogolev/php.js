@@ -1,5 +1,6 @@
 import { expect, test } from '@jest/globals';
 import {
+    array,
     array_change_key_case,
     array_chunk,
     array_column,
@@ -149,4 +150,5 @@ test('array', () => {
     expect(krsort).not.toBeUndefined();
     expect(asort).not.toBeUndefined();
     expect(arsort).not.toBeUndefined();
+    expect(array).not.toBeUndefined();
 });

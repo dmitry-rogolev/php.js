@@ -1,15 +1,10 @@
 # Функции для работы с массивами
 
-[Документация на php.net](https://www.php.net/manual/ru/ref.array.php)
-
----
-
 [Главная](../../../../README.md) / [Справочник функций](../../../funcref.md) /
 [Модули для работы с переменными и типами](../../vartype.md) / [Массивы](../array.md) / Функции для
 работы с массивами
 
----
-
+-   [array](./func/array.md) &mdash; Создаёт массив
 -   [array_change_key_case](./func/array_change_key_case.md) &mdash; Меняет регистр всех ключей в
     массиве
 -   [array_chunk](./func/array_chunk.md) &mdash; Разбивает массив на части

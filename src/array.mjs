@@ -71,3 +71,4 @@ export { default as ksort } from './array/ksort.mjs';
 export { default as krsort } from './array/krsort.mjs';
 export { default as asort } from './array/asort.mjs';
 export { default as arsort } from './array/arsort.mjs';
+export { default as array } from './array/array.mjs';

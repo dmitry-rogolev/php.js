@@ -4,6 +4,9 @@
 
     -   [is_array](./docs/funcref/vartype/var/func/is_array.md)
 
+-   Добавлена функция [array](./docs/funcref/vartype/array/func/array.md) в модуль
+    [array](./docs/funcref/vartype/array.md)
+
 # v0.0.3
 
 -   Добавлен модуль [class](./docs/funcref/vartype/class.md) со следующими функциями:
