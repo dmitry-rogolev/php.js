@@ -1,5 +1,9 @@
 # v0.0.4
 
+-   Рефакторинг модуля [variables](./docs/funcref/vartype/var.md):
+
+    -   [is_array](./docs/funcref/vartype/var/func/is_array.md)
+
 # v0.0.3
 
 -   Добавлен модуль [class](./docs/funcref/vartype/class.md) со следующими функциями:

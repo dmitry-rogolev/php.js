@@ -1071,7 +1071,7 @@ const eslintConfig = {
          *
          * @link https://eslint.org/docs/latest/rules/no-inline-comments
          */
-        'no-inline-comments': 'error',
+        'no-inline-comments': 'off',
 
         /**
          * Запретить использование this в контекстах, где значение this является undefined.

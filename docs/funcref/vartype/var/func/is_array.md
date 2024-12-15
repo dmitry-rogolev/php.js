@@ -1,76 +1,125 @@
 # is_array
 
-[Документация на php.net](https://www.php.net/manual/ru/function.is-array.php)
-
----
-
 [Главная](../../../../../README.md) / [Справочник функций](../../../../funcref.md) /
 [Модули для работы с переменными и типами](../../../vartype.md) /
 [Обработка переменных](../../var.md) / is_array
 
----
+`is_array` &mdash; проверяет, является ли переданная переменная массивом или ассоциативным массивом
+(объектом с ключами и значениями).
 
-`is_array` — Определяет, представляет ли собой переменная массив
-
-### Описание
+## Сигнатура функции
 
 ```ts
 is_array(value: any): boolean
 ```
 
-Определяет, представляет ли собой переменная массив.
-
-### Список параметров
+## Параметры
 
 -   `value`
 
     Проверяемая переменная.
 
-### Возвращаемые значения
+## Описание
 
-Возвращает `true`, если переменная `value` — массив (`array`), иначе `false`.
+JavaScript массивы и объекты имеют разные структуры и предназначения:
 
-### Примеры
+-   **Массивы (Array)** &mdash; упорядоченные коллекции элементов, которые могут быть индексированы.
+-   **Объекты (Object)** &mdash; содержат пары "ключ-значение", которые могут быть неупорядоченными.
 
-**Пример #1 Пример использования is_array()**
+Эта функция проверяет, соответствует ли переменная либо стандартному массиву (например,
+`[1, 2, 3]`), либо ассоциативному массиву (объекту с парами "ключ-значение", например,
+`{foo: 'bar'}`).
 
-```js
-console.log('false:', is_array(false));
-console.log('true:', is_array(true));
-console.log('3:', is_array(3));
-console.log('3.14:', is_array(3.14));
-console.log('"string":', is_array('string'));
-console.log('[1, 2]:', is_array([1, 2]));
-console.log('{ 0: 1, 1: 2 }:', is_array({ 0: 1, 1: 2 }));
-console.log('{ foo: "bar" }:', is_array({ foo: 'bar' }));
-console.log('Math:', is_array(Math));
-console.log('object stdClass:', is_array(new stdClass()));
-console.log(
-    'function () {}:',
-    is_array(function () {}),
-);
-console.log('null:', is_array(null));
-console.log('undefined:', is_array(undefined));
-console.log('NaN:', is_array(NaN));
-console.log('class stdClass:', is_array(stdClass));
-console.log('Symbol:', is_array(Symbol()));
+### Алгоритм работы
+
+1. Сначала проверяется, является ли переданное значение обычным массивом с помощью встроенного
+   метода `Array.isArray(value)`. Если это массив, функция сразу возвращает `true`.
+
+2. Если переменная не является массивом, то выполняются дополнительные проверки:
+
+    - Проверяется, что значение не равно `null` (так как `null` в JavaScript также является
+      объектом, но не является ни массивом, ни объектом с парами "ключ-значение").
+
+    - Проверяется, что значение является объектом (`typeof value === 'object'`).
+
+    - Проверяется, что прототип объекта совпадает с `Object.prototype` или является `null` (это
+      означает, что объект был создан с помощью `Object.create(null)` и не имеет прототипа).
+
+    - Исключаются массивоподобные объекты (например, `arguments`, `NodeList`), путем проверки, что
+      свойство `length` не является собственным свойством объекта.
+
+    - Дополнительно проверяется, что объект является простым (его конструктор равен `Object`), чтобы
+      исключить встроенные объекты, такие как `Math`, `Date` и другие.
+
+## Возвращаемое значение
+
+Возвращает `true`, если переменная является массивом или ассоциативным массивом, иначе `false`.
+
+## Важные замечания
+
+-   Функция не обрабатывает массивоподобные объекты (например, `arguments`, `NodeList`), так как они
+    могут иметь свойство `length`, но не являются настоящими массивами.
+-   Функция исключает встроенные объекты JavaScript (например, `Math`, `Date`, `JSON`, `Function`),
+    так как они не должны считаться ассоциативными массивами.
+
+## Ограничения
+
+-   Функция проверяет только ассоциативные массивы, унаследованные от Object.prototype или созданные
+    через Object.create(null).
+-   Исключает массивоподобные объекты, такие как arguments, NodeList, а также экземпляры встроенных
+    объектов.
+
+## Примеры использования
+
+### 1. Простые массивы:
+
+```javascript
+is_array([1, 2, 3]); // true
+is_array([]); // true
 ```
 
-Результат выполнения приведённого примера:
+### 2. Ассоциативные массивы (объекты с ключами и значениями):
 
-    false: false
-    true: false
-    3: false
-    3.14: false
-    "string": false
-    [1, 2]: true
-    { 0: 1, 1: 2 }: true
-    { foo: "bar" }: true
-    Math: true
-    object stdClass: false
-    function () {}: false
-    null: false
-    undefined: false
-    NaN: false
-    class stdClass: false
-    Symbol: false
+```javascript
+Копировать код
+is_array({ foo: 'bar', baz: 42 }); // true
+is_array({ '0': 'a', '1': 'b' }); // true
+```
+
+### 3. Объекты, созданные без прототипа:
+
+```javascript
+Копировать код
+const noProtoObject = Object.create(null);
+noProtoObject.foo = 'bar';
+is_array(noProtoObject); // true
+```
+
+### 4. Примитивы и невалидные значения:
+
+```javascript
+Копировать код
+is_array(null);         // false
+is_array(undefined);    // false
+is_array(42);           // false
+is_array('hello');      // false
+```
+
+### 5. Специальные объекты:
+
+```javascript
+Копировать код
+is_array(new Map());    // false
+is_array(new Set());    // false
+is_array(() => {});     // false
+```
+
+### 6. Классы и их экземпляры:
+
+```javascript
+Копировать код
+class MyClass {}
+const instance = new MyClass();
+is_array(MyClass); // false
+is_array(instance); // false
+```

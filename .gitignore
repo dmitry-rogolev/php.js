@@ -3,3 +3,5 @@ package-lock.json
 index.html
 index.js
 public
+build
+dist
