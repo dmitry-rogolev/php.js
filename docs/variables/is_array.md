@@ -10,7 +10,7 @@
 ## Сигнатура функции
 
 ```ts
-is_array(value: any): boolean
+function is_array(value: any): boolean;
 ```
 
 ## Параметры

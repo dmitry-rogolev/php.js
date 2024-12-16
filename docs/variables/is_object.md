@@ -10,7 +10,7 @@
 ## Сигнатура функции
 
 ```ts
-is_object(value: any): boolean
+function is_object(value: any): boolean;
 ```
 
 ## Параметры

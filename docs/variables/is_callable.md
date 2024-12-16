@@ -9,7 +9,7 @@
 ## Сигнатура функции
 
 ```ts
-is_callable(value: any): boolean
+function is_callable(value: any): boolean;
 ```
 
 ## Параметры
