@@ -4,6 +4,7 @@
 
     -   [is_array](./docs/variables/is_array.md)
     -   [is_bool](./docs/variables/is_bool.md)
+    -   [is_class](./docs/variables/is_class.md)
 
 -   Добавлена функция [array](./docs_depricated/funcref/vartype/array/func/array.md) в модуль
     [array](./docs_depricated/funcref/vartype/array.md)
