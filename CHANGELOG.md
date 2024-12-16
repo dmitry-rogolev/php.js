@@ -4,6 +4,7 @@
 
     -   [is_array](./docs/variables/is_array.md)
     -   [is_bool](./docs/variables/is_bool.md)
+    -   [is_callable](./docs/variables/is_callable.md)
     -   [is_class](./docs/variables/is_class.md)
     -   [is_object](./docs/variables/is_object.md)
 
