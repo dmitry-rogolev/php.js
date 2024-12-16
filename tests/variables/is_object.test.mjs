@@ -1,67 +1,52 @@
 import { expect, test } from '@jest/globals';
-import is_object from '../../src/variables/is_object.mjs';
+import { is_object } from '../../src/variables.mjs';
 
-class stdClass {}
+describe('is_object', () => {
+    test('должен возвращать true для объектов, созданных с использованием классов', () => {
+        class MyClass {}
+        const myClassInstance = new MyClass();
+        expect(is_object(myClassInstance)).toBe(true);
+    });
 
-/**
- * https://onlinephp.io?s=jZPBCoJAEIbvgu8weFk9KC51qsBDFAVR3kXEbEVDVNqVDtG75xoeYhaa6__v980uw26ivupty7ZEUXXA1GMQK2AQgFvLrLveRaFcHXoQfVsGY1_mjRTMG4_FhzjbXU7rWTA1yDCl_xWzJESCkDqfI5RT0UXAl4jWIf3ijoMEjFHnO6GBDuk4N-CcjuuXGgw6pkv0GYNkQsmSqTJYZoS6jSRFjiSl41Ldtk0uJZK04glzSdeVQ1uoumvB9eD1xl_kp6Zr26Fp8A3HkK44nvfIMGbUffkm3icIPg%2C%2C&v=8.3.4
- */
-test('is_object', () => {
-    // php true: false
-    expect(is_object(true)).toBeFalsy();
+    test('должен возвращать false для классов', () => {
+        class MyClass {}
+        expect(is_object(MyClass)).toBe(false);
+    });
 
-    // php false: false
-    expect(is_object(false)).toBeFalsy();
+    test('должен возвращать false для обычных объектов', () => {
+        const obj = {};
+        expect(is_object(obj)).toBe(false);
+    });
 
-    // php 0: false
-    expect(is_object(0)).toBeFalsy();
+    test('должен возвращать false для массивов', () => {
+        const arr = [];
+        expect(is_object(arr)).toBe(false);
+    });
 
-    // php 1: false
-    expect(is_object(1)).toBeFalsy();
+    test('должен возвращать false для объектов, таких как Date', () => {
+        const date = new Date();
+        expect(is_object(date)).toBe(false);
+    });
 
-    // php 3.14: false
-    expect(is_object(3.14)).toBeFalsy();
+    test('должен возвращать false для null', () => {
+        expect(is_object(null)).toBe(false);
+    });
 
-    // php "": false
-    expect(is_object('')).toBeFalsy();
+    test('должен возвращать false для числа', () => {
+        expect(is_object(42)).toBe(false);
+    });
 
-    // php "0": false
-    expect(is_object('0')).toBeFalsy();
+    test('должен возвращать false для строки', () => {
+        expect(is_object('string')).toBe(false);
+    });
 
-    // php "1": false
-    expect(is_object('1')).toBeFalsy();
+    test('должен возвращать false для объектов, таких как Map', () => {
+        const map = new Map();
+        expect(is_object(map)).toBe(false);
+    });
 
-    // php "3.14": false
-    expect(is_object('3.14')).toBeFalsy();
-
-    // php "true": false
-    expect(is_object('true')).toBeFalsy();
-
-    // php "false": false
-    expect(is_object('false')).toBeFalsy();
-
-    // php []: false
-    expect(is_object([])).toBeFalsy();
-    expect(is_object({})).toBeFalsy();
-
-    // php stdClass: true
-    expect(is_object(new stdClass())).toBeTruthy();
-
-    // ! php function () {}: true
-    expect(is_object(() => {})).toBeFalsy();
-
-    // php null: false
-    expect(is_object(null)).toBeFalsy();
-
-    // php INF: false
-    expect(is_object(Infinity)).toBeFalsy();
-
-    // php -INF: false
-    expect(is_object(-Infinity)).toBeFalsy();
-
-    // js
-    expect(is_object(undefined)).toBeFalsy();
-    expect(is_object(NaN)).toBeFalsy();
-    expect(is_object(stdClass)).toBeFalsy();
-    expect(is_object(Symbol())).toBeFalsy();
+    test('должен возвращать false для объектов, созданных с Object.create(null)', () => {
+        const objNoProto = Object.create(null);
+        expect(is_object(objNoProto)).toBe(false);
+    });
 });

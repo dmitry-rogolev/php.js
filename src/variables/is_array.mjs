@@ -112,21 +112,20 @@
  * @returns {boolean}
  */
 export default function is_array(value) {
-    return (
-        // Проверка, является ли значение массивом с помощью стандартного метода Array.isArray
+    return Boolean(
         Array.isArray(value) ||
-        // Проверка, что значение - объект (не null)
-        (value &&
-            typeof value === 'object' &&
-            // Проверка, что прототип объекта равен null (для объектов, созданных с Object.create(null))
-            (Object.getPrototypeOf(value) === null ||
-                // Исключение встроенных объектов, для которых функция возвращает true.
-                (![Math, JSON, Reflect, Intl].includes(value) &&
-                    // Проверка, что объект унаследован от Object.prototype (для обычных объектов)
-                    Object.getPrototypeOf(value) === Object.prototype &&
-                    // Проверка, что объект является простым объектом, созданным с помощью конструктора Object
-                    value.constructor === Object &&
-                    // Проверка, что свойство length не является собственным свойством объекта
-                    !Object.hasOwn(value, 'length'))))
+            // Проверка, что значение - объект (не null)
+            (value &&
+                typeof value === 'object' &&
+                // Проверка, что прототип объекта равен null (для объектов, созданных с Object.create(null))
+                (Object.getPrototypeOf(value) === null ||
+                    // Исключение встроенных объектов, для которых функция возвращает true.
+                    (![Math, JSON, Reflect, Intl].includes(value) &&
+                        // Проверка, что объект унаследован от Object.prototype (для обычных объектов)
+                        Object.getPrototypeOf(value) === Object.prototype &&
+                        // Проверка, что объект является простым объектом, созданным с помощью конструктора Object
+                        value.constructor === Object &&
+                        // Проверка, что свойство length не является собственным свойством объекта
+                        !Object.hasOwn(value, 'length')))),
     );
 }
