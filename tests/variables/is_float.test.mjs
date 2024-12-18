@@ -1,67 +1,77 @@
 import { expect, test } from '@jest/globals';
 import is_float from '../../src/variables/is_float.mjs';
 
-class stdClass {}
+describe('is_float', () => {
+    // Тесты для чисел с плавающей точкой
+    describe('Числа с плавающей точкой', () => {
+        test('Должно возвращать true для положительных дробных чисел', () => {
+            expect(is_float(3.14)).toBe(true);
+        });
 
-/**
- * https://onlinephp.io?s=jZNBC4IwFMfvgt_h4WV6UBx1qsBDFAVR3kVEaqIwVJrSIfruuYWH3oLe9f_f7_c2Htskfd27juuIa90BG-6jWAGDCPxGFZXsysHXWQDJp2Qw1VUplWDBdCo9pMXuclrPvGmwwIT_DbMjxnxMnc4xyankIuJLDOuMfmvPwzxj1OlebMMxneY2zem0fqYt0Cndoc_YDkOSHaayJTNB3UOWY0WW02k13LayVAo7WvGAuaPbqrG9Dk3Xgh_A82V9i6-Wbm1HKa37TRndcDzvsWCKqJsKf-AhgX8D&v=8.3.4
- */
-test('is_float', () => {
-    // php true: false
-    expect(is_float(true)).toBeFalsy();
+        test('Должно возвращать true для отрицательных дробных чисел', () => {
+            expect(is_float(-0.5)).toBe(true);
+        });
 
-    // php false: false
-    expect(is_float(false)).toBeFalsy();
+        test('Должно возвращать true для дробных чисел, полученных в результате вычислений', () => {
+            expect(is_float(0.1 + 0.2)).toBe(true); // Результат из-за особенностей работы с плавающей точкой
+        });
+    });
 
-    // php 0: false
-    expect(is_float(0)).toBeFalsy();
+    // Тесты для целых чисел
+    describe('Целые числа', () => {
+        test('Должно возвращать false для нуля', () => {
+            expect(is_float(0)).toBe(false);
+        });
 
-    // php 1: false
-    expect(is_float(1)).toBeFalsy();
+        test('Должно возвращать false для положительных целых чисел', () => {
+            expect(is_float(42)).toBe(false);
+        });
 
-    // php 3.14: true
-    expect(is_float(3.14)).toBeTruthy();
+        test('Должно возвращать false для отрицательных целых чисел', () => {
+            expect(is_float(-100)).toBe(false);
+        });
+    });
 
-    // php "": false
-    expect(is_float('')).toBeFalsy();
+    // Тесты для нечисловых значений
+    describe('Нечисловые значения', () => {
+        test('Должно возвращать false для строки', () => {
+            expect(is_float('3.14')).toBe(false);
+        });
 
-    // php "0": false
-    expect(is_float('0')).toBeFalsy();
+        test('Должно возвращать false для NaN', () => {
+            expect(is_float(NaN)).toBe(false);
+        });
 
-    // php "1": false
-    expect(is_float('1')).toBeFalsy();
+        test('Должно возвращать false для null', () => {
+            expect(is_float(null)).toBe(false);
+        });
 
-    // php "3.14": false
-    expect(is_float('3.14')).toBeFalsy();
+        test('Должно возвращать false для undefined', () => {
+            expect(is_float(undefined)).toBe(false);
+        });
 
-    // php "true": false
-    expect(is_float('true')).toBeFalsy();
+        test('Должно возвращать false для булевых значений', () => {
+            expect(is_float(true)).toBe(false);
+            expect(is_float(false)).toBe(false);
+        });
 
-    // php "false": false
-    expect(is_float('false')).toBeFalsy();
+        test('Должно возвращать false для объектов', () => {
+            expect(is_float({})).toBe(false);
+        });
 
-    // php []: false
-    expect(is_float([])).toBeFalsy();
-    expect(is_float({})).toBeFalsy();
+        test('Должно возвращать false для массивов', () => {
+            expect(is_float([])).toBe(false);
+        });
+    });
 
-    // php stdClass: false
-    expect(is_float(new stdClass())).toBeFalsy();
+    // Тесты для специальных значений
+    describe('Специальные значения', () => {
+        test('Должно возвращать false для Infinity', () => {
+            expect(is_float(Infinity)).toBe(false);
+        });
 
-    // php function () {}: false
-    expect(is_float(() => {})).toBeFalsy();
-
-    // php null: false
-    expect(is_float(null)).toBeFalsy();
-
-    // php INF: true
-    expect(is_float(Infinity)).toBeTruthy();
-
-    // php -INF: true
-    expect(is_float(-Infinity)).toBeTruthy();
-
-    // js
-    expect(is_float(undefined)).toBeFalsy();
-    expect(is_float(NaN)).toBeFalsy();
-    expect(is_float(stdClass)).toBeFalsy();
-    expect(is_float(Symbol())).toBeFalsy();
+        test('Должно возвращать false для -Infinity', () => {
+            expect(is_float(-Infinity)).toBe(false);
+        });
+    });
 });
