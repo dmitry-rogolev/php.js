@@ -13,6 +13,8 @@
 -   [is_contract](./variables/is_contract.md) &mdash; Проверяет, является ли переданный класс
     контрактом, основанным на интерфейсе `Interface`.
 -   [is_countable](./variables/is_countable.md) &mdash; Проверяет, счётно ли значение переменной.
+-   [is_double](./variables/is_double.md) &mdash; Проверяет, является ли значение числом с плавающей
+    точкой (аналогично `is_float`).
 -   [is_float](./variables/is_float.md) &mdash; Проверяет, является ли значение числом с плавающей
     точкой.
 -   [is_object](./variables/is_object.md) &mdash; Проверяет, является ли переданная переменная

@@ -1,5 +1,5 @@
 import { expect, test } from '@jest/globals';
-import is_float from '../../src/variables/is_float.mjs';
+import { is_float } from '../../src/variables.mjs';
 
 describe('is_float', () => {
     // Тесты для чисел с плавающей точкой

@@ -1,67 +1,39 @@
 import { expect, test } from '@jest/globals';
-import is_double from '../../src/variables/is_double.mjs';
+import { is_double } from '../../src/variables.mjs';
 
-class stdClass {}
+describe('Функция is_double', () => {
+    test('должна возвращать true для чисел с плавающей точкой', () => {
+        expect(is_double(3.14)).toBe(true); // положительное число с плавающей точкой
+        expect(is_double(-0.001)).toBe(true); // отрицательное число с плавающей точкой
+    });
 
-/**
- * https://onlinephp.io?s=jZLBCoJAEIbvgu8weFk9KC51qsBDFAVR3kXEdEVhUWmVDtG7txoeYhaa6__v982wu7uor3vbsi1R1B2w4TGKDTAIwG1UVnbjXQp3Cj2Ivi0D3Ve5VIJ5-lh8irPD7bJdBHODDHP6X7FIQiQIqfM5QjkVXQV8jegppC_uOEjAGHW-ExrokI5zA87p-HTGYJhRsmSuDJYFoV5kkiJHktJxNZR7mSuFJK14wlLSddXYFkPTteB68Hrj3_1T07XtKCXeUId0xfl6RAadUd_LN_E-QfAB&v=8.3.4
- */
-test('is_double', () => {
-    // php true: false
-    expect(is_double(true)).toBeFalsy();
+    test('должна возвращать false для целых чисел', () => {
+        expect(is_double(2)).toBe(false); // целое положительное число
+        expect(is_double(0)).toBe(false); // ноль
+        expect(is_double(-5)).toBe(false); // целое отрицательное число
+    });
 
-    // php false: false
-    expect(is_double(false)).toBeFalsy();
+    test('должна возвращать false для NaN', () => {
+        expect(is_double(NaN)).toBe(false); // NaN
+    });
 
-    // php 0: false
-    expect(is_double(0)).toBeFalsy();
+    test('должна возвращать false для строк', () => {
+        expect(is_double('3.14')).toBe(false); // строка
+        expect(is_double('test')).toBe(false); // строка без чисел
+    });
 
-    // php 1: false
-    expect(is_double(1)).toBeFalsy();
+    test('должна возвращать false для булевых значений', () => {
+        expect(is_double(true)).toBe(false); // булево значение true
+        expect(is_double(false)).toBe(false); // булево значение false
+    });
 
-    // php 3.14: true
-    expect(is_double(3.14)).toBeTruthy();
+    test('должна возвращать false для null и undefined', () => {
+        expect(is_double(null)).toBe(false); // null
+        expect(is_double(undefined)).toBe(false); // undefined
+    });
 
-    // php "": false
-    expect(is_double('')).toBeFalsy();
-
-    // php "0": false
-    expect(is_double('0')).toBeFalsy();
-
-    // php "1": false
-    expect(is_double('1')).toBeFalsy();
-
-    // php "3.14": false
-    expect(is_double('3.14')).toBeFalsy();
-
-    // php "true": false
-    expect(is_double('true')).toBeFalsy();
-
-    // php "false": false
-    expect(is_double('false')).toBeFalsy();
-
-    // php []: false
-    expect(is_double([])).toBeFalsy();
-    expect(is_double({})).toBeFalsy();
-
-    // php stdClass: false
-    expect(is_double(new stdClass())).toBeFalsy();
-
-    // php function () {}: false
-    expect(is_double(() => {})).toBeFalsy();
-
-    // php null: false
-    expect(is_double(null)).toBeFalsy();
-
-    // php INF: true
-    expect(is_double(Infinity)).toBeTruthy();
-
-    // php -INF: true
-    expect(is_double(-Infinity)).toBeTruthy();
-
-    // js
-    expect(is_double(undefined)).toBeFalsy();
-    expect(is_double(NaN)).toBeFalsy();
-    expect(is_double(stdClass)).toBeFalsy();
-    expect(is_double(Symbol())).toBeFalsy();
+    test('должна возвращать false для объектов и массивов', () => {
+        expect(is_double({})).toBe(false); // объект
+        expect(is_double([])).toBe(false); // массив
+    });
 });

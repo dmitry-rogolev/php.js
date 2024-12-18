@@ -8,6 +8,7 @@
     -   [is_class](./docs/variables/is_class.md)
     -   [is_contract](./docs/variables/is_contract.md)
     -   [is_countable](./docs/variables/is_countable.md)
+    -   [is_double](./docs/variables/is_double.md)
     -   [is_float](./docs/variables/is_float.md)
     -   [is_object](./docs/variables/is_object.md)
 
