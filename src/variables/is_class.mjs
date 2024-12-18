@@ -71,5 +71,5 @@
  * @returns {boolean}
  */
 export default function is_class(value) {
-    return Boolean(typeof value === 'function' && value.toString().startsWith('class '));
+    return typeof value === 'function' && value.toString().startsWith('class ');
 }

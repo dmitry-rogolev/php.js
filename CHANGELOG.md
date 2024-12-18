@@ -7,6 +7,7 @@
     -   [is_callable](./docs/variables/is_callable.md)
     -   [is_class](./docs/variables/is_class.md)
     -   [is_contract](./docs/variables/is_contract.md)
+    -   [is_countable](./docs/variables/is_countable.md)
     -   [is_object](./docs/variables/is_object.md)
 
 -   Добавлена функция [array](./docs_depricated/funcref/vartype/array/func/array.md) в модуль

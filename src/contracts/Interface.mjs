@@ -2,18 +2,19 @@
  * Базовый класс для всех внутренних интерфейсов библиотеки php.js
  */
 class Interface {
-    static [Symbol.hasInstance](obj) {
-        if (this.prototype.isPrototypeOf(obj)) {
-            return true;
+    static [Symbol.hasInstance](value) {
+        if (
+            !(value instanceof Object) ||
+            !Object.getPrototypeOf(value).constructor ||
+            !Object.getPrototypeOf(value).constructor.toString().startsWith('class ')
+        ) {
+            return false;
         }
 
-        let proto = Object.getPrototypeOf(obj).constructor;
+        let proto = Object.getPrototypeOf(value).constructor;
 
         while (proto) {
-            if (
-                proto.__implements?.includes(this) ||
-                proto.__implements?.some(contract => new contract() instanceof this)
-            ) {
+            if (proto.__implements && proto.__implements.includes(this)) {
                 return true;
             }
 
