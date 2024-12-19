@@ -18,5 +18,6 @@
 -   [is_float](./variables/is_float.md) &mdash; Проверяет, является ли значение числом с плавающей
     точкой.
 -   [is_int](./variables/is_int.md) &mdash; Проверяет, является ли значение целым числом.
+-   [is_integer](./variables/is_integer.md) &mdash; Проверяет, является ли значение целым числом.
 -   [is_object](./variables/is_object.md) &mdash; Проверяет, является ли переданная переменная
     объектом, созданным с использованием класса.
