@@ -10,6 +10,7 @@
     -   [is_countable](./docs/variables/is_countable.md)
     -   [is_double](./docs/variables/is_double.md)
     -   [is_float](./docs/variables/is_float.md)
+    -   [is_int](./docs/variables/is_int.md)
     -   [is_object](./docs/variables/is_object.md)
 
 -   Добавлена функция [array](./docs_depricated/funcref/vartype/array/func/array.md) в модуль
