@@ -1,9 +1,5 @@
 # v0.0.4
 
--   Рефакторинг модуля [array](./docs/array.md)
-
-    -   [array](./docs/array/array.md)
-
 -   Рефакторинг модуля [variables](./docs/variables.md):
 
     -   [is_array](./docs/variables/is_array.md)
@@ -16,10 +12,10 @@
     -   [is_float](./docs/variables/is_float.md)
     -   [is_int](./docs/variables/is_int.md)
     -   [is_integer](./docs/variables/is_integer.md)
+    -   [is_iterable](./docs/variables/is_iterable.md)
     -   [is_object](./docs/variables/is_object.md)
 
--   Добавлена функция [array](./docs_depricated/funcref/vartype/array/func/array.md) в модуль
-    [array](./docs_depricated/funcref/vartype/array.md)
+-   Добавлена функция [array](./docs/array/array.md) в модуль [array](./docs/array.md)
 
 -   Переработана документация
 

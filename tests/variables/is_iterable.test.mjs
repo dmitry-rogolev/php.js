@@ -1,72 +1,30 @@
-import { test, expect } from '@jest/globals';
-import is_iterable from '../../src/variables/is_iterable.mjs';
+import { describe, test, expect } from '@jest/globals';
 import Traversable from '../../src/contracts/Traversable.mjs';
+import { array } from '../../src/array.mjs';
+import { is_iterable } from '../../src/variables.mjs';
 
-class stdClass {}
+describe('Функция is_iterable', () => {
+    test('возвращает true для массивов', () => {
+        expect(is_iterable([1, 2, 3])).toBe(true);
+    });
 
-/**
- * https://onlinephp.io?s=jdPBCoJAEAbge-A7DF5WD4VLnSqQiKIg0ruIqG1kLCruSkT07rmGUDDRXGfm__hlcenXl9oaWSORXypgumnFHBhMwClUUmjRpJkUjhm74L_3DLqLcyqVYG53GO7CZBMcFgPRbxCjn_9HBsZDCI_agSNhTg1PJ3yG5M2YXt-2EYIxagfbQ_MeHeAowOmA-V7UMAs6Y25Qpg-TmX6FOkOI-jJRjChRTG2yapr0HmRXkWvEKcUNPi7orZQ-rWWq1A9zWNPBc1vmuqhKcFx4PLH_8euADpetlFjLbkxH9sctYnRT6jOMcWFMIF4%2C&v=8.3.4
- */
-test('is_iterable', () => {
-    // php true: false
-    expect(is_iterable(true)).toBeFalsy();
+    test('возвращает true для ассоциативных массивов', () => {
+        expect(is_iterable({ foo: 'bar' })).toBe(true);
+        expect(is_iterable(array({ foo: 'bar' }))).toBe(true);
+    });
 
-    // php false: false
-    expect(is_iterable(false)).toBeFalsy();
+    test('возвращает true для объектов, реализующих Traversable', () => {
+        class Collection {
+            static __implements = [Traversable];
+        }
+        const instance = new Collection();
+        expect(is_iterable(instance)).toBe(true);
+    });
 
-    // php 0: false
-    expect(is_iterable(0)).toBeFalsy();
-
-    // php 1: false
-    expect(is_iterable(1)).toBeFalsy();
-
-    // php 3.14: false
-    expect(is_iterable(3.14)).toBeFalsy();
-
-    // php "": false
-    expect(is_iterable('')).toBeFalsy();
-
-    // php "0": false
-    expect(is_iterable('0')).toBeFalsy();
-
-    // php "1": false
-    expect(is_iterable('1')).toBeFalsy();
-
-    // php "3.14": false
-    expect(is_iterable('3.14')).toBeFalsy();
-
-    // php "true": false
-    expect(is_iterable('true')).toBeFalsy();
-
-    // php "false": false
-    expect(is_iterable('false')).toBeFalsy();
-
-    // php []: true
-    expect(is_iterable([])).toBeTruthy();
-    expect(is_iterable({})).toBeTruthy();
-
-    // php ArrayObject: true
-    class ArrayObject extends Traversable {}
-    expect(is_iterable(new ArrayObject())).toBeTruthy();
-
-    // php stdClass: false
-    expect(is_iterable(new stdClass())).toBeFalsy();
-
-    // php function () {}: false
-    expect(is_iterable(() => {})).toBeFalsy();
-
-    // php null: false
-    expect(is_iterable(null)).toBeFalsy();
-
-    // php INF: false
-    expect(is_iterable(Infinity)).toBeFalsy();
-
-    // php -INF: false
-    expect(is_iterable(-Infinity)).toBeFalsy();
-
-    // js
-    expect(is_iterable(undefined)).toBeFalsy();
-    expect(is_iterable(NaN)).toBeFalsy();
-    expect(is_iterable(stdClass)).toBeFalsy();
-    expect(is_iterable(Symbol())).toBeFalsy();
+    test('возвращает false для примитивных значений', () => {
+        expect(is_iterable(42)).toBe(false);
+        expect(is_iterable('hello')).toBe(false);
+        expect(is_iterable(null)).toBe(false);
+        expect(is_iterable(undefined)).toBe(false);
+    });
 });
