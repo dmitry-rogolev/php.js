@@ -1,7 +1,8 @@
 import { Interface } from '../contracts.mjs';
+import is_class from './is_class.mjs';
 
 /**
- * Проверяет, является ли переданный класс контрактом, основанным на интерфейсе `Interface`.
+ * Проверяет, является ли переданный класс контрактом, основанным на классе `Interface`.
  *
  * ### Параметры
  *
@@ -9,12 +10,16 @@ import { Interface } from '../contracts.mjs';
  *
  * ### Описание
  *
- * Функция определяет, реализует ли переданный класс интерфейс `Interface` или его наследников.
- * Для этого анализируется цепочка прототипов конструктора `value`.
+ * Функция определяет, расширяет ли переданный класс - класс `Interface` или его наследников.
+ * Она анализирует цепочку прототипов переданного класса, чтобы определить,
+ * есть ли в ней `Interface`.
+ *
+ * Класс должен быть создан с использованием синтаксиса ES6 (`class`)
+ * и расширять класс `Interface` напрямую или через другой подкласс.
  *
  * ### Возвращаемое значение
  *
- * - Возвращает `true`, если класс наследует `Interface`, иначе `false`.
+ * Возвращает `true`, если переданный класс расширяет `Interface`, иначе `false`.
  *
  * ### Примеры использования
  *
@@ -39,26 +44,31 @@ import { Interface } from '../contracts.mjs';
  * console.log(is_contract(Interface)); // false
  * ```
  *
+ * ### Проверка некорректных значений
+ *
+ * ```js
+ * console.log(is_contract(null)); // false
+ * console.log(is_contract(undefined)); // false
+ * console.log(is_contract(42)); // false
+ * console.log(is_contract({})); // false
+ * console.log(is_contract(function Foo() {})); // false
+ * ```
+ *
  * @param {any} value - Проверяемое значение.
  * @returns {boolean} Возвращает `true`, если класс является контрактом, основанным на интерфейсе `Interface`.
  */
 export default function is_contract(value) {
-    // Проверяем, является ли `value` функцией и выглядит ли оно как класс
-    if (typeof value !== 'function' || !value.toString().startsWith('class ')) {
+    if (!is_class(value)) {
         return false;
     }
 
-    // Начинаем проверку цепочки прототипов
     let proto = value;
 
-    // Переходим по цепочке прототипов до тех пор, пока не найдем `Interface` или `null`
     while ((proto = Object.getPrototypeOf(proto))) {
-        // Если `proto` является интерфейсом, возвращаем true
         if (proto === Interface) {
             return true;
         }
     }
 
-    // Если интерфейс не найден, возвращаем false
     return false;
 }

@@ -6,9 +6,8 @@
     "trailingComma": "all",
     "tabWidth": 4,
     "arrowParens": "avoid",
-    "endOfLine": "lf",
+    "endOfLine": "crlf",
     "printWidth": 100,
     "proseWrap": "always",
     "singleAttributePerLine": true
 }
-

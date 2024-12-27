@@ -1,5 +1,9 @@
 # v0.0.4
 
+-   Рефакторинг модуля [array](./docs/array.md)
+
+    -   [array](./docs/array/array.md)
+
 -   Рефакторинг модуля [variables](./docs/variables.md):
 
     -   [is_array](./docs/variables/is_array.md)
