@@ -26,7 +26,6 @@
  * ### Параметры
  *
  * - `value` (any)
- *
  *      Проверяемая переменная.
  *
  * ### Возвращаемое значение
@@ -83,17 +82,47 @@
  *    ```
  *
  * @param {any} value Проверяемая переменная.
- * @returns {boolean}
+ * @returns {boolean} Возвращает `true`, если значение является массивом или ассоциативным массивом, иначе `false`.
  */
 export default function is_array(value) {
-    return (
-        Array.isArray(value) ||
-        (value &&
-            typeof value === 'object' &&
-            (Object.getPrototypeOf(value) === null ||
-                (![Math, JSON, Reflect, Intl].includes(value) &&
-                    Object.getPrototypeOf(value) === Object.prototype &&
-                    value.constructor === Object &&
-                    !Object.hasOwn(value, 'length'))))
-    );
+    // Для массивов (Array) возвращаем `true` по умолчанию.
+    if (Array.isArray(value)) {
+        return true;
+    }
+
+    // Далее работаем только с объектами.
+    if (!value || typeof value !== 'object') {
+        return false;
+    }
+
+    // Если у переданного объекта отсутствует прототип, то это означает,
+    // что объект является контейнером пар ключ-значение без встроенных методов,
+    // наследуемых от прототипа Object.prototype.
+    // Такой контейнер можно создать с помощью конструкции `Object.create(null)`
+    // или с помощью функции `array({})`.
+    if (Object.getPrototypeOf(value) === null) {
+        return true;
+    }
+
+    // Исключаем встроенные объекты Math, JSON, Reflect, Intl, для которых
+    // функция возвращает `true`.
+    if ([Math, JSON, Reflect, Intl].includes(value)) {
+        return false;
+    }
+
+    // Если у объекта присутствует свойство `length`, то это означает, что
+    // передан массивоподобный объект, например `arguments`.
+    // С точки зрения данной функции, данные объекты считать
+    // ассоциативными массивами нельзя.
+    if (Object.hasOwn(value, 'length')) {
+        return false;
+    }
+
+    // Если прототип переданного объекта - `Object.prototype`, то передан
+    // обычный объект.
+    if (Object.getPrototypeOf(value) === Object.prototype && value.constructor === Object) {
+        return true;
+    }
+
+    return false;
 }
