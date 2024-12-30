@@ -23,5 +23,6 @@
     итерируемым.
 -   [is_long](./variables/is_long.md) &mdash; Проверяет, является ли значение целым числом.
 -   [is_null](./variables/is_null.md) &mdash; Проверяет, является ли значение `null`.
+-   [is_number](./variables/is_number.md) &mdash; Проверяет, является ли значение числом.
 -   [is_object](./variables/is_object.md) &mdash; Проверяет, является ли переданная переменная
     объектом, созданным с использованием класса.
