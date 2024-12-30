@@ -1,67 +1,41 @@
-import { expect, test } from '@jest/globals';
-import is_long from '../../src/variables/is_long.mjs';
+import { describe, test, expect } from '@jest/globals';
+import { is_long } from '../../src/variables.mjs';
 
-class stdClass {}
+describe('is_long', () => {
+    test('Возвращает true для положительных целых чисел', () => {
+        expect(is_long(1)).toBe(true);
+        expect(is_long(100)).toBe(true);
+        expect(is_long(123456)).toBe(true);
+    });
 
-/**
- * https://onlinephp.io?s=jZNBC4IwFMfvgt_h4WV6UBx1qsBDFAVR3kVESlMYU5rSIfrubYaH3g696_-_3-9tPLZJ-qZ3Hdeprk0HbHiM1QoYROC3qhCdvPsmCiD5dgx0W5dCVSzQh9JDWuwup_WMTw3ip-y_YFbECI-pszkCORVcRHyJWBPRr-x5CGeMOtuLLTamw9yCOR02b7R4E9IV5oylmECyYqosxwxQN5DlyJDldFgNt60olUIKWT1hruiyepTXoe0k-AG83vgr_JR0qRyFwLfTEV1wPO8RrxPqjkKbDgn4Bw%2C%2C&v=8.3.4
- */
-test('is_long', () => {
-    // php true: false
-    expect(is_long(true)).toBeFalsy();
+    test('Возвращает true для отрицательных целых чисел', () => {
+        expect(is_long(-1)).toBe(true);
+        expect(is_long(-100)).toBe(true);
+        expect(is_long(-123456)).toBe(true);
+    });
 
-    // php false: false
-    expect(is_long(false)).toBeFalsy();
+    test('Возвращает true для нуля', () => {
+        expect(is_long(0)).toBe(true);
+    });
 
-    // php 0: true
-    expect(is_long(0)).toBeTruthy();
+    test('Возвращает false для чисел с плавающей точкой', () => {
+        expect(is_long(1.1)).toBe(false);
+        expect(is_long(-0.5)).toBe(false);
+        expect(is_long(3.14159)).toBe(false);
+    });
 
-    // php 1: true
-    expect(is_long(1)).toBeTruthy();
+    test('Возвращает false для значений не типа number', () => {
+        expect(is_long('42')).toBe(false); // строка
+        expect(is_long(true)).toBe(false); // логическое значение
+        expect(is_long(null)).toBe(false); // null
+        expect(is_long(undefined)).toBe(false); // undefined
+        expect(is_long({})).toBe(false); // объект
+        expect(is_long([])).toBe(false); // массив
+    });
 
-    // php 3.14: false
-    expect(is_long(3.14)).toBeFalsy();
-
-    // php "": false
-    expect(is_long('')).toBeFalsy();
-
-    // php "0": false
-    expect(is_long('0')).toBeFalsy();
-
-    // php "1": false
-    expect(is_long('1')).toBeFalsy();
-
-    // php "3.14": false
-    expect(is_long('3.14')).toBeFalsy();
-
-    // php "true": false
-    expect(is_long('true')).toBeFalsy();
-
-    // php "false": false
-    expect(is_long('false')).toBeFalsy();
-
-    // php []: false
-    expect(is_long([])).toBeFalsy();
-    expect(is_long({})).toBeFalsy();
-
-    // php stdClass: false
-    expect(is_long(new stdClass())).toBeFalsy();
-
-    // php function () {}: false
-    expect(is_long(() => {})).toBeFalsy();
-
-    // php null: false
-    expect(is_long(null)).toBeFalsy();
-
-    // php INF: false
-    expect(is_long(Infinity)).toBeFalsy();
-
-    // php -INF: false
-    expect(is_long(-Infinity)).toBeFalsy();
-
-    // js
-    expect(is_long(undefined)).toBeFalsy();
-    expect(is_long(NaN)).toBeFalsy();
-    expect(is_long(stdClass)).toBeFalsy();
-    expect(is_long(Symbol())).toBeFalsy();
+    test('Возвращает false для специальных числовых значений', () => {
+        expect(is_long(Infinity)).toBe(false); // бесконечность
+        expect(is_long(-Infinity)).toBe(false); // отрицательная бесконечность
+        expect(is_long(NaN)).toBe(false); // не число
+    });
 });

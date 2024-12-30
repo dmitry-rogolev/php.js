@@ -13,6 +13,7 @@
     -   [is_int](./docs/variables/is_int.md)
     -   [is_integer](./docs/variables/is_integer.md)
     -   [is_iterable](./docs/variables/is_iterable.md)
+    -   [is_long](./docs/variables/is_long.md)
     -   [is_object](./docs/variables/is_object.md)
 
 -   Добавлена функция [array](./docs/array/array.md) в модуль [array](./docs/array.md)

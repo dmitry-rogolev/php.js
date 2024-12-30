@@ -19,5 +19,8 @@
     точкой.
 -   [is_int](./variables/is_int.md) &mdash; Проверяет, является ли значение целым числом.
 -   [is_integer](./variables/is_integer.md) &mdash; Проверяет, является ли значение целым числом.
+-   [is_iterable](./variables/is_iterable.md) &mdash; Проверяет, является ли переданное значение
+    итерируемым.
+-   [is_long](./variables/is_long.md) &mdash; Проверяет, является ли значение целым числом.
 -   [is_object](./variables/is_object.md) &mdash; Проверяет, является ли переданная переменная
     объектом, созданным с использованием класса.
