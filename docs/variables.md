@@ -29,3 +29,4 @@
 -   [is_object](./variables/is_object.md) &mdash; Проверяет, является ли переданная переменная
     объектом, созданным с использованием класса.
 -   [is_scalar](./variables/is_scalar.md) &mdash; Проверяет, является ли значение скалярным.
+-   [is_string](./variables/is_string.md) &mdash; Проверяет, является ли значение строкой.
