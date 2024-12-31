@@ -1,24 +1,20 @@
-import { expect, test } from '@jest/globals';
-import is_symbol from '../../src/variables/is_symbol.mjs';
+import { describe, test, expect } from '@jest/globals';
+import { is_symbol } from '../../src/variables.mjs';
 
-class stdClass {}
+describe('is_symbol', () => {
+    test('Возвращает true для символов', () => {
+        expect(is_symbol(Symbol('symbol'))).toBe(true);
+        expect(is_symbol(Symbol.iterator)).toBe(true);
+    });
 
-test('is_symbol', () => {
-    expect(is_symbol(true)).toBeFalsy();
-    expect(is_symbol(false)).toBeFalsy();
-    expect(is_symbol(0)).toBeFalsy();
-    expect(is_symbol(1)).toBeFalsy();
-    expect(is_symbol(3.14)).toBeFalsy();
-    expect(is_symbol('string')).toBeFalsy();
-    expect(is_symbol([])).toBeFalsy();
-    expect(is_symbol({})).toBeFalsy();
-    expect(is_symbol(new stdClass())).toBeFalsy();
-    expect(is_symbol(() => {})).toBeFalsy();
-    expect(is_symbol(null)).toBeFalsy();
-    expect(is_symbol(Infinity)).toBeFalsy();
-    expect(is_symbol(-Infinity)).toBeFalsy();
-    expect(is_symbol(undefined)).toBeFalsy();
-    expect(is_symbol(NaN)).toBeFalsy();
-    expect(is_symbol(stdClass)).toBeFalsy();
-    expect(is_symbol(Symbol())).toBeTruthy();
+    test('Возвращает false для значений других типов', () => {
+        expect(is_symbol('hello')).toBe(false); // строка
+        expect(is_symbol(42)).toBe(false); // число
+        expect(is_symbol(true)).toBe(false); // логическое значение
+        expect(is_symbol(null)).toBe(false);
+        expect(is_symbol(undefined)).toBe(false);
+        expect(is_symbol({})).toBe(false); // объект
+        expect(is_symbol([])).toBe(false); // массив
+        expect(is_symbol(() => {})).toBe(false); // функция
+    });
 });

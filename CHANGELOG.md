@@ -20,6 +20,7 @@
     -   [is_object](./docs/variables/is_object.md)
     -   [is_scalar](./docs/variables/is_scalar.md)
     -   [is_string](./docs/variables/is_string.md)
+    -   [is_symbol](./docs/variables/is_symbol.md)
 
 -   Добавлена функция [array](./docs/array/array.md) в модуль [array](./docs/array.md)
 
