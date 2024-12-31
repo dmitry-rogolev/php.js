@@ -2,23 +2,71 @@ import is_null from './is_null.mjs';
 import is_undefined from './is_undefined.mjs';
 
 /**
- * Определяет, была ли установлена переменная значением, отличным от `null` и `undefined`
+ * Проверяет, определены ли переменные.
  *
- * Если были переданы несколько параметров, то конструкция `isset()`
- * вернёт `true` только тогда, когда все параметры определены.
- * Проверка выполняется слева направо и заканчивается,
- * как только будет встречена неопределённая переменная.
+ * ### Описание
  *
- * @param {any}  variable Проверяемая переменная.
- * @param {any}  variables Следующие переменные.
- * @returns {boolean} Возвращает `true`, если переданная в параметр `variable` переменная определена
- * и её значение отличается от `null` и `undefined`. В остальных случаях возвращает `false`.
+ * Функция `isset` используется для проверки, определены ли переменные. Она возвращает `true`, если все переменные определены, и `false` в противном случае.
+ *
+ * ### Параметры
+ *
+ * - `...variables` (any[])
+ *      Переменные, которые необходимо проверить на определенность.
+ *
+ * ### Возвращаемое значение
+ *
+ * Возвращает `true`, если все переменные определены, и `false` в противном случае.
+ *
+ * ### Примеры использования
+ *
+ * 1. Проверка определенных значений:
+ *
+ *    ```js
+ *    const result1 = isset('example');
+ *    // Результат: true
+ *
+ *    const result2 = isset(123);
+ *    // Результат: true
+ *
+ *    const result3 = isset(true);
+ *    // Результат: true
+ *
+ *    const result4 = isset([1, 2, 3]);
+ *    // Результат: true
+ *
+ *    const result5 = isset({ key: 'value' });
+ *    // Результат: true
+ *    ```
+ *
+ * 2. Проверка значений null и undefined:
+ *
+ *    ```js
+ *    const result1 = isset(null);
+ *    // Результат: false
+ *
+ *    const result2 = isset(undefined);
+ *    // Результат: false
+ *    ```
+ *
+ * 3. Проверка нескольких значений:
+ *
+ *    ```js
+ *    const result1 = isset('example', null);
+ *    // Результат: false
+ *
+ *    const result2 = isset(123, undefined);
+ *    // Результат: false
+ *
+ *    const result3 = isset(true, 'example', 123);
+ *    // Результат: true
+ *    ```
+ *
+ * @param {...any} variables Переменные, которые необходимо проверить на определенность.
+ * @returns {boolean} Возвращает `true`, если все переменные определены, и `false` в противном случае.
  */
-export default function isset(variable, ...variables) {
-    variables.unshift(variable);
-
-    for (const value of variables) {
-        if (is_undefined(value) || is_null(value)) {
+export default function isset(...variables) {
+    for (const variable of variables) {
+        if (is_undefined(variable) || is_null(variable)) {
             return false;
         }
     }

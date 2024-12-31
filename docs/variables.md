@@ -34,6 +34,7 @@
 -   [is_string](./variables/is_string.md) &mdash; Проверяет, является ли значение строкой.
 -   [is_symbol](./variables/is_symbol.md) &mdash; Проверяет, является ли значение символом.
 -   [is_undefined](./variables/is_undefined.md) &mdash; Проверяет, является ли значение `undefined`.
+-   [isset](./variables/isset.md) &mdash; Проверяет, определены ли переменные.
 -   [to_array](./variables/to_array.md) &mdash; Преобразует значение в массив.
 -   [to_bool](./variables/to_bool.md) &mdash; Преобразует значение в логическое значение.
 -   [to_boolean](./variables/to_boolean.md) &mdash; Синоним функции `to_bool`.
