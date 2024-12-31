@@ -27,6 +27,7 @@
 
     -   [to_array](./docs/variables/to_array.md) &mdash; `arrval`
     -   [to_bool](./docs/variables/to_bool.md) &mdash; `boolval`
+    -   [to_int](./docs/variables/to_int.md) &mdash; `intval`
 
 -   Добавлено в модуль [variables](./docs/variables.md):
 

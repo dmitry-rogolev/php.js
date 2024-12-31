@@ -1,6 +1,6 @@
 import { TypePHPJSError } from '../exceptions.mjs';
 import gettype from './gettype.mjs';
-import intval from './intval.mjs';
+import intval from './to_int.mjs';
 import is_array from './is_array.mjs';
 import is_callable from './is_callable.mjs';
 import is_numeric from './is_numeric.mjs';

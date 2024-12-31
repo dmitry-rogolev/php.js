@@ -1,5 +1,5 @@
 import { TypePHPJSError } from '../exceptions.mjs';
-import intval from '../variables/intval.mjs';
+import intval from '../variables/to_int.mjs';
 import is_array from '../variables/is_array.mjs';
 import is_numeric from '../variables/is_numeric.mjs';
 
