@@ -26,6 +26,7 @@
     Переименовано:
 
     -   [to_array](./docs/variables/to_array.md) &mdash; `arrval`
+    -   [to_bool](./docs/variables/to_bool.md) &mdash; `boolval`
 
 -   Добавлена функция [array](./docs/array/array.md) в модуль [array](./docs/array.md)
 

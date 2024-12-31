@@ -16,7 +16,7 @@ export { default as is_symbol } from './variables/is_symbol.mjs';
 export { default as is_undefined } from './variables/is_undefined.mjs';
 export { default as is_callable } from './variables/is_callable.mjs';
 export { default as to_array } from './variables/to_array.mjs';
-export { default as boolval } from './variables/boolval.mjs';
+export { default as to_bool } from './variables/to_bool.mjs';
 export { default as floatval } from './variables/floatval.mjs';
 export { default as doubleval } from './variables/doubleval.mjs';
 export { default as empty } from './variables/empty.mjs';

@@ -1,4 +1,4 @@
-import boolval from './boolval.mjs';
+import boolval from './to_bool.mjs';
 
 /**
  * Проверяет, пуста ли переменная

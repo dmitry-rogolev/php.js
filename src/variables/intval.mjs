@@ -1,4 +1,4 @@
-import boolval from './boolval.mjs';
+import boolval from './to_bool.mjs';
 import is_float from './is_float.mjs';
 import is_int from './is_int.mjs';
 import is_string from './is_string.mjs';

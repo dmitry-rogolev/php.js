@@ -1,5 +1,5 @@
 import arrval from './to_array.mjs';
-import boolval from './boolval.mjs';
+import boolval from './to_bool.mjs';
 import floatval from './floatval.mjs';
 import intval from './intval.mjs';
 import objval from './objval.mjs';
