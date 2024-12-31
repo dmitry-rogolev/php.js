@@ -21,6 +21,7 @@ test('variables.global', () => {
     expect(is_callable).not.toBeUndefined();
     expect(to_array).not.toBeUndefined();
     expect(to_bool).not.toBeUndefined();
+    expect(to_boolean).not.toBeUndefined();
     expect(floatval).not.toBeUndefined();
     expect(doubleval).not.toBeUndefined();
     expect(empty).not.toBeUndefined();

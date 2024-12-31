@@ -28,6 +28,10 @@
     -   [to_array](./docs/variables/to_array.md) &mdash; `arrval`
     -   [to_bool](./docs/variables/to_bool.md) &mdash; `boolval`
 
+-   Добавлено в модуль [variables](./docs/variables.md):
+
+    -   [to_boolean](./docs/variables/to_boolean.md)
+
 -   Добавлена функция [array](./docs/array/array.md) в модуль [array](./docs/array.md)
 
 -   Переработана документация

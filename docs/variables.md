@@ -34,3 +34,4 @@
 -   [is_undefined](./variables/is_undefined.md) &mdash; Проверяет, является ли значение `undefined`.
 -   [to_array](./variables/to_array.md) &mdash; Преобразует значение в массив.
 -   [to_bool](./variables/to_bool.md) &mdash; Преобразует значение в логическое значение.
+-   [to_boolean](./variables/to_boolean.md) &mdash; Синоним функции `to_bool`.
