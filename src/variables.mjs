@@ -33,6 +33,6 @@ export { default as settype } from './variables/settype.mjs';
 export { default as is_contract } from './variables/is_contract.mjs';
 export { default as is_iterable } from './variables/is_iterable.mjs';
 export { default as is_countable } from './variables/is_countable.mjs';
-export { default as objval } from './variables/objval.mjs';
+export { default as to_object } from './variables/to_object.mjs';
 export { default as unserialize } from './variables/unserialize.mjs';
 export { default as var_export } from './variables/var_export.mjs';

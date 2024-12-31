@@ -2,7 +2,7 @@ import arrval from './to_array.mjs';
 import boolval from './to_bool.mjs';
 import floatval from './to_float.mjs';
 import intval from './to_int.mjs';
-import objval from './objval.mjs';
+import objval from './to_object.mjs';
 import strval from './strval.mjs';
 
 /**
