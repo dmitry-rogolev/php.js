@@ -5,7 +5,6 @@ import {
     to_double,
     empty,
     to_float,
-    get_debug_type,
     gettype,
     to_int,
     is_array,
@@ -65,7 +64,6 @@ test('variables', () => {
     expect(to_float).not.toBeUndefined();
     expect(to_double).not.toBeUndefined();
     expect(empty).not.toBeUndefined();
-    expect(get_debug_type).not.toBeUndefined();
     expect(gettype).not.toBeUndefined();
     expect(to_int).not.toBeUndefined();
     expect(to_integer).not.toBeUndefined();
