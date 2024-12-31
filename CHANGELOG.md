@@ -23,6 +23,10 @@
     -   [is_symbol](./docs/variables/is_symbol.md)
     -   [is_undefined](./docs/variables/is_undefined.md)
 
+    Переименовано:
+
+    -   [to_array](./docs/variables/to_array.md) &mdash; `arrval`
+
 -   Добавлена функция [array](./docs/array/array.md) в модуль [array](./docs/array.md)
 
 -   Переработана документация

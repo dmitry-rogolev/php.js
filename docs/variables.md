@@ -32,3 +32,4 @@
 -   [is_string](./variables/is_string.md) &mdash; Проверяет, является ли значение строкой.
 -   [is_symbol](./variables/is_symbol.md) &mdash; Проверяет, является ли значение символом.
 -   [is_undefined](./variables/is_undefined.md) &mdash; Проверяет, является ли значение `undefined`.
+-   [to_array](./variables/to_array.md) &mdash; Преобразует значение в массив.
