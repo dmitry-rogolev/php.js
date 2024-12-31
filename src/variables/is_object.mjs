@@ -1,9 +1,12 @@
+import is_class from './is_class.mjs';
+
 /**
  * Проверяет, является ли переданное значение объектом, созданным с использованием класса.
  *
  * ### Параметры
  *
- * - `value` (any): Проверяемая переменная.
+ * - `value` (any)
+ *      Проверяемая переменная.
  *
  * ### Описание
  *
@@ -65,19 +68,5 @@
  * @returns {boolean}
  */
 export default function is_object(value) {
-    // Обертка в Boolean необходима, т.к. при переопределении конструктора, будет возвращено его значение.
-    // Пример:
-    // class MyClass {}
-    // const myClassInstance = new MyClass();
-    // MyClass.prototype.constructor = undefined;
-    // is_object(myClassInstance); // undefined
-    return Boolean(
-        // Проверяем, что значение является экземпляром объекта (не null, не примитив)
-        value instanceof Object &&
-            // Проверяем, что у прототипа есть свойство constructor
-            Object.getPrototypeOf(value).constructor &&
-            // Проверяем, что свойство constructor у прототипа начинается с 'class',
-            // что подтверждает, что это класс
-            Object.getPrototypeOf(value).constructor.toString().startsWith('class '),
-    );
+    return value instanceof Object && is_class(Object.getPrototypeOf(value).constructor);
 }

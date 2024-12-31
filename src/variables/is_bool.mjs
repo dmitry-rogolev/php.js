@@ -16,7 +16,6 @@
  * ### Параметры
  *
  * - `value` (any):
- *
  *      Проверяемая переменная.
  *
  * ### Возвращаемое значение
@@ -36,8 +35,8 @@
  * is_bool(new Boolean(true)); // Возвращает: false
  * ```
  *
- * @param {any} value
- * @returns {boolean}
+ * @param {any} value Проверяемая переменная.
+ * @returns {boolean} Возвращает `true`, если значение является логическим, иначе `false`.
  */
 export default function is_bool(value) {
     return typeof value === 'boolean';

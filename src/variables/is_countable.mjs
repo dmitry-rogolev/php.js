@@ -7,7 +7,6 @@ import is_array from './is_array.mjs';
  * ### Параметры
  *
  * - `value` (any)
- *
  *      Значение для проверки.
  *
  * ### Описание

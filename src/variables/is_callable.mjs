@@ -4,7 +4,6 @@
  * ### Параметры
  *
  * - `value` (any):
- *
  *      Проверяемое значение. Может быть любым типом данных.
  *
  * ### Описание
@@ -51,7 +50,7 @@
  * ```
  *
  * @param {any} value - Проверяемое значение.
- * @returns {boolean}
+ * @returns {boolean} Возвращает `true`, если значение может быть вызвано как функция, иначе `false`.
  */
 export default function is_callable(value) {
     return typeof value === 'function' && !/^class\s/.test(value.toString());

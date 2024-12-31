@@ -58,12 +58,15 @@ import is_class from './is_class.mjs';
  * @returns {boolean} Возвращает `true`, если класс является контрактом, основанным на интерфейсе `Interface`.
  */
 export default function is_contract(value) {
+    // Контракт должен быть классом
     if (!is_class(value)) {
         return false;
     }
 
     let proto = value;
 
+    // Ищем в цепочке прототипов переданного класса класс `Interface`.
+    // При этом, сам класс Interface не считается контрактом.
     while ((proto = Object.getPrototypeOf(proto))) {
         if (proto === Interface) {
             return true;

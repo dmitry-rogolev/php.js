@@ -3,8 +3,7 @@
  *
  * ### Параметры
  *
- * - `value`
- *
+ * - `value` (any)
  *      Проверяемая переменная.
  *
  * ### Описание
@@ -64,8 +63,8 @@
  * ```
  *
  * @param {any} value Проверяемая переменная.
- * @returns {boolean}
+ * @returns {boolean} Возвращает `true`, если значение является классом, иначе `false`.
  */
 export default function is_class(value) {
-    return typeof value === 'function' && value.toString().startsWith('class ');
+    return typeof value === 'function' && /^class\s/.test(value.toString());
 }

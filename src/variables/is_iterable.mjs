@@ -8,7 +8,6 @@ import is_object from './is_object.mjs';
  * ### Параметры
  *
  * - `value` (any)
- *
  *      Проверяемая переменная.
  *
  * ### Описание
