@@ -3,6 +3,7 @@
 -   Рефакторинг модуля [variables](./docs/variables.md):
 
     -   [empty](./docs/variables/empty.md)
+    -   [gettype](./docs/variables/gettype.md)
     -   [is_array](./docs/variables/is_array.md)
     -   [is_bool](./docs/variables/is_bool.md)
     -   [is_callable](./docs/variables/is_callable.md)

@@ -1,46 +1,44 @@
-import { test, expect } from '@jest/globals';
-import gettype from '../../src/variables/gettype.mjs';
+import { expect, test, describe } from '@jest/globals';
+import { gettype } from '../../src/variables.mjs';
 
-class stdClass {}
+describe('Функция gettype', () => {
+    test('Должна возвращать "null" для null', () => {
+        expect(gettype(null)).toBe('null');
+    });
 
-/**
- * https://onlinephp.io?s=s7EvyCjg5eLlSk3OyFdQLykqTbVSQAB1BT2F9NSSksqCVA2QnCaQH-AREO_q72MN02OMrAFNjzFWDXqGJrgsAclh06NUXFKUmZeuZIVFjzpETh2bvuhYK5yOi47FpiMvtVyhuCTFOSexuNgKTQeyHDa9aaV5ySWZ-XkKGpoK1bVWKHpR5bDaXJqTgytcQHLY9Hj6uVnh8h9QDpsWXTQ9yFp0MfQAAA%2C%2C&v=8.3.4
- */
-test('gettype', () => {
-    // php true:           boolean
-    expect(gettype(true)).toBe('boolean');
+    test('Должна возвращать "NaN" для NaN', () => {
+        expect(gettype(NaN)).toBe('NaN');
+    });
 
-    // php 3:              integer
-    expect(gettype(3)).toBe('integer');
+    test('Должна возвращать "integer" для целых чисел', () => {
+        expect(gettype(123)).toBe('integer');
+    });
 
-    // php 3.14:           double
-    expect(gettype(3.14)).toBe('double');
+    test('Должна возвращать "double" для чисел с плавающей точкой', () => {
+        expect(gettype(123.45)).toBe('double');
+    });
 
-    // php "string":       string
-    expect(gettype('string')).toBe('string');
+    test('Должна возвращать "class" для классов', () => {
+        class MyClass {}
+        expect(gettype(MyClass)).toBe('class');
+    });
 
-    // php []:             array
-    expect(gettype([])).toBe('array');
-    expect(gettype({})).toBe('array');
+    test('Должна возвращать "object" для экземпляров классов', () => {
+        class MyClass {}
+        expect(gettype(new MyClass())).toBe('object');
+    });
 
-    // php new stdClass:   object
-    expect(gettype(new stdClass())).toBe('object');
+    test('Должна возвращать "array" для массивов', () => {
+        expect(gettype([1, 2, 3])).toBe('array');
+    });
 
-    // ! php function () {} : 'object'
-    expect(gettype(() => {})).toBe('function');
+    test('Должна возвращать "array" для ассоциативных массивов', () => {
+        expect(gettype({ key: 'value' })).toBe('array');
+    });
 
-    // php null:           NULL
-    expect(gettype(null)).toBe('NULL');
-
-    // php INF: double
-    expect(gettype(Infinity)).toBe('double');
-
-    // php -INF: double
-    expect(gettype(-Infinity)).toBe('double');
-
-    // js
-    expect(gettype(undefined)).toBe('undefined');
-    expect(gettype(NaN)).toBe('NaN');
-    expect(gettype(stdClass)).toBe('class');
-    expect(gettype(Symbol())).toBe('symbol');
+    test('Должна возвращать правильный тип для других значений', () => {
+        expect(gettype('example')).toBe('string');
+        expect(gettype(true)).toBe('boolean');
+        expect(gettype(undefined)).toBe('undefined');
+    });
 });

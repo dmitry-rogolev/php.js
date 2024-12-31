@@ -6,31 +6,67 @@ import is_null from './is_null.mjs';
 import is_object from './is_object.mjs';
 
 /**
- * Возвращает тип переменной
+ * Определяет тип переменной.
  *
- * Возвращает тип переменной `value`.
- * Для проверки типа переменной используйте функции `is_*`.
+ * ### Описание
  *
- * @param {any} value Проверяемая переменная.
- * @returns {String}
+ * Функция `gettype` используется для определения типа переменной. Она возвращает строку, представляющую тип переменной.
  *
- * Возможными значениями возвращаемой строки являются:
+ * ### Параметры
  *
- * - undefined
- * - NULL
- * - NaN
- * - boolean
- * - integer
- * - double
- * - string
- * - array
- * - class
- * - object
- * - function
+ * - `value` (any)
+ *      Переменная, тип которой необходимо определить.
+ *
+ * ### Возвращаемое значение
+ *
+ * Возвращает строку, представляющую тип переменной.
+ *
+ * ### Примеры использования
+ *
+ * 1. Определение типа переменной:
+ *
+ *    ```js
+ *    const result1 = gettype(null);
+ *    // Результат: 'null'
+ *
+ *    const result2 = gettype(NaN);
+ *    // Результат: 'NaN'
+ *
+ *    const result3 = gettype(123);
+ *    // Результат: 'integer'
+ *
+ *    const result4 = gettype(123.45);
+ *    // Результат: 'double'
+ *
+ *    const result5 = gettype('example');
+ *    // Результат: 'string'
+ *
+ *    const result6 = gettype(true);
+ *    // Результат: 'boolean'
+ *
+ *    const result7 = gettype(undefined);
+ *    // Результат: 'undefined'
+ *
+ *    const result8 = gettype([1, 2, 3]);
+ *    // Результат: 'array'
+ *
+ *    const result9 = gettype({ key: 'value' });
+ *    // Результат: 'object'
+ *
+ *    class MyClass {}
+ *    const result10 = gettype(MyClass);
+ *    // Результат: 'class'
+ *
+ *    const result11 = gettype(new MyClass());
+ *    // Результат: 'object'
+ *    ```
+ *
+ * @param {any} value Переменная, тип которой необходимо определить.
+ * @returns {string} Возвращает строку, представляющую тип переменной.
  */
 export default function gettype(value) {
     if (is_null(value)) {
-        return 'NULL';
+        return 'null';
     }
 
     if (Number.isNaN(value)) {
