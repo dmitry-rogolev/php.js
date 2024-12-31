@@ -1,4 +1,4 @@
-import floatval from './floatval.mjs';
+import floatval from './to_float.mjs';
 
 /**
  * Возвращает значение переменной в виде числа с плавающей точкой

@@ -1,6 +1,6 @@
 import stdClass from '../classes/stdClass.mjs';
 import { TypePHPJSError } from '../exceptions.mjs';
-import floatval from './floatval.mjs';
+import floatval from './to_float.mjs';
 import intval from './to_int.mjs';
 import is_array from './is_array.mjs';
 import is_callable from './is_callable.mjs';
