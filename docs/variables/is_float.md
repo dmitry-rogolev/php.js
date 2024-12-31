@@ -9,7 +9,7 @@
 ## Сигнатура функции
 
 ```ts
-is_float(value: any): boolean
+function is_float(value: any): boolean;
 ```
 
 ## Параметры

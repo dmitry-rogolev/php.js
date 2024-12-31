@@ -10,7 +10,7 @@
 ## Сигнатура функции
 
 ```ts
-is_long(value: any): boolean
+function is_long(value: any): boolean;
 ```
 
 ## Параметры

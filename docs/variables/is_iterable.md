@@ -6,6 +6,12 @@
 
 `is_iterable` &mdash; Проверяет, является ли переданное значение итерируемым.
 
+## Сигнатура функции
+
+```ts
+function is_iterable(value: any): boolean;
+```
+
 ## Параметры
 
 -   `value` (any)

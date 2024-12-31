@@ -9,7 +9,7 @@
 ## Сигнатура функции
 
 ```ts
-is_numeric(value: any): boolean
+function is_numeric(value: any): boolean;
 ```
 
 ## Параметры

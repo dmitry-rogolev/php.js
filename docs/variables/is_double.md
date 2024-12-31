@@ -10,7 +10,7 @@
 ## Сигнатура функции
 
 ```ts
-is_double(value: any): boolean
+function is_double(value: any): boolean;
 ```
 
 ## Параметры

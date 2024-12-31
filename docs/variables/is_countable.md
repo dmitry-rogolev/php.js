@@ -9,7 +9,7 @@
 ## Сигнатура функции
 
 ```ts
-is_countable(value: any): boolean
+function is_countable(value: any): boolean;
 ```
 
 ## Параметры

@@ -9,7 +9,7 @@
 ## Сигнатура функции
 
 ```ts
-is_scalar(value: any): boolean
+function is_scalar(value: any): boolean;
 ```
 
 ## Параметры

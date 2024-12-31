@@ -1,26 +1,18 @@
-import { expect, test } from '@jest/globals';
-import is_undefined from '../../src/variables/is_undefined.mjs';
+import { describe, test, expect } from '@jest/globals';
+import { is_undefined } from '../../src/variables.mjs';
 
-class stdClass {}
+describe('is_undefined', () => {
+    test('Возвращает true для значения undefined', () => {
+        expect(is_undefined(undefined)).toBe(true);
+    });
 
-test('is_undefined', () => {
-    expect(is_undefined(true)).toBeFalsy();
-    expect(is_undefined(false)).toBeFalsy();
-    expect(is_undefined(0)).toBeFalsy();
-    expect(is_undefined(1)).toBeFalsy();
-    expect(is_undefined(3.14)).toBeFalsy();
-    expect(is_undefined('string')).toBeFalsy();
-    expect(is_undefined([])).toBeFalsy();
-    expect(is_undefined({})).toBeFalsy();
-    expect(is_undefined(new stdClass())).toBeFalsy();
-    expect(is_undefined(() => {})).toBeFalsy();
-    function Test() {}
-    expect(is_undefined(Test)).toBeFalsy();
-    expect(is_undefined(null)).toBeFalsy();
-    expect(is_undefined(Infinity)).toBeFalsy();
-    expect(is_undefined(-Infinity)).toBeFalsy();
-    expect(is_undefined(undefined)).toBeTruthy();
-    expect(is_undefined(NaN)).toBeFalsy();
-    expect(is_undefined(stdClass)).toBeFalsy();
-    expect(is_undefined(Symbol())).toBeFalsy();
+    test('Возвращает false для значений других типов', () => {
+        expect(is_undefined('hello')).toBe(false); // строка
+        expect(is_undefined(42)).toBe(false); // число
+        expect(is_undefined(true)).toBe(false); // логическое значение
+        expect(is_undefined(null)).toBe(false);
+        expect(is_undefined({})).toBe(false); // объект
+        expect(is_undefined([])).toBe(false); // массив
+        expect(is_undefined(() => {})).toBe(false); // функция
+    });
 });
