@@ -38,6 +38,7 @@ import {
     unserialize,
     var_export,
     to_boolean,
+    to_integer,
 } from './../src/variables.mjs';
 
 test('variables', () => {
@@ -67,6 +68,7 @@ test('variables', () => {
     expect(get_debug_type).not.toBeUndefined();
     expect(gettype).not.toBeUndefined();
     expect(to_int).not.toBeUndefined();
+    expect(to_integer).not.toBeUndefined();
     expect(isset).not.toBeUndefined();
     expect(strval).not.toBeUndefined();
     expect(print_r).not.toBeUndefined();

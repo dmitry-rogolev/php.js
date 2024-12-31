@@ -32,6 +32,7 @@
 -   Добавлено в модуль [variables](./docs/variables.md):
 
     -   [to_boolean](./docs/variables/to_boolean.md)
+    -   [to_integer](./docs/variables/to_integer.md)
 
 -   Добавлена функция [array](./docs/array/array.md) в модуль [array](./docs/array.md)
 

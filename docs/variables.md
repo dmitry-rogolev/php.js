@@ -36,3 +36,4 @@
 -   [to_bool](./variables/to_bool.md) &mdash; Преобразует значение в логическое значение.
 -   [to_boolean](./variables/to_boolean.md) &mdash; Синоним функции `to_bool`.
 -   [to_int](./variables/to_int.md) &mdash; Преобразует значение в целое число.
+-   [to_integer](./variables/to_integer.md) &mdash; Синоним функции `to_int`.
