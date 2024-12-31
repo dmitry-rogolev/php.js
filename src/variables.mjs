@@ -19,7 +19,7 @@ export { default as to_array } from './variables/to_array.mjs';
 export { default as to_bool } from './variables/to_bool.mjs';
 export { default as to_boolean } from './variables/to_boolean.mjs';
 export { default as to_float } from './variables/to_float.mjs';
-export { default as doubleval } from './variables/doubleval.mjs';
+export { default as to_double } from './variables/to_double.mjs';
 export { default as empty } from './variables/empty.mjs';
 export { default as get_debug_type } from './variables/get_debug_type.mjs';
 export { default as gettype } from './variables/gettype.mjs';

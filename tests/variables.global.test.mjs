@@ -23,7 +23,7 @@ test('variables.global', () => {
     expect(to_bool).not.toBeUndefined();
     expect(to_boolean).not.toBeUndefined();
     expect(to_float).not.toBeUndefined();
-    expect(doubleval).not.toBeUndefined();
+    expect(to_double).not.toBeUndefined();
     expect(empty).not.toBeUndefined();
     expect(get_debug_type).not.toBeUndefined();
     expect(gettype).not.toBeUndefined();

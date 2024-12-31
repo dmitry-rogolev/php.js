@@ -2,7 +2,7 @@ import { expect, test } from '@jest/globals';
 import {
     to_array,
     to_bool,
-    doubleval,
+    to_double,
     empty,
     to_float,
     get_debug_type,
@@ -63,7 +63,7 @@ test('variables', () => {
     expect(to_bool).not.toBeUndefined();
     expect(to_boolean).not.toBeUndefined();
     expect(to_float).not.toBeUndefined();
-    expect(doubleval).not.toBeUndefined();
+    expect(to_double).not.toBeUndefined();
     expect(empty).not.toBeUndefined();
     expect(get_debug_type).not.toBeUndefined();
     expect(gettype).not.toBeUndefined();

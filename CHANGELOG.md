@@ -27,6 +27,7 @@
 
     -   [to_array](./docs/variables/to_array.md) &mdash; `arrval`
     -   [to_bool](./docs/variables/to_bool.md) &mdash; `boolval`
+    -   [to_double](./docs/variables/to_double.md) &mdash; `doubleval`
     -   [to_float](./docs/variables/to_float.md) &mdash; `floatval`
     -   [to_int](./docs/variables/to_int.md) &mdash; `intval`
 
