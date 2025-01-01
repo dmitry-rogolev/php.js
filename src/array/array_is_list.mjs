@@ -1,5 +1,5 @@
 import { TypePHPJSError } from '../exceptions.mjs';
-import intval from '../variables/to_int.mjs';
+import to_int from '../variables/to_int.mjs';
 import is_array from '../variables/is_array.mjs';
 import is_numeric from '../variables/is_numeric.mjs';
 
@@ -26,7 +26,7 @@ export default function array_is_list(array) {
     let index = 0;
 
     for (const key in array) {
-        if (!is_numeric(key) || intval(key) !== index) {
+        if (!is_numeric(key) || to_int(key) !== index) {
             return false;
         }
 

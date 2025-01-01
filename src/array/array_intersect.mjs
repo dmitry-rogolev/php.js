@@ -1,4 +1,4 @@
-import { strval } from '../variables.mjs';
+import { to_string } from '../variables.mjs';
 import array_uintersect from './array_uintersect.mjs';
 
 /**
@@ -14,5 +14,5 @@ import array_uintersect from './array_uintersect.mjs';
  * @throws {TypePHPJSError}
  */
 export default function array_intersect(original_array, ...arrays) {
-    return array_uintersect((a, b) => strval(a) === strval(b), original_array, ...arrays);
+    return array_uintersect((a, b) => to_string(a) === to_string(b), original_array, ...arrays);
 }

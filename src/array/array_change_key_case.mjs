@@ -1,5 +1,5 @@
 import { TypePHPJSError, ValuePHPJSError } from '../exceptions.mjs';
-import { is_array, is_int, is_numeric, strval } from '../variables.mjs';
+import { is_array, is_int, is_numeric, to_string } from '../variables.mjs';
 import array_is_list from './array_is_list.mjs';
 import { CASE_LOWER, CASE_UPPER } from './constants.mjs';
 
@@ -24,8 +24,8 @@ export default function array_change_key_case(array, CASE = CASE_LOWER) {
     }
 
     const cases = {
-        [CASE_UPPER]: key => strval(key).toUpperCase(),
-        [CASE_LOWER]: key => strval(key).toLowerCase(),
+        [CASE_UPPER]: key => to_string(key).toUpperCase(),
+        [CASE_LOWER]: key => to_string(key).toLowerCase(),
     };
 
     if (!(CASE in cases)) {

@@ -5,7 +5,7 @@ import is_callable from './is_callable.mjs';
 import is_class from './is_class.mjs';
 import is_object from './is_object.mjs';
 import is_symbol from './is_symbol.mjs';
-import strval from './strval.mjs';
+import strval from './to_string.mjs';
 
 /**
  * Выводит удобочитаемую информацию о переменной

@@ -1,5 +1,5 @@
 import { TypePHPJSError, ValuePHPJSError } from '../exceptions.mjs';
-import { floatval, is_array, is_int, strval } from '../variables.mjs';
+import { to_float, is_array, is_int, to_string } from '../variables.mjs';
 import { SORT_NUMERIC, SORT_REGULAR, SORT_STRING } from './constants.mjs';
 
 /**
@@ -12,7 +12,7 @@ import { SORT_NUMERIC, SORT_REGULAR, SORT_STRING } from './constants.mjs';
  * > **Замечание:**
  * >
  * > Два элемента считаются одинаковыми в том и только в том случае,
- * > если strval(elem1) === strval(elem2).
+ * > если to_string(elem1) === to_string(elem2).
  * >
  * > Другими словами: если у них одинаковое строковое представление, то будет использован первый элемент.
  *
@@ -46,11 +46,11 @@ export default function array_unique(array, flag = SORT_STRING) {
             break;
         case SORT_NUMERIC:
             compare_func = (result, value) =>
-                !Object.values(result).some(v => floatval(v) === floatval(value));
+                !Object.values(result).some(v => to_float(v) === to_float(value));
             break;
         case SORT_STRING:
             compare_func = (result, value) =>
-                !Object.values(result).some(v => strval(v) === strval(value));
+                !Object.values(result).some(v => to_string(v) === to_string(value));
             break;
         default:
             throw new ValuePHPJSError(

@@ -1,4 +1,4 @@
-import { strval } from '../variables.mjs';
+import { to_string } from '../variables.mjs';
 import array_udiff from './array_udiff.mjs';
 
 /**
@@ -14,5 +14,5 @@ import array_udiff from './array_udiff.mjs';
  * @throws {TypePHPJSError}
  */
 export default function array_diff(original_array, ...arrays) {
-    return array_udiff((a, b) => strval(a) === strval(b), original_array, ...arrays);
+    return array_udiff((a, b) => to_string(a) === to_string(b), original_array, ...arrays);
 }

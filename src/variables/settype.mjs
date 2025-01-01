@@ -3,7 +3,7 @@ import boolval from './to_bool.mjs';
 import floatval from './to_float.mjs';
 import intval from './to_int.mjs';
 import objval from './to_object.mjs';
-import strval from './strval.mjs';
+import strval from './to_string.mjs';
 
 /**
  * Задаёт тип переменной

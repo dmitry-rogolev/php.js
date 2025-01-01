@@ -31,7 +31,7 @@ import {
     print_r,
     serialize,
     settype,
-    strval,
+    to_string,
     var_dump,
     isset,
     unserialize,
@@ -68,7 +68,7 @@ test('variables', () => {
     expect(to_int).not.toBeUndefined();
     expect(to_integer).not.toBeUndefined();
     expect(isset).not.toBeUndefined();
-    expect(strval).not.toBeUndefined();
+    expect(to_string).not.toBeUndefined();
     expect(print_r).not.toBeUndefined();
     expect(var_dump).not.toBeUndefined();
     expect(serialize).not.toBeUndefined();

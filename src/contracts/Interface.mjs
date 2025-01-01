@@ -2,6 +2,10 @@
  * Базовый класс для всех внутренних интерфейсов библиотеки php.js
  */
 class Interface {
+    constructor() {
+        throw new Error('Запрещено создавать экземпляр класса Interface.');
+    }
+
     static [Symbol.hasInstance](value) {
         if (
             !(value instanceof Object) ||

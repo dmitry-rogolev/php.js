@@ -1,5 +1,5 @@
 import { TypePHPJSError, ValuePHPJSError } from '../exceptions.mjs';
-import { floatval, is_float, is_int, is_string } from '../variables.mjs';
+import { to_float, is_float, is_int, is_string } from '../variables.mjs';
 
 /**
  * Создаёт массив, содержащий диапазон элементов
@@ -83,11 +83,11 @@ export default function range(start, end, step = 1) {
     }
 
     if (is_string(start) && (is_int(end) || is_float(end))) {
-        start = Number.isNaN(floatval(start)) ? 0 : floatval(start);
+        start = Number.isNaN(to_float(start)) ? 0 : to_float(start);
     }
 
     if ((is_int(start) || is_float(start)) && is_string(end)) {
-        end = Number.isNaN(floatval(end)) ? 0 : floatval(end);
+        end = Number.isNaN(to_float(end)) ? 0 : to_float(end);
     }
 
     let next;

@@ -25,7 +25,7 @@ export { default as gettype } from './variables/gettype.mjs';
 export { default as to_int } from './variables/to_int.mjs';
 export { default as to_integer } from './variables/to_integer.mjs';
 export { default as isset } from './variables/isset.mjs';
-export { default as strval } from './variables/strval.mjs';
+export { default as to_string } from './variables/to_string.mjs';
 export { default as print_r } from './variables/print_r.mjs';
 export { default as var_dump } from './variables/var_dump.mjs';
 export { default as serialize } from './variables/serialize.mjs';

@@ -29,7 +29,7 @@ test('variables.global', () => {
     expect(to_int).not.toBeUndefined();
     expect(to_integer).not.toBeUndefined();
     expect(isset).not.toBeUndefined();
-    expect(strval).not.toBeUndefined();
+    expect(to_string).not.toBeUndefined();
     expect(print_r).not.toBeUndefined();
     expect(var_dump).not.toBeUndefined();
     expect(serialize).not.toBeUndefined();

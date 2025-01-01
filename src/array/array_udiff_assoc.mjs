@@ -1,4 +1,4 @@
-import { strval } from '../variables.mjs';
+import { to_string } from '../variables.mjs';
 import array_udiff_uassoc from './array_udiff_uassoc.mjs';
 
 /**
@@ -23,7 +23,7 @@ import array_udiff_uassoc from './array_udiff_uassoc.mjs';
 export default function array_udiff_assoc(value_compare_func, original_array, ...arrays) {
     return array_udiff_uassoc(
         value_compare_func,
-        (a, b) => strval(a) === strval(b),
+        (a, b) => to_string(a) === to_string(b),
         original_array,
         ...arrays,
     );

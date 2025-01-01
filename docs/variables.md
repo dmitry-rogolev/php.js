@@ -43,3 +43,4 @@
 -   [to_int](./variables/to_int.md) &mdash; Преобразует значение в целое число.
 -   [to_integer](./variables/to_integer.md) &mdash; Синоним функции `to_int`.
 -   [to_object](./variables/to_object.md) &mdash; Преобразует значение в объект.
+-   [to_string](./variables/to_string.md) &mdash; Преобразует значение в строку.

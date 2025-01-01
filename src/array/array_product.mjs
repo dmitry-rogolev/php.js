@@ -1,5 +1,5 @@
 import { TypePHPJSError } from '../exceptions.mjs';
-import { floatval, is_array } from '../variables.mjs';
+import { to_float, is_array } from '../variables.mjs';
 import array_reduce from './array_reduce.mjs';
 
 /**
@@ -16,5 +16,5 @@ export default function array_product(array) {
         throw new TypePHPJSError('The "array" parameter must be an array.');
     }
 
-    return array_reduce(array, (carry, item) => (carry *= isNaN(item) ? 1 : floatval(item)), 1);
+    return array_reduce(array, (carry, item) => (carry *= isNaN(item) ? 1 : to_float(item)), 1);
 }

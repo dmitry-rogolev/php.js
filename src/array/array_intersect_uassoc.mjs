@@ -1,4 +1,4 @@
-import { strval } from '../variables.mjs';
+import { to_string } from '../variables.mjs';
 import array_uintersect_uassoc from './array_uintersect_uassoc.mjs';
 
 /**
@@ -16,7 +16,7 @@ import array_uintersect_uassoc from './array_uintersect_uassoc.mjs';
  */
 export default function array_intersect_uassoc(key_compare_func, original_array, ...arrays) {
     return array_uintersect_uassoc(
-        (a, b) => strval(a) === strval(b),
+        (a, b) => to_string(a) === to_string(b),
         key_compare_func,
         original_array,
         ...arrays,

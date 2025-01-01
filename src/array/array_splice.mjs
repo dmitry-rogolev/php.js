@@ -1,5 +1,5 @@
 import { TypePHPJSError } from '../exceptions.mjs';
-import { arrval, empty, is_array, is_int, is_null, is_numeric } from '../variables.mjs';
+import { to_array, empty, is_array, is_int, is_null, is_numeric } from '../variables.mjs';
 import array_push from './array_push.mjs';
 import array_reindex from './array_reindex.mjs';
 import array_values from './array_values.mjs';
@@ -62,7 +62,7 @@ export default function array_splice(array, offset, length = null, replacement =
         throw new TypePHPJSError('The "offset" parameter must be an integer.');
     }
 
-    replacement = is_array(replacement) ? array_values(replacement) : arrval(replacement);
+    replacement = is_array(replacement) ? array_values(replacement) : to_array(replacement);
 
     if (empty(replacement) && !is_null(length) && length === 0) {
         return array instanceof Array ? [] : {};
