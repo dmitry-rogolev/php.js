@@ -25,6 +25,7 @@
     -   [is_symbol](./docs/variables/is_symbol.md)
     -   [is_undefined](./docs/variables/is_undefined.md)
     -   [isset](./docs/variables/isset.md)
+    -   [settype](./docs/variables/settype.md)
 
     Переименовано:
 

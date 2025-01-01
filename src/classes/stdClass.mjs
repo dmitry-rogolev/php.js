@@ -3,17 +3,14 @@ import implementable from '../functions/implementable.mjs';
 import traitable from '../functions/traitable.mjs';
 import verify_implementation_of_contracts from '../functions/verify_implementation_of_contracts.mjs';
 import is_array from '../variables/is_array.mjs';
-import ExtensibleFunction from './ExtensibleFunction.mjs';
 
 /**
  * Пустой класс общего назначения
  *
  * Некоторые функции создают экземпляры этого класса, например, `objval`
  */
-class stdClass extends ExtensibleFunction {
+class stdClass {
     constructor() {
-        super();
-
         verify_implementation_of_contracts(Object.getPrototypeOf(this).constructor);
 
         return get_magic_proxy(this);
