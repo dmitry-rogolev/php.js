@@ -39,5 +39,4 @@ test('variables.global', () => {
     expect(is_countable).not.toBeUndefined();
     expect(to_object).not.toBeUndefined();
     expect(unserialize).not.toBeUndefined();
-    expect(var_export).not.toBeUndefined();
 });

@@ -35,7 +35,6 @@ import {
     var_dump,
     isset,
     unserialize,
-    var_export,
     to_boolean,
     to_integer,
 } from './../src/variables.mjs';
@@ -78,5 +77,4 @@ test('variables', () => {
     expect(is_countable).not.toBeUndefined();
     expect(to_object).not.toBeUndefined();
     expect(unserialize).not.toBeUndefined();
-    expect(var_export).not.toBeUndefined();
 });

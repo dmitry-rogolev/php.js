@@ -46,6 +46,7 @@
 -   Удалено из модуля [variables](./docs/variables.md):
 
     -   `get_debug_type`
+    -   `var_export`
 
 -   Добавлена функция [array](./docs/array/array.md) в модуль [array](./docs/array.md)
 
