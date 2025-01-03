@@ -36,6 +36,7 @@
     -   [to_int](./docs/variables/to_int.md) &mdash; `intval`
     -   [to_object](./docs/variables/to_object.md) &mdash; `objval`
     -   [to_string](./docs/variables/to_string.md) &mdash; `strval`
+    -   [print](./docs/variables/print.md) &mdash; `print_r`
 
 -   Добавлено в модуль [variables](./docs/variables.md):
 

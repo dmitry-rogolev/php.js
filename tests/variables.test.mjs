@@ -28,7 +28,7 @@ import {
     is_symbol,
     is_undefined,
     to_object,
-    print_r,
+    print,
     serialize,
     settype,
     to_string,
@@ -69,7 +69,7 @@ test('variables', () => {
     expect(to_integer).not.toBeUndefined();
     expect(isset).not.toBeUndefined();
     expect(to_string).not.toBeUndefined();
-    expect(print_r).not.toBeUndefined();
+    expect(print).not.toBeUndefined();
     expect(var_dump).not.toBeUndefined();
     expect(serialize).not.toBeUndefined();
     expect(settype).not.toBeUndefined();

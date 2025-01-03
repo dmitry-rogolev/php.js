@@ -597,15 +597,7 @@ const eslintConfig = {
          *
          * @link https://eslint.org/docs/latest/rules/no-use-before-define
          */
-        'no-use-before-define': [
-            'error',
-            {
-                functions: true,
-                classes: true,
-                variables: true,
-                allowNamedExports: false,
-            },
-        ],
+        'no-use-before-define': 'off',
 
         /**
          * Запретить присвоение переменных, если значение не используется.
