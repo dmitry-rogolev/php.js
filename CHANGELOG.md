@@ -50,6 +50,7 @@
 
 -   `get_debug_type`
 -   `var_export`
+-   `serialize`
 
 ## Модуль [array](./docs/array.md)
 

@@ -29,7 +29,6 @@ import {
     is_undefined,
     to_object,
     print,
-    serialize,
     settype,
     to_string,
     print_type,
@@ -70,7 +69,6 @@ test('variables', () => {
     expect(to_string).not.toBeUndefined();
     expect(print).not.toBeUndefined();
     expect(print_type).not.toBeUndefined();
-    expect(serialize).not.toBeUndefined();
     expect(settype).not.toBeUndefined();
     expect(is_contract).not.toBeUndefined();
     expect(is_iterable).not.toBeUndefined();

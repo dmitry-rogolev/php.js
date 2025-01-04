@@ -28,7 +28,6 @@ export { default as isset } from './variables/isset.mjs';
 export { default as to_string } from './variables/to_string.mjs';
 export { default as print } from './variables/print.mjs';
 export { default as print_type } from './variables/print_type.mjs';
-export { default as serialize } from './variables/serialize.mjs';
 export { default as settype } from './variables/settype.mjs';
 export { default as is_contract } from './variables/is_contract.mjs';
 export { default as is_iterable } from './variables/is_iterable.mjs';
