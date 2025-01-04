@@ -33,7 +33,6 @@ import {
     to_string,
     print_type,
     isset,
-    unserialize,
     to_boolean,
     to_integer,
 } from './../src/variables.mjs';
@@ -74,5 +73,4 @@ test('variables', () => {
     expect(is_iterable).not.toBeUndefined();
     expect(is_countable).not.toBeUndefined();
     expect(to_object).not.toBeUndefined();
-    expect(unserialize).not.toBeUndefined();
 });
