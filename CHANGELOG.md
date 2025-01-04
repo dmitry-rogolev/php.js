@@ -1,56 +1,61 @@
 # v0.0.4
 
--   Рефакторинг модуля [variables](./docs/variables.md):
+## Модуль [variables](./docs/variables.md)
 
-    -   [empty](./docs/variables/empty.md)
-    -   [gettype](./docs/variables/gettype.md)
-    -   [is_array](./docs/variables/is_array.md)
-    -   [is_bool](./docs/variables/is_bool.md)
-    -   [is_callable](./docs/variables/is_callable.md)
-    -   [is_class](./docs/variables/is_class.md)
-    -   [is_contract](./docs/variables/is_contract.md)
-    -   [is_countable](./docs/variables/is_countable.md)
-    -   [is_double](./docs/variables/is_double.md)
-    -   [is_float](./docs/variables/is_float.md)
-    -   [is_int](./docs/variables/is_int.md)
-    -   [is_integer](./docs/variables/is_integer.md)
-    -   [is_iterable](./docs/variables/is_iterable.md)
-    -   [is_long](./docs/variables/is_long.md)
-    -   [is_null](./docs/variables/is_null.md)
-    -   [is_number](./docs/variables/is_number.md)
-    -   [is_numeric](./docs/variables/is_numeric.md)
-    -   [is_object](./docs/variables/is_object.md)
-    -   [is_scalar](./docs/variables/is_scalar.md)
-    -   [is_string](./docs/variables/is_string.md)
-    -   [is_symbol](./docs/variables/is_symbol.md)
-    -   [is_undefined](./docs/variables/is_undefined.md)
-    -   [isset](./docs/variables/isset.md)
-    -   [settype](./docs/variables/settype.md)
+### Рефакторинг
 
-    Переименовано:
+-   [empty](./docs/variables/empty.md)
+-   [gettype](./docs/variables/gettype.md)
+-   [is_array](./docs/variables/is_array.md)
+-   [is_bool](./docs/variables/is_bool.md)
+-   [is_callable](./docs/variables/is_callable.md)
+-   [is_class](./docs/variables/is_class.md)
+-   [is_contract](./docs/variables/is_contract.md)
+-   [is_countable](./docs/variables/is_countable.md)
+-   [is_double](./docs/variables/is_double.md)
+-   [is_float](./docs/variables/is_float.md)
+-   [is_int](./docs/variables/is_int.md)
+-   [is_integer](./docs/variables/is_integer.md)
+-   [is_iterable](./docs/variables/is_iterable.md)
+-   [is_long](./docs/variables/is_long.md)
+-   [is_null](./docs/variables/is_null.md)
+-   [is_number](./docs/variables/is_number.md)
+-   [is_numeric](./docs/variables/is_numeric.md)
+-   [is_object](./docs/variables/is_object.md)
+-   [is_scalar](./docs/variables/is_scalar.md)
+-   [is_string](./docs/variables/is_string.md)
+-   [is_symbol](./docs/variables/is_symbol.md)
+-   [is_undefined](./docs/variables/is_undefined.md)
+-   [isset](./docs/variables/isset.md)
+-   [settype](./docs/variables/settype.md)
 
-    -   [to_array](./docs/variables/to_array.md) &mdash; `arrval`
-    -   [to_bool](./docs/variables/to_bool.md) &mdash; `boolval`
-    -   [to_double](./docs/variables/to_double.md) &mdash; `doubleval`
-    -   [to_float](./docs/variables/to_float.md) &mdash; `floatval`
-    -   [to_int](./docs/variables/to_int.md) &mdash; `intval`
-    -   [to_object](./docs/variables/to_object.md) &mdash; `objval`
-    -   [to_string](./docs/variables/to_string.md) &mdash; `strval`
-    -   [print](./docs/variables/print.md) &mdash; `print_r`
+### Переименовано
 
--   Добавлено в модуль [variables](./docs/variables.md):
+-   [to_array](./docs/variables/to_array.md) &mdash; `arrval`
+-   [to_bool](./docs/variables/to_bool.md) &mdash; `boolval`
+-   [to_double](./docs/variables/to_double.md) &mdash; `doubleval`
+-   [to_float](./docs/variables/to_float.md) &mdash; `floatval`
+-   [to_int](./docs/variables/to_int.md) &mdash; `intval`
+-   [to_object](./docs/variables/to_object.md) &mdash; `objval`
+-   [to_string](./docs/variables/to_string.md) &mdash; `strval`
+-   [print](./docs/variables/print.md) &mdash; `print_r`
+-   [print_type](./docs/variables/print_type.md) &mdash; `var_dump`
 
-    -   [to_boolean](./docs/variables/to_boolean.md)
-    -   [to_integer](./docs/variables/to_integer.md)
+### Добавлено
 
--   Удалено из модуля [variables](./docs/variables.md):
+-   [to_boolean](./docs/variables/to_boolean.md)
+-   [to_integer](./docs/variables/to_integer.md)
 
-    -   `get_debug_type`
-    -   `var_export`
+### Удалено
 
--   Добавлена функция [array](./docs/array/array.md) в модуль [array](./docs/array.md)
+-   `get_debug_type`
+-   `var_export`
 
--   Переработана документация
+## Модуль [array](./docs/array.md)
+
+### Добавлено
+
+-   [array](./docs/array/array.md)
 
 # v0.0.3
 

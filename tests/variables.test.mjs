@@ -32,7 +32,7 @@ import {
     serialize,
     settype,
     to_string,
-    var_dump,
+    print_type,
     isset,
     unserialize,
     to_boolean,
@@ -69,7 +69,7 @@ test('variables', () => {
     expect(isset).not.toBeUndefined();
     expect(to_string).not.toBeUndefined();
     expect(print).not.toBeUndefined();
-    expect(var_dump).not.toBeUndefined();
+    expect(print_type).not.toBeUndefined();
     expect(serialize).not.toBeUndefined();
     expect(settype).not.toBeUndefined();
     expect(is_contract).not.toBeUndefined();

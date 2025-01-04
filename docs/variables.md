@@ -35,6 +35,8 @@
 -   [is_symbol](./variables/is_symbol.md) &mdash; Проверяет, является ли значение символом.
 -   [is_undefined](./variables/is_undefined.md) &mdash; Проверяет, является ли значение `undefined`.
 -   [isset](./variables/isset.md) &mdash; Проверяет, определены ли переменные.
+-   [print_type](./variables/print_type.md) &mdash; Преобразует значение в строку с указанием типа и
+    выводит его на консоль.
 -   [print](./variables/print.md) &mdash; Преобразует значение в строку и выводит его на консоль.
 -   [settype](./variables/settype.md) &mdash; Преобразует значение в указанный тип.
 -   [to_array](./variables/to_array.md) &mdash; Преобразует значение в массив.
