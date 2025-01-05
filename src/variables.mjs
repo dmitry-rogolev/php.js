@@ -34,3 +34,4 @@ export { default as is_iterable } from './variables/is_iterable.mjs';
 export { default as is_countable } from './variables/is_countable.mjs';
 export { default as to_object } from './variables/to_object.mjs';
 export { default as Convert } from './variables/Convert.mjs';
+export { default as Type } from './variables/Type.mjs';

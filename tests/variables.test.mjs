@@ -36,6 +36,7 @@ import {
     to_boolean,
     to_integer,
     Convert,
+    Type,
 } from './../src/variables.mjs';
 import { stdClass } from '../src/classes.mjs';
 
@@ -77,6 +78,7 @@ describe('variables', () => {
         expect(is_countable).not.toBeUndefined();
         expect(to_object).not.toBeUndefined();
         expect(Convert).not.toBeUndefined();
+        expect(Type).not.toBeUndefined();
     });
 
     test('Функции должны корректно работать', () => {
@@ -142,5 +144,29 @@ describe('variables', () => {
         expect(Convert.toInteger('123')).toBe(123);
         expect(Convert.toObject('example')).toEqual({ value: 'example' });
         expect(Convert.toString(123)).toBe('123');
+    });
+
+    test('Класс Type должен корректно работать', () => {
+        class MyClass {}
+        expect(Type.isArray([])).toBe(true);
+        expect(Type.isBool(true)).toBe(true);
+        expect(Type.isClass(class {})).toBe(true);
+        expect(Type.isNumber(123)).toBe(true);
+        expect(Type.isFloat(123.45)).toBe(true);
+        expect(Type.isDouble(123.45)).toBe(true);
+        expect(Type.isInt(123)).toBe(true);
+        expect(Type.isInteger(123)).toBe(true);
+        expect(Type.isLong(123)).toBe(true);
+        expect(Type.isNull(null)).toBe(true);
+        expect(Type.isNumeric('123')).toBe(true);
+        expect(Type.isObject(new MyClass())).toBe(true);
+        expect(Type.isString('example')).toBe(true);
+        expect(Type.isScalar(123)).toBe(true);
+        expect(Type.isSymbol(Symbol('example'))).toBe(true);
+        expect(Type.isUndefined(undefined)).toBe(true);
+        expect(Type.isCallable(() => {})).toBe(true);
+        expect(Type.isContract(class {})).toBe(false);
+        expect(Type.isIterable([])).toBe(true);
+        expect(Type.isCountable([])).toBe(true);
     });
 });

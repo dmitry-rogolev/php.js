@@ -70,3 +70,42 @@
     -   [toInteger](./variables/Convert/toInteger.md) &mdash; Преобразует значение в целое число.
     -   [toObject](./variables/Convert/toObject.md) &mdash; Преобразует значение в объект.
     -   [toString](./variables/Convert/toString.md) &mdash; Преобразует значение в строку.
+
+-   [Type](./variables/Type.md) &mdash; Класс для проверки типов данных.
+
+    **Статичные методы:**
+
+    -   [isArray](./variables/Type/isArray.md) &mdash; Проверяет, является ли значение массивом или
+        ассоциативным массивом.
+    -   [isBool](./variables/Type/isBool.md) &mdash; Проверяет, является ли значение логическим
+        (`boolean`).
+    -   [isBoolean](./variables/Type/isBoolean.md) &mdash; Проверяет, является ли значение
+        логическим (`boolean`).
+    -   [isCallable](./variables/Type/isCallable.md) &mdash; Проверяет, может ли значение быть
+        вызвано как функция.
+    -   [isClass](./variables/Type/isClass.md) &mdash; Проверяет, является ли значение классом.
+    -   [isContract](./variables/Type/isContract.md) &mdash; Проверяет, является ли значение
+        контрактом, основанным на классе `Interface`.
+    -   [isCountable](./variables/Type/isCountable.md) &mdash; Проверяет, является ли значение
+        счётным.
+    -   [isDouble](./variables/Type/isDouble.md) &mdash; Проверяет, является ли значение числом с
+        плавающей точкой.
+    -   [isFloat](./variables/Type/isFloat.md) &mdash; Проверяет, является ли значение числом с
+        плавающей точкой.
+    -   [isInt](./variables/Type/isInt.md) &mdash; Проверяет, является ли значение целым числом.
+    -   [isInteger](./variables/Type/isInteger.md) &mdash; Проверяет, является ли значение целым
+        числом.
+    -   [isIterable](./variables/Type/isIterable.md) &mdash; Проверяет, является ли значение
+        итерируемым.
+    -   [isLong](./variables/Type/isLong.md) &mdash; Проверяет, является ли значение целым числом.
+    -   [isNull](./variables/Type/isNull.md) &mdash; Проверяет, является ли значение `null`.
+    -   [isNumber](./variables/Type/isNumber.md) &mdash; Проверяет, является ли значение числом.
+    -   [isNumeric](./variables/Type/isNumeric.md) &mdash; Проверяет, является ли значение числом
+        или числовой строкой.
+    -   [isObject](./variables/Type/isObject.md) &mdash; Проверяет, является ли значение объектом,
+        созданным с использованием класса.
+    -   [isScalar](./variables/Type/isScalar.md) &mdash; Проверяет, является ли значение скалярным.
+    -   [isString](./variables/Type/isString.md) &mdash; Проверяет, является ли значение строкой.
+    -   [isSymbol](./variables/Type/isSymbol.md) &mdash; Проверяет, является ли значение символом.
+    -   [isUndefined](./variables/Type/isUndefined.md) &mdash; Проверяет, является ли значение
+        `undefined`.
