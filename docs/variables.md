@@ -2,6 +2,8 @@
 
 # Обработка переменных
 
+## Функции для работы с переменными
+
 -   [empty](./variables/empty.md) &mdash; Проверяет, является ли переменная пустой.
 -   [gettype](./variables/gettype.md) &mdash; Определяет тип переменной.
 -   [is_array](./variables/is_array.md) &mdash; проверяет, является ли переданная переменная
@@ -48,3 +50,23 @@
 -   [to_integer](./variables/to_integer.md) &mdash; Синоним функции `to_int`.
 -   [to_object](./variables/to_object.md) &mdash; Преобразует значение в объект.
 -   [to_string](./variables/to_string.md) &mdash; Преобразует значение в строку.
+
+## Классы для работы с переменными
+
+-   [Convert](./variables/Convert.md) &mdash; Класс для преобразования значений в различные типы
+    данных.
+
+    **Статичные методы:**
+
+    -   [toArray](./variables/Convert/toArray.md) &mdash; Преобразует значение в массив.
+    -   [toBool](./variables/Convert/toBool.md) &mdash; Преобразует значение в логическое значение.
+    -   [toBoolean](./variables/Convert/toBoolean.md) &mdash; Преобразует значение в логическое
+        значение.
+    -   [toDouble](./variables/Convert/toDouble.md) &mdash; Преобразует значение в число с плавающей
+        точкой.
+    -   [toFloat](./variables/Convert/toFloat.md) &mdash; Преобразует значение в число с плавающей
+        точкой.
+    -   [toInt](./variables/Convert/toInt.md) &mdash; Преобразует значение в целое число.
+    -   [toInteger](./variables/Convert/toInteger.md) &mdash; Преобразует значение в целое число.
+    -   [toObject](./variables/Convert/toObject.md) &mdash; Преобразует значение в объект.
+    -   [toString](./variables/Convert/toString.md) &mdash; Преобразует значение в строку.

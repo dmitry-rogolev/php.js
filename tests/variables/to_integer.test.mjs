@@ -1,5 +1,4 @@
 import { expect, test, describe } from '@jest/globals';
-import { TypePHPJSError } from '../../src/exceptions.mjs';
 import { to_integer } from '../../src/variables.mjs';
 
 describe('Функция to_integer', () => {
@@ -44,6 +43,6 @@ describe('Функция to_integer', () => {
     });
 
     test('Должна выбрасывать исключение для неверного значения параметра base', () => {
-        expect(() => to_integer('123', 'invalid')).toThrow(TypePHPJSError);
+        expect(() => to_integer('123', 'invalid')).toThrow(TypeError);
     });
 });

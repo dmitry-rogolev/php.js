@@ -45,6 +45,7 @@
 
 -   [to_boolean](./docs/variables/to_boolean.md)
 -   [to_integer](./docs/variables/to_integer.md)
+-   [Convert](./docs/variables/Convert.md)
 
 ### Удалено
 

@@ -2,7 +2,6 @@ import to_bool from './to_bool.mjs';
 import is_float from './is_float.mjs';
 import is_int from './is_int.mjs';
 import is_string from './is_string.mjs';
-import { TypePHPJSError } from '../exceptions.mjs';
 
 /**
  * Приводит значение переменной к целому числу.
@@ -81,7 +80,7 @@ import { TypePHPJSError } from '../exceptions.mjs';
  */
 export default function to_int(value, base = 10) {
     if (!is_int(base)) {
-        throw new TypePHPJSError('Параметр "base" должен быть целым числом.');
+        throw new TypeError('Параметр "base" должен быть целым числом.');
     }
 
     if (!is_int(value) && !is_float(value) && !is_string(value)) {
